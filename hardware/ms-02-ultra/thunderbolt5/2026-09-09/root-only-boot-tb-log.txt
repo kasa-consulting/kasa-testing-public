@@ -1,0 +1,3 @@
+Sep 09 12:30:18 ms02 kernel: pcieport 0000:80:1b.4: PME: Signaling with IRQ 131
+Sep 09 12:30:18 ms02 kernel: pcieport 0000:80:1b.4: AER: enabled with IRQ 131
+Sep 09 12:30:19 ms02 kernel: thunderbolt 0000:84:00.0: host router reset successful

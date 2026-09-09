@@ -1,0 +1,6 @@
+# MS-02 Ultra: prevent runtime suspend on the discrete JHL9580 branch only.
+# AER, ACS, the native USB4 controller, and unrelated PCIe devices are unchanged.
+ACTION=="add|bind", SUBSYSTEM=="pci", KERNEL=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x7f44", ATTR{power/control}="on"
+ACTION=="add|bind", SUBSYSTEM=="pci", KERNELS=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x5780", ATTR{power/control}="on"
+ACTION=="add|bind", SUBSYSTEM=="pci", KERNELS=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x5781", ATTR{power/control}="on"
+ACTION=="add|bind", SUBSYSTEM=="pci", KERNELS=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x5782", ATTR{power/control}="on"

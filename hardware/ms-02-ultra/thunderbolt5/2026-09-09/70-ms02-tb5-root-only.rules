@@ -1,0 +1,3 @@
+# MS-02 Ultra: keep only the discrete TB5 root port out of runtime suspend.
+# Downstream JHL9580 devices retain their normal runtime-PM policy.
+ACTION=="add|bind", SUBSYSTEM=="pci", KERNEL=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x7f44", ATTR{power/control}="on"

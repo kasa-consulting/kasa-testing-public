@@ -1,0 +1,31 @@
+[  366.030320] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.029549] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.028686] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.027828] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.026984] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.026114] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.025324] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.024520] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.023729] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.023017] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.022250] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.021468] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.020740] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.019911] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.019064] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.018331] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.017530] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.016767] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.016034] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.015146] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.014327] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.013549] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.012695] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.011829] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.010973] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+[  366.010103] ms02 kernel: xhci_hcd 0000:97:00.0: AER: can't recover (no error_detected callback)
+[  366.009152] ms02 kernel: thunderbolt 0000:84:00.0: AER: can't recover (no error_detected callback)
+[  366.008376] ms02 kernel: pcieport 0000:80:1b.4: AER: device recovery failed
+2026-09-09T12:20:15-05:00
+TOTAL_ERR_NONFATAL 129
+all pools are healthy
