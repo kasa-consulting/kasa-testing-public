@@ -32,7 +32,7 @@ The reproduced logs include `ACSViol`, `UnsupReq`, missing `error_detected` call
 
 ## Narrow workaround
 
-The final persistent rule targets the discrete TB5 root port only:
+The [final persistent rule](config/70-ms02-tb5-root-only.rules) targets the discrete TB5 root port only:
 
 ```udev
 ACTION=="add|bind", SUBSYSTEM=="pci", KERNEL=="0000:80:1b.4", ATTR{vendor}=="0x8086", ATTR{device}=="0x7f44", ATTR{power/control}="on"
@@ -48,7 +48,7 @@ These are short host-side idle and PM-transition tests. They do not validate Thu
 
 The final boot also logged a separate i915 `assert_dmc_loaded` warning (`DMC 1 program storage start incorrect`) and Intel ICE LLDP-filter fallback messages. These were outside the TB5 experiment; a clean TB5 result does not mean the entire kernel log was warning-free.
 
-Raw JSONL files contain the complete sampled counters and states. Private host inventory and unredacted administrative logs are excluded from the shareable bundle.
+[Raw JSONL files](data/) contain the complete sampled counters and states. Private host inventory and unredacted administrative logs are excluded from the shareable bundle.
 
 ## Final host disposition
 

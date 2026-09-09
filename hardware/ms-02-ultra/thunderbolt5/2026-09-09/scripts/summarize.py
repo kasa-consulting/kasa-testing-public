@@ -2,7 +2,7 @@
 import json
 import pathlib
 
-here = pathlib.Path(__file__).resolve().parent
+here = pathlib.Path(__file__).resolve().parent.parent / 'data'
 
 def total(row, field):
     text = row['devices']['80:1b.4'][field]
