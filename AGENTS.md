@@ -1,5 +1,9 @@
 # Public results repository
 
+KASA agents follow `kasa-consulting/kasa-platform` `workers/base-worker.md`,
+including "Find skills without loading them". Reference that contract rather
+than copying its rules or skill content here.
+
 This repository holds reviewed results and evidence cleared for public release. Every
 branch, pull request, attachment, and commit is public. Private draft preparation belongs
 in the source repository.
