@@ -1,0 +1,760 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-09-24-qwen38-long-context,capacity-tp1,fit_status,,all,,,fits and verified,text,measured,"exact-token request gate at 153,600 passed"
+2026-09-24-qwen38-long-context,capacity-tp1,kv_cache_pool_tokens,,all,,155627,,tokens,derived,"engine's own log line at the frozen ceiling config (max_model_len 153,600); engine max concurrency 1.01x; not measured seats"
+2026-09-24-qwen38-long-context,capacity-tp1,max_context_configured,,all,,155648,,tokens,measured,"engine's own estimated maximum model length at 0.90 memory, from the 262,144 refusal; a request at it is accepted and never re-admitted (capacity-tp1-155648); KV pool at the verified 153,600 is 155,627"
+2026-09-24-qwen38-long-context,capacity-tp1,max_context_verified,,all,,153600,,tokens,measured,"total tokens, prompt + 512 forced output; exact-token search to the stated resolution (2,048 tokens)"
+2026-09-24-qwen38-long-context,capacity-tp1,power_loaded_idle_w_per_card,,all,55,58.85,,W,measured,"card 0 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-1card-262k-l155648; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp1,power_loaded_idle_w_per_card,,all,55,47.82,,W,measured,"card 1 (idle, no model); 300 s window 5 min after readiness, before the first request, config probe-1card-262k-l155648; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp1,power_loaded_idle_w_per_card,,all,55,46.74,,W,measured,"card 2 (idle, no model); 300 s window 5 min after readiness, before the first request, config probe-1card-262k-l155648; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp1,power_loaded_idle_w_per_card,,all,55,47.23,,W,measured,"card 3 (idle, no model); 300 s window 5 min after readiness, before the first request, config probe-1card-262k-l155648; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp1,power_loaded_idle_w_per_card,mean,all,1,58.85,,W,derived,"mean over the 1 card(s) holding the model, config probe-1card-262k-l155648"
+2026-09-24-qwen38-long-context,capacity-tp1,time_to_ready_s,max,all,5,110.8,,s,measured,"serve.sh start to correctness gate, across five loads"
+2026-09-24-qwen38-long-context,capacity-tp1,time_to_ready_s,min,all,5,110.4,,s,measured,"serve.sh start to correctness gate, across five loads"
+2026-09-24-qwen38-long-context,capacity-tp1,weights_gib_per_card,,all,,16.95,,GiB,measured,"weights loaded, one rank"
+2026-09-24-qwen38-long-context,capacity-tp1-131072,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-131072,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-131072,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp1-131072,decode_tok_per_s_after_first,,all,1,19.1576626902,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp1-131072,e2el_mean_ms,,all,1,189017.1,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp1-131072,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-131072,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 130,560 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp1-131072,kv_cache_pool_tokens,,all,,155363,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-131072,max_context_configured,,all,,131072,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-131072,ttft_mean_ms,,all,1,162343.7,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp1-143360,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-143360,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-143360,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp1-143360,decode_tok_per_s_after_first,,all,1,19.643269009,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp1-143360,e2el_mean_ms,,all,1,211433.2,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp1-143360,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-143360,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 142,848 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp1-143360,kv_cache_pool_tokens,,all,,155517,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-143360,max_context_configured,,all,,143360,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-143360,ttft_mean_ms,,all,1,185419.2,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp1-149504,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-149504,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-149504,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp1-149504,decode_tok_per_s_after_first,,all,1,19.4560677421,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp1-149504,e2el_mean_ms,,all,1,223639.5,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp1-149504,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-149504,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 148,992 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp1-149504,kv_cache_pool_tokens,,all,,155585,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-149504,max_context_configured,,all,,149504,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-149504,ttft_mean_ms,,all,1,197375.2,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp1-151552,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-151552,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-151552,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp1-151552,decode_tok_per_s_after_first,,all,1,19.0981630632,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp1-151552,e2el_mean_ms,,all,1,228087.1,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp1-151552,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-151552,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 151,040 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp1-151552,kv_cache_pool_tokens,,all,,155606,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-151552,max_context_configured,,all,,151552,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-151552,ttft_mean_ms,,all,1,201330.6,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp1-153600,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-153600,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-153600,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp1-153600,decode_tok_per_s_after_first,,all,1,19.498904856,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp1-153600,e2el_mean_ms,,all,1,231692.4,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp1-153600,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-153600,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 153,088 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp1-153600,kv_cache_pool_tokens,,all,,155627,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-153600,max_context_configured,,all,,153600,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-153600,ttft_mean_ms,,all,1,205485.8,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp1-155648,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-155648,completed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-155648,e2el_mean_ms,,all,,,,ms,unavailable,"timed out after 3,809 s"
+2026-09-24-qwen38-long-context,capacity-tp1-155648,error_classes,,all,,,REQUEST_FAIL: transport: timed out,text,measured,"client 3,600 s read timeout; 2026-09-30T18:27:14Z to 2026-09-30T19:30:43Z"
+2026-09-24-qwen38-long-context,capacity-tp1-155648,failed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp1-155648,fit_status,,all,,,"REQUEST_FAIL (admission deadlock): request accepted, prefilled, preempted, never re-admitted",text,measured,"engine's own reported maximum for 0.90 memory; KV pool exactly 155,648 (concurrency 1.00x); num_preemptions_total 1, then num_requests_running 0 and waiting_by_reason=capacity 1 for the rest of the hour; no GPU reset (ai/bare-metal/gpu/2026-09-24-qwen38-long-context/results/phase-1-capacity.md#L51)"
+2026-09-24-qwen38-long-context,capacity-tp1-155648,kv_cache_pool_tokens,,all,,155648,,tokens,derived,engine's own log line for this max_model_len; not measured seats
+2026-09-24-qwen38-long-context,capacity-tp1-155648,max_context_configured,,all,,155648,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp1-155648,ttft_mean_ms,,all,,,,ms,unavailable,no first token: the request never returned
+2026-09-24-qwen38-long-context,capacity-tp1-262144,fit_status,,all,,,"SERVE_FAIL, stage kv: engine refused to start",text,measured,"16.09 GiB KV cache is needed, which is larger than the available KV cache memory (9.61 GiB); estimated maximum model length 155,648; load reached the refusal after 71.0 s (ai/bare-metal/gpu/2026-09-24-qwen38-long-context/results/phase-1-capacity.md#L99)"
+2026-09-24-qwen38-long-context,capacity-tp1-262144,max_context_configured,,all,,262144,,tokens,measured,"attempted max_model_len, refused"
+2026-09-24-qwen38-long-context,capacity-tp1-262144,oom,,all,,,false,bool,measured,"KV-size check refusal, not an out-of-memory fault"
+2026-09-24-qwen38-long-context,capacity-tp1-262144,weights_gib_per_card,,all,,16.95,,GiB,measured,weights loaded before the KV check refused
+2026-09-24-qwen38-long-context,capacity-tp2,fit_status,,all,,,fits and verified,text,measured,"exact-token request gate at 262,144 passed"
+2026-09-24-qwen38-long-context,capacity-tp2,kv_cache_pool_tokens,,all,,598604,,tokens,derived,"engine's own log line at the frozen ceiling config (max_model_len 262,144); engine max concurrency 2.28x; not measured seats"
+2026-09-24-qwen38-long-context,capacity-tp2,max_context_configured,,all,,262144,,tokens,measured,"max_model_len = native window 262,144; the engine refused nothing, so its own maximum above it is only its KV pool report"
+2026-09-24-qwen38-long-context,capacity-tp2,max_context_verified,,all,,262144,,tokens,measured,"total tokens, prompt + 512 forced output; exact-token search to the stated resolution; native window is the top of the ladder"
+2026-09-24-qwen38-long-context,capacity-tp2,power_loaded_idle_w_per_card,,all,55,57.85,,W,measured,"card 0 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-2card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp2,power_loaded_idle_w_per_card,,all,55,57.64,,W,measured,"card 1 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-2card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp2,power_loaded_idle_w_per_card,,all,55,46.8,,W,measured,"card 2 (idle, no model); 300 s window 5 min after readiness, before the first request, config probe-2card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp2,power_loaded_idle_w_per_card,,all,55,47.2,,W,measured,"card 3 (idle, no model); 300 s window 5 min after readiness, before the first request, config probe-2card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp2,power_loaded_idle_w_per_card,mean,all,2,57.745,,W,derived,"mean over the 2 card(s) holding the model, config probe-2card-262k-l262144"
+2026-09-24-qwen38-long-context,capacity-tp2,time_to_ready_s,,all,1,132.3,,s,measured,"serve.sh start to correctness gate, one load"
+2026-09-24-qwen38-long-context,capacity-tp2,weights_gib_per_card,,all,,8.53,,GiB,measured,weights loaded per rank
+2026-09-24-qwen38-long-context,capacity-tp2-262144,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp2-262144,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp2-262144,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp2-262144,decode_tok_per_s_after_first,,all,1,16.7290870043,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp2-262144,e2el_mean_ms,,all,1,286262,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp2-262144,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp2-262144,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 261,632 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp2-262144,max_context_configured,,all,,262144,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp2-262144,ttft_mean_ms,,all,1,255716.4,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,capacity-tp4,fit_status,,all,,,fits and verified,text,measured,"exact-token request gate at 262,144 passed"
+2026-09-24-qwen38-long-context,capacity-tp4,kv_cache_pool_tokens,,all,,1489894,,tokens,derived,"engine's own log line at the frozen ceiling config (max_model_len 262,144); engine max concurrency 5.68x; not measured seats"
+2026-09-24-qwen38-long-context,capacity-tp4,max_context_configured,,all,,262144,,tokens,measured,"max_model_len = native window 262,144; the engine refused nothing, so its own maximum above it is only its KV pool report"
+2026-09-24-qwen38-long-context,capacity-tp4,max_context_verified,,all,,262144,,tokens,measured,"total tokens, prompt + 512 forced output; exact-token search to the stated resolution; native window is the top of the ladder"
+2026-09-24-qwen38-long-context,capacity-tp4,power_loaded_idle_w_per_card,,all,55,57.86,,W,measured,"card 0 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-4card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp4,power_loaded_idle_w_per_card,,all,55,58.02,,W,measured,"card 1 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-4card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp4,power_loaded_idle_w_per_card,,all,55,55.89,,W,measured,"card 2 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-4card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp4,power_loaded_idle_w_per_card,,all,55,56.59,,W,measured,"card 3 (holds the model); 300 s window 5 min after readiness, before the first request, config probe-4card-262k-l262144; GPU-reported energy, host/fans/PSU outside the boundary"
+2026-09-24-qwen38-long-context,capacity-tp4,power_loaded_idle_w_per_card,mean,all,4,57.09,,W,derived,"mean over the 4 card(s) holding the model, config probe-4card-262k-l262144"
+2026-09-24-qwen38-long-context,capacity-tp4,time_to_ready_s,,all,1,132.2,,s,measured,"serve.sh start to correctness gate, one load"
+2026-09-24-qwen38-long-context,capacity-tp4,weights_gib_per_card,,all,,4.35,,GiB,measured,weights loaded per rank
+2026-09-24-qwen38-long-context,capacity-tp4-262144,attempted_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp4-262144,completed_requests,,all,,1,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp4-262144,correctness_gate,,all,,,code word recalled,text,measured,"liveness check on a document-shaped prompt, not the quality screen"
+2026-09-24-qwen38-long-context,capacity-tp4-262144,decode_tok_per_s_after_first,,all,1,16.2464113235,,tok/s,derived,"511 / (e2e − TTFT), arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,capacity-tp4-262144,e2el_mean_ms,,all,1,176916,,ms,measured,single capacity-probe request
+2026-09-24-qwen38-long-context,capacity-tp4-262144,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,capacity-tp4-262144,fit_status,,all,,,fits and verified,text,measured,"PASS: exact prompt, exact output, non-degenerate; server counted 261,632 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,capacity-tp4-262144,max_context_configured,,all,,262144,,tokens,measured,max_model_len for this rung
+2026-09-24-qwen38-long-context,capacity-tp4-262144,ttft_mean_ms,,all,1,145462.9,,ms,measured,"single capacity-probe request, document-shaped prompt; not the phase-2 depth measurement"
+2026-09-24-qwen38-long-context,depth-sweep,completed_requests,,all,,96,,count,derived,sum over the 16 cells
+2026-09-24-qwen38-long-context,depth-sweep,failed_requests,,all,,0,,count,derived,sum over the 16 cells
+2026-09-24-qwen38-long-context,depth-sweep,fan_max_rpm,,all,,,,rpm,not_collected,no fan reading was reduced for the depth sweep
+2026-09-24-qwen38-long-context,depth-sweep,temp_mem_max_c,max,all,,82,,C,measured,"max across all 16 depth cells and served cards, TP 1/2/4; collector at 5 s"
+2026-09-24-qwen38-long-context,depth-sweep,temp_pkg_max_c,max,all,,74,,C,measured,"max across all 16 depth cells and served cards, TP 1/2/4; collector at 5 s"
+2026-09-24-qwen38-long-context,depth-sweep,throttle_reasons,,all,,,PowerBurst only; no thermal limit observed,text,measured,"max across all 16 depth cells and served cards, TP 1/2/4; collector at 5 s"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,clock_mean_mhz,mean,all,351,2175,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,decode_tok_per_s_after_first,mean,all,6,19.6792357667,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp1-d131072,e2el_mean_ms,mean,all,6,190101.154,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,energy_per_request_kj,,all,,37.6624581367,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,engine_prefill_tok_per_s,mean,all,9,801.439940799,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp1-d131072,engine_queue_s,mean,all,9,2.49431339196e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 131,084-131,086 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,joules_per_output_token,,all,,73.5594885482,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,max_context_configured,,all,,153600,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp1-d131072,power_limited_fraction,,all,351,0.835,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,power_mean_w_per_card,max,all,351,202.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,power_mean_w_per_card,mean,all,351,192.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,power_mean_w_per_card,p95,all,351,200.7,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,prefill_throughput_derived,mean,all,6,798.642896844,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp1-d131072,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp1-d131072,throttle_reasons,,all,,,PowerBurst (293); no thermal limit,text,measured,limit reasons observed in-window (count of 351 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp1-d131072,tpot_mean_ms,mean,all,6,50.8149814279,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,ttft_mean_ms,max,all,6,164213.493397,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,ttft_mean_ms,mean,all,6,164134.69849,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d131072,ttft_mean_ms,min,all,6,164052.272835,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d196608,e2el_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 197,120 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d196608,energy_per_request_kj,,all,,,,kJ,not_applicable,"NOT TESTED (capacity): needs 197,120 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d196608,fit_status,,all,,,not tested (capacity),text,not_applicable,"NOT TESTED (capacity): needs 197,120 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d196608,tpot_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 197,120 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d196608,ttft_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 197,120 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d260096,e2el_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 260,608 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d260096,energy_per_request_kj,,all,,,,kJ,not_applicable,"NOT TESTED (capacity): needs 260,608 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d260096,fit_status,,all,,,not tested (capacity),text,not_applicable,"NOT TESTED (capacity): needs 260,608 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d260096,tpot_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 260,608 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d260096,ttft_mean_ms,,all,,,,ms,not_applicable,"NOT TESTED (capacity): needs 260,608 total tokens > TP1 verified ceiling 153,600"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,clock_mean_mhz,mean,all,103,2237,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,decode_tok_per_s_after_first,mean,all,6,19.6098453553,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp1-d32768,e2el_mean_ms,mean,all,6,53323.7800057,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,energy_per_request_kj,,all,,9.84471518278,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,engine_prefill_tok_per_s,mean,all,9,1209.63726443,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp1-d32768,engine_queue_s,mean,all,9,1.72028861319e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 32,780-32,782 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,joules_per_output_token,,all,,19.2279593414,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,max_context_configured,,all,,153600,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp1-d32768,power_limited_fraction,,all,103,0.476,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,power_mean_w_per_card,max,all,103,200.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,power_mean_w_per_card,mean,all,103,168,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,power_mean_w_per_card,p95,all,103,200.2,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,prefill_throughput_derived,mean,all,6,1202.29190758,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp1-d32768,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp1-d32768,throttle_reasons,,all,,,PowerBurst (49); no thermal limit,text,measured,limit reasons observed in-window (count of 103 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp1-d32768,tpot_mean_ms,mean,all,6,50.9947927626,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,ttft_mean_ms,max,all,6,27289.1872689,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,ttft_mean_ms,mean,all,6,27265.440904,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d32768,ttft_mean_ms,min,all,6,27233.207172,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,clock_mean_mhz,mean,all,168,2181,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,decode_tok_per_s_after_first,mean,all,6,20.2764710284,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp1-d65536,e2el_mean_ms,mean,all,6,88905.8651564,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,energy_per_request_kj,,all,,17.1812939384,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,engine_prefill_tok_per_s,mean,all,9,1033.91970219,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp1-d65536,engine_queue_s,mean,all,9,1.65460838212e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 65,548-65,550 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,joules_per_output_token,,all,,33.5572147235,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,max_context_configured,,all,,153600,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp1-d65536,power_limited_fraction,,all,168,0.679,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,power_mean_w_per_card,max,all,168,200.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,power_mean_w_per_card,mean,all,168,182.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,power_mean_w_per_card,p95,all,168,200.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,prefill_throughput_derived,mean,all,6,1028.95822054,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp1-d65536,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp1-d65536,throttle_reasons,,all,,,PowerBurst (114); no thermal limit,text,measured,limit reasons observed in-window (count of 168 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp1-d65536,tpot_mean_ms,mean,all,6,49.318246681,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,ttft_mean_ms,max,all,6,63722.831456,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,ttft_mean_ms,mean,all,6,63704.2411023,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d65536,ttft_mean_ms,min,all,6,63684.5144191,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,clock_mean_mhz,mean,all,64,2321,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,decode_tok_per_s_after_first,mean,all,6,19.5313472524,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp1-d8192,e2el_mean_ms,mean,all,6,32152.4473325,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,energy_per_request_kj,,all,,5.40845597322,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,engine_prefill_tok_per_s,mean,all,9,1381.99975405,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp1-d8192,engine_queue_s,mean,all,9,1.98511018728e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 8,204-8,206 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,joules_per_output_token,,all,,10.5633905727,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,max_context_configured,,all,,153600,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp1-d8192,power_limited_fraction,,all,64,0.172,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,power_mean_w_per_card,max,all,64,200.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,power_mean_w_per_card,mean,all,64,145.3,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,power_mean_w_per_card,p95,all,64,190.3,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,prefill_throughput_derived,mean,all,6,1369.93407163,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp1-d8192,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp1-d8192,throttle_reasons,,all,,,PowerBurst (11); no thermal limit,text,measured,limit reasons observed in-window (count of 64 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp1-d8192,tpot_mean_ms,mean,all,6,51.19974506,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,ttft_mean_ms,max,all,6,6005.78787609,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,ttft_mean_ms,mean,all,6,5989.37760687,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp1-d8192,ttft_mean_ms,min,all,6,5959.70617305,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,clock_mean_mhz,mean,all,452,2254,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,decode_tok_per_s_after_first,mean,all,6,17.1869466046,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d131072,e2el_mean_ms,mean,all,6,120537.622663,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,energy_per_request_kj,,all,,44.4401140203,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,engine_prefill_tok_per_s,mean,all,9,1452.75837213,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d131072,engine_queue_s,mean,all,9,2.13408816813e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 131,084-131,086 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,joules_per_output_token,,all,,86.797097696,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d131072,power_limited_fraction,,all,452,0.717,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,power_mean_w_per_card,max,all,452,200.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,power_mean_w_per_card,mean,all,452,175.8,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,power_mean_w_per_card,p95,all,452,200.3,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,prefill_throughput_derived,mean,all,6,1443.57604521,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d131072,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d131072,throttle_reasons,,all,,,PowerBurst (324); no thermal limit,text,measured,limit reasons observed in-window (count of 452 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d131072,tpot_mean_ms,mean,all,6,58.1836915541,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,ttft_mean_ms,max,all,6,90831.785616,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,ttft_mean_ms,mean,all,6,90805.7562789,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d131072,ttft_mean_ms,min,all,6,90744.1730261,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,clock_mean_mhz,mean,all,722,2270,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,decode_tok_per_s_after_first,mean,all,6,16.7827194955,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d196608,e2el_mean_ms,mean,all,6,195120.403087,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,energy_per_request_kj,,all,,74.5511710069,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,engine_prefill_tok_per_s,mean,all,9,1200.23208905,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d196608,engine_queue_s,mean,all,9,2.51265527267e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 196,620-196,622 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,joules_per_output_token,,all,,145.607755873,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d196608,power_limited_fraction,,all,722,0.814,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,power_mean_w_per_card,max,all,722,200.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,power_mean_w_per_card,mean,all,722,184.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,power_mean_w_per_card,p95,all,722,200.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,prefill_throughput_derived,mean,all,6,1194.01308482,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d196608,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d196608,throttle_reasons,,all,,,PowerBurst (588); no thermal limit,text,measured,limit reasons observed in-window (count of 722 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d196608,tpot_mean_ms,mean,all,6,59.5850988435,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,ttft_mean_ms,max,all,6,164778.375471,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,ttft_mean_ms,mean,all,6,164672.417578,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d196608,ttft_mean_ms,min,all,6,164617.310001,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,clock_mean_mhz,mean,all,1048,2271,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,decode_tok_per_s_after_first,mean,all,6,16.8660528791,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d260096,e2el_mean_ms,mean,all,6,285305.570305,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,energy_per_request_kj,,all,,110.94244041,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,engine_prefill_tok_per_s,mean,all,9,1024.64616328,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d260096,engine_queue_s,mean,all,9,2.20987712964e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 260,108-260,110 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,joules_per_output_token,,all,,216.684453925,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d260096,power_limited_fraction,,all,1048,0.869,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,power_mean_w_per_card,max,all,1048,201.2,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,power_mean_w_per_card,mean,all,1048,189.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,power_mean_w_per_card,p95,all,1048,200.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,prefill_throughput_derived,mean,all,6,1020.00328306,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d260096,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d260096,throttle_reasons,,all,,,PowerBurst (911); no thermal limit,text,measured,limit reasons observed in-window (count of 1048 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d260096,tpot_mean_ms,mean,all,6,59.2906951716,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,ttft_mean_ms,max,all,6,255133.897697,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,ttft_mean_ms,mean,all,6,255008.025072,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d260096,ttft_mean_ms,min,all,6,254920.808707,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,clock_mean_mhz,mean,all,182,2287,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,decode_tok_per_s_after_first,mean,all,6,16.7989342887,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d32768,e2el_mean_ms,mean,all,6,46065.5556349,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,energy_per_request_kj,,all,,13.910399292,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,engine_prefill_tok_per_s,mean,all,9,2115.39571135,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d32768,engine_queue_s,mean,all,9,2.27829829479e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 32,780-32,782 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,joules_per_output_token,,all,,27.1687486172,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d32768,power_limited_fraction,,all,182,0.297,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,power_mean_w_per_card,max,all,182,200.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,power_mean_w_per_card,mean,all,182,135,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,power_mean_w_per_card,p95,all,182,200,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,prefill_throughput_derived,mean,all,6,2095.04103554,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d32768,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d32768,throttle_reasons,,all,,,PowerBurst (54); no thermal limit,text,measured,limit reasons observed in-window (count of 182 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d32768,tpot_mean_ms,mean,all,6,59.527585668,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,ttft_mean_ms,max,all,6,15659.7439001,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,ttft_mean_ms,mean,all,6,15646.9593585,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d32768,ttft_mean_ms,min,all,6,15624.6200249,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,clock_mean_mhz,mean,all,254,2269,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,decode_tok_per_s_after_first,mean,all,6,17.0534311051,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d65536,e2el_mean_ms,mean,all,6,65948.2898848,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,energy_per_request_kj,,all,,22.1491204901,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,engine_prefill_tok_per_s,mean,all,9,1836.2540397,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d65536,engine_queue_s,mean,all,9,1.74939761766e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 65,548-65,550 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,joules_per_output_token,,all,,43.2600009572,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d65536,power_limited_fraction,,all,254,0.504,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,power_mean_w_per_card,max,all,254,201.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,power_mean_w_per_card,mean,all,254,155.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,power_mean_w_per_card,p95,all,254,200.2,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,prefill_throughput_derived,mean,all,6,1821.63368386,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d65536,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d65536,throttle_reasons,,all,,,PowerBurst (128); no thermal limit,text,measured,limit reasons observed in-window (count of 254 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d65536,tpot_mean_ms,mean,all,6,58.6392259622,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,ttft_mean_ms,max,all,6,36012.083153,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,ttft_mean_ms,mean,all,6,35983.6454182,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d65536,ttft_mean_ms,min,all,6,35960.485782,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,clock_mean_mhz,mean,all,138,2344,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,decode_tok_per_s_after_first,mean,all,6,16.7743829821,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp2-d8192,e2el_mean_ms,mean,all,6,33953.6758245,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,energy_per_request_kj,,all,,8.927068,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,engine_prefill_tok_per_s,mean,all,9,2372.72958998,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp2-d8192,engine_queue_s,mean,all,9,1.80027628731e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 8,204-8,206 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,joules_per_output_token,,all,,17.4356796875,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp2-d8192,power_limited_fraction,,all,138,0.13,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,power_mean_w_per_card,max,all,138,164.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,power_mean_w_per_card,mean,all,138,112.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,power_mean_w_per_card,p95,all,138,158.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,prefill_throughput_derived,mean,all,6,2350.64663575,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp2-d8192,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp2-d8192,throttle_reasons,,all,,,PowerBurst (18); no thermal limit,text,measured,limit reasons observed in-window (count of 138 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp2-d8192,tpot_mean_ms,mean,all,6,59.6147113767,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,ttft_mean_ms,max,all,6,3503.59283993,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,ttft_mean_ms,mean,all,6,3490.55831097,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp2-d8192,ttft_mean_ms,min,all,6,3477.00615891,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,clock_mean_mhz,mean,all,640,2347,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,decode_tok_per_s_after_first,mean,all,6,16.2363695089,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d131072,e2el_mean_ms,mean,all,6,84425.1271303,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,energy_per_request_kj,,all,,55.9681197644,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,engine_prefill_tok_per_s,mean,all,9,2499.93796463,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d131072,engine_queue_s,mean,all,9,1.80584611371e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 131,084-131,086 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,joules_per_output_token,,all,,109.312733915,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d131072,power_limited_fraction,,all,640,0.572,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,power_mean_w_per_card,max,all,640,200.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,power_mean_w_per_card,mean,all,640,155.3,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,power_mean_w_per_card,p95,all,640,200.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,prefill_throughput_derived,mean,all,6,2475.51763331,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d131072,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d131072,throttle_reasons,,all,,,PowerBurst (366); no thermal limit,text,measured,limit reasons observed in-window (count of 640 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d131072,tpot_mean_ms,mean,all,6,61.5901233001,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,ttft_mean_ms,max,all,6,52997.5259519,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,ttft_mean_ms,mean,all,6,52952.574124,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d131072,ttft_mean_ms,min,all,6,52922.218892,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,clock_mean_mhz,mean,all,948,2348,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,decode_tok_per_s_after_first,mean,all,6,16.2305433406,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d196608,e2el_mean_ms,mean,all,6,126268.987992,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,energy_per_request_kj,,all,,89.472927497,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,engine_prefill_tok_per_s,mean,all,9,2093.31294594,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d196608,engine_queue_s,mean,all,9,1.80618889216e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 196,620-196,622 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,joules_per_output_token,,all,,174.751811518,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d196608,power_limited_fraction,,all,948,0.684,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,power_mean_w_per_card,max,all,948,200.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,power_mean_w_per_card,mean,all,948,168.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,power_mean_w_per_card,p95,all,948,200.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,prefill_throughput_derived,mean,all,6,2074.38655019,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d196608,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d196608,throttle_reasons,,all,,,PowerBurst (648); no thermal limit,text,measured,limit reasons observed in-window (count of 948 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d196608,tpot_mean_ms,mean,all,6,61.6122318897,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,ttft_mean_ms,max,all,6,94829.615999,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,ttft_mean_ms,mean,all,6,94785.137496,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d196608,ttft_mean_ms,min,all,6,94751.545196,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,clock_mean_mhz,mean,all,1316,2347,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,decode_tok_per_s_after_first,mean,all,6,16.1075954235,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d260096,e2el_mean_ms,mean,all,6,176826.280974,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,energy_per_request_kj,,all,,129.958298286,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,engine_prefill_tok_per_s,mean,all,9,1806.17950646,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d260096,engine_queue_s,mean,all,9,2.04597858505e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 260,108-260,110 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,joules_per_output_token,,all,,253.824801339,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d260096,power_limited_fraction,,all,1316,0.73,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,power_mean_w_per_card,max,all,1316,200.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,power_mean_w_per_card,mean,all,1316,176.9,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,power_mean_w_per_card,p95,all,1316,200.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,prefill_throughput_derived,mean,all,6,1792.59299821,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d260096,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d260096,throttle_reasons,,all,,,PowerBurst (961); no thermal limit,text,measured,limit reasons observed in-window (count of 1316 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d260096,tpot_mean_ms,mean,all,6,62.0825128587,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,ttft_mean_ms,max,all,6,145168.784467,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,ttft_mean_ms,mean,all,6,145102.116903,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d260096,ttft_mean_ms,min,all,6,144992.424936,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,clock_mean_mhz,mean,all,324,2372,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,decode_tok_per_s_after_first,mean,all,6,16.2076075608,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d32768,e2el_mean_ms,mean,all,6,40980.5908712,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,energy_per_request_kj,,all,,20.6685304023,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,engine_prefill_tok_per_s,mean,all,9,3513.89150017,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d32768,engine_queue_s,mean,all,9,1.79780957599e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 32,780-32,782 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,joules_per_output_token,,all,,40.3682234421,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d32768,power_limited_fraction,,all,324,0.16,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,power_mean_w_per_card,max,all,324,200.2,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,power_mean_w_per_card,mean,all,324,111.5,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,power_mean_w_per_card,p95,all,324,199.8,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,prefill_throughput_derived,mean,all,6,3468.09696165,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d32768,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d32768,throttle_reasons,,all,,,PowerBurst (52); no thermal limit,text,measured,limit reasons observed in-window (count of 324 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d32768,tpot_mean_ms,mean,all,6,61.6994208582,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,ttft_mean_ms,max,all,6,9471.0168459,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,ttft_mean_ms,mean,all,6,9452.18681263,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d32768,ttft_mean_ms,min,all,6,9431.97143497,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,clock_mean_mhz,mean,all,412,2351,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,decode_tok_per_s_after_first,mean,all,6,16.2960679316,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d65536,e2el_mean_ms,mean,all,6,52763.8835938,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,energy_per_request_kj,,all,,30.3354994438,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,engine_prefill_tok_per_s,mean,all,9,3100.94844504,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d65536,engine_queue_s,mean,all,9,2.17896498119e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 65,548-65,550 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,joules_per_output_token,,all,,59.2490223511,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d65536,power_limited_fraction,,all,412,0.359,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,power_mean_w_per_card,max,all,412,200.2,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,power_mean_w_per_card,mean,all,412,130.3,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,power_mean_w_per_card,p95,all,412,200.1,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,prefill_throughput_derived,mean,all,6,3062.09117654,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d65536,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d65536,throttle_reasons,,all,,,PowerBurst (148); no thermal limit,text,measured,limit reasons observed in-window (count of 412 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d65536,tpot_mean_ms,mean,all,6,61.3644962821,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,ttft_mean_ms,max,all,6,21430.7917551,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,ttft_mean_ms,mean,all,6,21406.6259937,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d65536,ttft_mean_ms,min,all,6,21385.293393,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,attempted_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,clock_mean_mhz,mean,all,268,2366,,MHz,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,completed_requests,,all,,6,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,decode_tok_per_s_after_first,mean,all,6,16.3163911602,,tok/s,derived,output tokens after the first / (e2e − TTFT)
+2026-09-24-qwen38-long-context,depth-tp4-d8192,e2el_mean_ms,mean,all,6,33472.3242983,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,energy_per_request_kj,,all,,14.632618415,,kJ,measured,"upper bound; window ÷ engine-counted requests incl. warm-up; served cards 0,1,2,3 only, GPU-reported energy"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,engine_prefill_tok_per_s,mean,all,9,3836.5924083,,tok/s,measured,vllm:request_prompt_tokens / request_prefill_time_seconds from /metrics deltas; the window holds 9 requests of this shape (incl. each rep's warm-up)
+2026-09-24-qwen38-long-context,depth-tp4-d8192,engine_queue_s,mean,all,9,1.45361215497e-05,,s,measured,"engine queue time per request from /metrics deltas, incl. warm-ups"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,failed_requests,,all,,0,,count,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,fit_status,,all,,,fits and verified,text,measured,"6 of 6 requests completed; server-counted prompt 8,204-8,206 (nominal + 13)"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,joules_per_output_token,,all,,28.5793328418,,J/token,derived,"energy_per_request_kj x 1000 / 512 output tokens; upper bound, prompt prefill included"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len = the topology's phase-1 verified ceiling
+2026-09-24-qwen38-long-context,depth-tp4-d8192,power_limited_fraction,,all,268,0.045,,fraction,measured,"share of samples in a power limit; served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,power_mean_w_per_card,max,all,268,139.4,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,power_mean_w_per_card,mean,all,268,93.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,power_mean_w_per_card,p95,all,268,136.6,,W,measured,"served cards, measured windows, 5 s samples"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,prefill_throughput_derived,mean,all,6,3809.01740462,,tok/s,derived,"actual prompt tokens / TTFT per request, then averaged; user-visible rate"
+2026-09-24-qwen38-long-context,depth-tp4-d8192,spec_acceptance,,all,,,,fraction,not_applicable,no speculation on the eager arm
+2026-09-24-qwen38-long-context,depth-tp4-d8192,throttle_reasons,,all,,,PowerBurst (12); no thermal limit,text,measured,limit reasons observed in-window (count of 268 samples); PowerBurst is the 200 W power limit
+2026-09-24-qwen38-long-context,depth-tp4-d8192,tpot_mean_ms,mean,all,6,61.2880624263,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,ttft_mean_ms,max,all,6,2166.15459498,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,ttft_mean_ms,mean,all,6,2154.12439848,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,depth-tp4-d8192,ttft_mean_ms,min,all,6,2144.517062,,ms,measured,2 prompts per rep
+2026-09-24-qwen38-long-context,internal-tp1,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp1,max_context_configured,,all,,153600,,tokens,measured,frozen max_model_len the near-ceiling length is computed from
+2026-09-24-qwen38-long-context,internal-tp1,quality_correct,,all,,5,,count,measured,"cases passed, thinking off"
+2026-09-24-qwen38-long-context,internal-tp1,quality_correct,,all,,0,,count,measured,kind=id_attribute_transform; of 6
+2026-09-24-qwen38-long-context,internal-tp1,quality_correct,,all,,5,,count,measured,kind=ledger_delta; of 9
+2026-09-24-qwen38-long-context,internal-tp1,quality_correct,,all,,0,,count,measured,kind=region_reconcile; of 9
+2026-09-24-qwen38-long-context,internal-tp1,quality_items,,all,,24,,count,measured,8 cases at each of 3 lengths
+2026-09-24-qwen38-long-context,internal-tp1,quality_items,,all,,6,,count,measured,kind=id_attribute_transform
+2026-09-24-qwen38-long-context,internal-tp1,quality_items,,all,,9,,count,measured,kind=ledger_delta
+2026-09-24-qwen38-long-context,internal-tp1,quality_items,,all,,9,,count,measured,kind=region_reconcile
+2026-09-24-qwen38-long-context,internal-tp1,quality_score,,all,,0.208333333333,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp1,quality_verdict,,all,,,"low on every topology; misses are coherent wrong numbers, not degenerate output",text,measured,every reply finish_reason stop after 5-349 tokens; reasoning_chars 0
+2026-09-24-qwen38-long-context,internal-tp1,truncated_outputs,,all,,0,,count,measured,replies not ending with finish_reason stop
+2026-09-24-qwen38-long-context,internal-tp1-l131072,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp1-l131072,quality_correct,,all,,0,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp1-l131072,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp1-l131072,quality_score,,all,,0,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp1-l149026,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp1-l149026,quality_correct,,all,,2,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp1-l149026,quality_items,,all,,8,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp1-l149026,quality_score,,all,,0.25,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp1-l32768,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp1-l32768,quality_correct,,all,,3,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp1-l32768,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp1-l32768,quality_score,,all,,0.375,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp2,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp2,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len the near-ceiling length is computed from
+2026-09-24-qwen38-long-context,internal-tp2,quality_correct,,all,,4,,count,measured,"cases passed, thinking off"
+2026-09-24-qwen38-long-context,internal-tp2,quality_correct,,all,,0,,count,measured,kind=id_attribute_transform; of 6
+2026-09-24-qwen38-long-context,internal-tp2,quality_correct,,all,,4,,count,measured,kind=ledger_delta; of 9
+2026-09-24-qwen38-long-context,internal-tp2,quality_correct,,all,,0,,count,measured,kind=region_reconcile; of 9
+2026-09-24-qwen38-long-context,internal-tp2,quality_items,,all,,24,,count,measured,8 cases at each of 3 lengths
+2026-09-24-qwen38-long-context,internal-tp2,quality_items,,all,,6,,count,measured,kind=id_attribute_transform
+2026-09-24-qwen38-long-context,internal-tp2,quality_items,,all,,9,,count,measured,kind=ledger_delta
+2026-09-24-qwen38-long-context,internal-tp2,quality_items,,all,,9,,count,measured,kind=region_reconcile
+2026-09-24-qwen38-long-context,internal-tp2,quality_score,,all,,0.166666666667,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp2,quality_verdict,,all,,,"low on every topology; misses are coherent wrong numbers, not degenerate output",text,measured,every reply finish_reason stop after 5-192 tokens; reasoning_chars 0
+2026-09-24-qwen38-long-context,internal-tp2,truncated_outputs,,all,,0,,count,measured,replies not ending with finish_reason stop
+2026-09-24-qwen38-long-context,internal-tp2-l131072,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp2-l131072,quality_correct,,all,,0,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp2-l131072,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp2-l131072,quality_score,,all,,0,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp2-l255942,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp2-l255942,quality_correct,,all,,1,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp2-l255942,quality_items,,all,,8,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp2-l255942,quality_score,,all,,0.125,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp2-l32768,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp2-l32768,quality_correct,,all,,3,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp2-l32768,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp2-l32768,quality_score,,all,,0.375,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp4,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp4,max_context_configured,,all,,262144,,tokens,measured,frozen max_model_len the near-ceiling length is computed from
+2026-09-24-qwen38-long-context,internal-tp4,quality_correct,,all,,4,,count,measured,"cases passed, thinking off"
+2026-09-24-qwen38-long-context,internal-tp4,quality_correct,,all,,0,,count,measured,kind=id_attribute_transform; of 6
+2026-09-24-qwen38-long-context,internal-tp4,quality_correct,,all,,4,,count,measured,kind=ledger_delta; of 9
+2026-09-24-qwen38-long-context,internal-tp4,quality_correct,,all,,0,,count,measured,kind=region_reconcile; of 9
+2026-09-24-qwen38-long-context,internal-tp4,quality_items,,all,,24,,count,measured,8 cases at each of 3 lengths
+2026-09-24-qwen38-long-context,internal-tp4,quality_items,,all,,6,,count,measured,kind=id_attribute_transform
+2026-09-24-qwen38-long-context,internal-tp4,quality_items,,all,,9,,count,measured,kind=ledger_delta
+2026-09-24-qwen38-long-context,internal-tp4,quality_items,,all,,9,,count,measured,kind=region_reconcile
+2026-09-24-qwen38-long-context,internal-tp4,quality_score,,all,,0.166666666667,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp4,quality_verdict,,all,,,"low on every topology; misses are coherent wrong numbers, not degenerate output",text,measured,every reply finish_reason stop after 5-349 tokens; reasoning_chars 0
+2026-09-24-qwen38-long-context,internal-tp4,truncated_outputs,,all,,0,,count,measured,replies not ending with finish_reason stop
+2026-09-24-qwen38-long-context,internal-tp4-l131072,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp4-l131072,quality_correct,,all,,0,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp4-l131072,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp4-l131072,quality_score,,all,,0,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp4-l255942,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp4-l255942,quality_correct,,all,,1,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp4-l255942,quality_items,,all,,8,,count,measured,"near-ceiling length, 0.985 x (max_model_len − 2,048 − 256)"
+2026-09-24-qwen38-long-context,internal-tp4-l255942,quality_score,,all,,0.125,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,internal-tp4-l32768,failed_requests,,all,,0,,count,measured,
+2026-09-24-qwen38-long-context,internal-tp4-l32768,quality_correct,,all,,3,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp4-l32768,quality_items,,all,,8,,count,measured,frozen fixture length
+2026-09-24-qwen38-long-context,internal-tp4-l32768,quality_score,,all,,0.375,,fraction,derived,quality_correct / quality_items
+2026-09-24-qwen38-long-context,ruler-tp4,attempted_requests,,all,,240,,count,measured,
+2026-09-24-qwen38-long-context,ruler-tp4,failed_requests,,all,,0,,count,measured,attempt 2 (attempt 1 never reached the engine: connection refused; not a result)
+2026-09-24-qwen38-long-context,ruler-tp4,quality_correct,,all,,233,,count,measured,scored items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4,quality_items,,all,,234,,count,measured,"scored items; 240 frozen, 6 truncated excluded"
+2026-09-24-qwen38-long-context,ruler-tp4,quality_verdict,,all,,,100 in 23 of 24 task/length cells; no depth-driven decline,text,measured,tokenization disagreements 0; gate report_only
+2026-09-24-qwen38-long-context,ruler-tp4,ruler_score,mean,all,234,99.5726,,score,measured,mean over scored items; RULER string_match_all / string_match_part on the served chat path
+2026-09-24-qwen38-long-context,ruler-tp4,truncated_outputs,,all,,6,,count,measured,"cwe at 32,768 hit the 2,048-token budget; not scored"
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,10,,count,measured,task=cwe; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,10,,count,measured,task=fwe; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,9,,count,measured,task=niah_multikey_2; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,10,,count,measured,task=niah_multikey_3; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,10,,count,measured,task=niah_single_1; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_correct,,all,,10,,count,measured,task=vt; length=131072; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=cwe; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=fwe; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=niah_multikey_2; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=niah_multikey_3; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=niah_single_1; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,quality_items,,all,,10,,count,measured,task=vt; length=131072; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,reasoning_tokens,,all,,0,,tokens,measured,thinking off; reasoning_chars 0 on every item; completion tokens 8-63
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,100,,score,measured,task=cwe; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,100,,score,measured,task=fwe; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,90,,score,measured,task=niah_multikey_2; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_3; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,100,,score,measured,task=niah_single_1; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,ruler_score,mean,all,10,100,,score,measured,task=vt; length=131072; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=cwe; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=fwe; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_2; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_3; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=niah_single_1; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l131072,truncated_outputs,,all,,0,,count,measured,task=vt; length=131072
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=cwe; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=fwe; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=niah_multikey_2; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=niah_multikey_3; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=niah_single_1; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_correct,,all,,10,,count,measured,task=vt; length=260096; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=cwe; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=fwe; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=niah_multikey_2; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=niah_multikey_3; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=niah_single_1; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,quality_items,,all,,10,,count,measured,task=vt; length=260096; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,reasoning_tokens,,all,,0,,tokens,measured,thinking off; reasoning_chars 0 on every item; completion tokens 8-248
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=cwe; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=fwe; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_2; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_3; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=niah_single_1; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,ruler_score,mean,all,10,100,,score,measured,task=vt; length=260096; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=cwe; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=fwe; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_2; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_3; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=niah_single_1; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l260096,truncated_outputs,,all,,0,,count,measured,task=vt; length=260096
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,4,,count,measured,task=cwe; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,10,,count,measured,task=fwe; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,10,,count,measured,task=niah_multikey_2; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,10,,count,measured,task=niah_multikey_3; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,10,,count,measured,task=niah_single_1; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_correct,,all,,10,,count,measured,task=vt; length=32768; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,4,,count,measured,task=cwe; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,10,,count,measured,task=fwe; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,10,,count,measured,task=niah_multikey_2; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,10,,count,measured,task=niah_multikey_3; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,10,,count,measured,task=niah_single_1; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,quality_items,,all,,10,,count,measured,task=vt; length=32768; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,reasoning_tokens,,all,,0,,tokens,measured,thinking off; reasoning_chars 0 on every item; completion tokens 8-2048
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,4,100,,score,measured,task=cwe; length=32768; scored 4 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,10,100,,score,measured,task=fwe; length=32768; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_2; length=32768; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_3; length=32768; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,10,100,,score,measured,task=niah_single_1; length=32768; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,ruler_score,mean,all,10,100,,score,measured,task=vt; length=32768; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,6,,count,measured,task=cwe; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,0,,count,measured,task=fwe; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_2; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_3; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,0,,count,measured,task=niah_single_1; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l32768,truncated_outputs,,all,,0,,count,measured,task=vt; length=32768
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=cwe; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=fwe; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=niah_multikey_2; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=niah_multikey_3; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=niah_single_1; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_correct,,all,,10,,count,measured,task=vt; length=65536; items with every reference found
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=cwe; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=fwe; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=niah_multikey_2; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=niah_multikey_3; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=niah_single_1; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,quality_items,,all,,10,,count,measured,task=vt; length=65536; scored items
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,reasoning_tokens,,all,,0,,tokens,measured,thinking off; reasoning_chars 0 on every item; completion tokens 8-64
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=cwe; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=fwe; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_2; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=niah_multikey_3; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=niah_single_1; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,ruler_score,mean,all,10,100,,score,measured,task=vt; length=65536; scored 10 of 10
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=cwe; length=65536
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=fwe; length=65536
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_2; length=65536
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=niah_multikey_3; length=65536
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=niah_single_1; length=65536
+2026-09-24-qwen38-long-context,ruler-tp4-l65536,truncated_outputs,,all,,0,,count,measured,task=vt; length=65536
+2026-09-24-qwen38-long-context,stability-tp4-262144,attempted_requests,,all,,11,,count,measured,request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,first_third,all,,2333,,MHz,measured,card 0; mean clock over the first third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,first_third,all,,2349,,MHz,measured,card 1; mean clock over the first third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,first_third,all,,2369,,MHz,measured,card 2; mean clock over the first third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,first_third,all,,2363,,MHz,measured,card 3; mean clock over the first third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,last_third,all,,2336,,MHz,measured,card 0; mean clock over the last third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,last_third,all,,2351,,MHz,measured,card 1; mean clock over the last third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,last_third,all,,2367,,MHz,measured,card 2; mean clock over the last third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,clock_mean_mhz,last_third,all,,2362,,MHz,measured,card 3; mean clock over the last third of the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,completed_requests,,all,,11,,count,measured,request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,correctness_gate,,all,,,all correct recall,text,measured,"11 of 11 replies recalled their code word; every request exactly 261,632 prompt / 512 completion tokens, finish_reason length"
+2026-09-24-qwen38-long-context,stability-tp4-262144,duration_s,,all,,1953,,s,derived,"first request start 2026-10-01T08:03:07Z to last request end 2026-10-01T08:35:40Z, from request-001..011.json; the run stopped at the first request to end after 30 minutes"
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,1,1,177530.1,,ms,measured,request 1
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,2,1,176770.5,,ms,measured,request 2
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,3,1,177278.6,,ms,measured,request 3
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,4,1,177470.1,,ms,measured,request 4
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,5,1,177454.7,,ms,measured,request 5
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,6,1,177661.2,,ms,measured,request 6
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,7,1,176701.1,,ms,measured,request 7
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,8,1,177576.3,,ms,measured,request 8
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,9,1,177744,,ms,measured,request 9
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,10,1,177465.6,,ms,measured,request 10
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,,11,1,177661.9,,ms,measured,request 11
+2026-09-24-qwen38-long-context,stability-tp4-262144,e2el_mean_ms,mean,all,11,177392.190909,,ms,derived,over request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,engine_resets,,all,,0,,count,measured,no engine reset in dmesg and no energy counter reset over the run
+2026-09-24-qwen38-long-context,stability-tp4-262144,failed_requests,,all,,0,,count,measured,request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,fan_max_rpm,,all,,,,rpm,not_collected,no fan reading in the phase-4 platform table
+2026-09-24-qwen38-long-context,stability-tp4-262144,max_context_configured,,all,,262144,,tokens,measured,"max_model_len, the phase-1 verified TP4 ceiling"
+2026-09-24-qwen38-long-context,stability-tp4-262144,oom,,all,,,false,bool,measured,"0 OOM, 0 truncation, 0 transport errors"
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_limited_fraction,,all,391,0.805626598465,,fraction,derived,card 0: PowerBurst 315 of 391 samples
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_limited_fraction,,all,391,0.790281329923,,fraction,derived,card 1: PowerBurst 309 of 391 samples
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_limited_fraction,,all,391,0.736572890026,,fraction,derived,card 2: PowerBurst 288 of 391 samples
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_limited_fraction,,all,391,0.749360613811,,fraction,derived,card 3: PowerBurst 293 of 391 samples
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_mean_w_per_card,max,all,,200.5,,W,measured,card 0; peak sample
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_mean_w_per_card,max,all,,200.4,,W,measured,card 1; peak sample
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_mean_w_per_card,max,all,,200.2,,W,measured,card 2; peak sample
+2026-09-24-qwen38-long-context,stability-tp4-262144,power_mean_w_per_card,max,all,,200.4,,W,measured,card 3; peak sample
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_mem_max_c,max,all,,82,,C,measured,hottest card: card 2; VRAM
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_mem_max_c,max,all,,76,,C,measured,card 0; VRAM
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_mem_max_c,max,all,,78,,C,measured,card 1; VRAM
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_mem_max_c,max,all,,82,,C,measured,card 2; VRAM
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_mem_max_c,max,all,,78,,C,measured,card 3; VRAM
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_pkg_max_c,max,all,,74,,C,measured,"hottest card: card 3; xpu-smi and the bare-metal collector, 08:03-08:36 UTC"
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_pkg_max_c,max,all,,72,,C,measured,card 0
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_pkg_max_c,max,all,,72,,C,measured,card 1
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_pkg_max_c,max,all,,73,,C,measured,card 2
+2026-09-24-qwen38-long-context,stability-tp4-262144,temp_pkg_max_c,max,all,,74,,C,measured,card 3
+2026-09-24-qwen38-long-context,stability-tp4-262144,throttle_reasons,,all,,,PowerBurst only; no thermal limit,text,measured,the same 200 W power limit as phase 2
+2026-09-24-qwen38-long-context,stability-tp4-262144,throughput_drift_first_to_last,,all,11,-0.0562144798616,,percent,derived,"TTFT drift, not throughput: (last − first) / first; schema lacks a ttft_drift metric"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,1,1,62.3054794521,,ms,derived,"request 1: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,2,1,60.8234833659,,ms,derived,"request 2: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,3,1,61.785518591,,ms,derived,"request 3: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,4,1,62.301369863,,ms,derived,"request 4: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,5,1,62.2602739726,,ms,derived,"request 5: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,6,1,62.582778865,,ms,derived,"request 6: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,7,1,60.8818003914,,ms,derived,"request 7: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,8,1,62.4878669276,,ms,derived,"request 8: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,9,1,62.9518590998,,ms,derived,"request 9: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,10,1,62.2927592955,,ms,derived,"request 10: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,,11,1,62.7236790607,,ms,derived,"request 11: (e2e − TTFT) / 511, arithmetic on the probe's two timings"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,max,all,11,62.9518590998,,ms,derived,(e2e − TTFT) / 511 per request
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,mean,all,11,62.1269880804,,ms,derived,"(e2e − TTFT) / 511 per request, averaged"
+2026-09-24-qwen38-long-context,stability-tp4-262144,tpot_mean_ms,min,all,11,60.8234833659,,ms,derived,(e2e − TTFT) / 511 per request
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,1,1,145692,,ms,measured,request 1
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,2,1,145689.7,,ms,measured,request 2
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,3,1,145706.2,,ms,measured,request 3
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,4,1,145634.1,,ms,measured,request 4
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,5,1,145639.7,,ms,measured,request 5
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,6,1,145681.4,,ms,measured,request 6
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,7,1,145590.5,,ms,measured,request 7
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,8,1,145645,,ms,measured,request 8
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,9,1,145575.6,,ms,measured,request 9
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,10,1,145634,,ms,measured,request 10
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,,11,1,145610.1,,ms,measured,request 11
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,max,all,11,145706.2,,ms,measured,over request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,mean,all,11,145645.3,,ms,derived,over request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,ttft_mean_ms,min,all,11,145575.6,,ms,measured,over request-001..011.json
+2026-09-24-qwen38-long-context,stability-tp4-262144,vram_peak_gib_per_card,max,all,,31.0966796875,,GiB,derived,"card 0 used memory 31,843 MiB in the last third (MiB / 1024); rose about 446 MiB during the first request, then flat; cards 1-3 at 31,427 MiB"

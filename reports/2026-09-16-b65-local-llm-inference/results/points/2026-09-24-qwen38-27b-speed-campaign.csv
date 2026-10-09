@@ -1,0 +1,1164 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,output_throughput,mean,all,5,18.8484,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,tpot_mean_ms,mean,all,5,51.6641,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,tpot_p95_ms,p95_mean,all,5,52.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,ttft_mean_ms,mean,all,5,763.7241,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c1,ttft_p95_ms,p95_mean,all,5,768,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,output_throughput,mean,all,5,230.0684,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,tpot_mean_ms,mean,all,5,53.5599,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,tpot_p95_ms,p95_mean,all,5,67.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,ttft_mean_ms,mean,all,5,8230.7994,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c16,ttft_p95_ms,p95_mean,all,5,11651,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,output_throughput,mean,all,5,43.1213,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,tpot_mean_ms,mean,all,5,44.2213,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,tpot_p95_ms,p95_mean,all,5,46,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,ttft_mean_ms,mean,all,5,1150.9359,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c2,ttft_p95_ms,p95_mean,all,5,1540,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,attempted_requests,,all,5,,,count,unavailable,admitted requests at c32 not recorded in this campaign
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,output_throughput,mean,all,5,289.2841,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,tpot_mean_ms,mean,all,5,86.4611,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,tpot_p95_ms,p95_mean,all,5,99.2,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,ttft_mean_ms,mean,all,5,12440.157,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c32,ttft_p95_ms,p95_mean,all,5,17934,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,output_throughput,mean,all,5,81.6972,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,tpot_mean_ms,mean,all,5,44.3422,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,tpot_p95_ms,p95_mean,all,5,47.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,ttft_mean_ms,mean,all,5,2409.4406,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c4,ttft_p95_ms,p95_mean,all,5,2964,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,output_throughput,mean,all,5,147.234,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,tpot_mean_ms,mean,all,5,44.2011,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,tpot_p95_ms,p95_mean,all,5,52.8,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,ttft_mean_ms,mean,all,5,5231.8997,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f0-control-final-c8,ttft_p95_ms,p95_mean,all,5,5878,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,output_throughput,mean,all,5,49.7971,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,speedup_ratio,mean,all,5,2.64198022113,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,tpot_mean_ms,mean,all,5,18.5347,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,tpot_p95_ms,p95_mean,all,5,20.4,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,ttft_mean_ms,mean,all,5,810.2096,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c1,ttft_p95_ms,p95_mean,all,5,823,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,output_throughput,mean,all,5,268.4316,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,speedup_ratio,mean,all,5,1.16674693265,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,tpot_mean_ms,mean,all,5,53.8586,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,tpot_p95_ms,p95_mean,all,5,65.7,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,ttft_mean_ms,mean,all,5,2262.102,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c16,ttft_p95_ms,p95_mean,all,5,11908,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,output_throughput,mean,all,5,87.4716,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,output_throughput_cv,cv,all,5,3.02,,percent,measured,only cell reported individually
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,speedup_ratio,mean,all,5,2.02850099603,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,tpot_mean_ms,mean,all,5,20.4789,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,tpot_p95_ms,p95_mean,all,5,23.2,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,ttft_mean_ms,mean,all,5,1168.2773,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,ttft_p95_ms,,1,,7650,,ms,measured,"rep 1, first batch-2 speculative decode on a fresh server"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c2,ttft_p95_ms,p95_mean,all,5,2968,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,attempted_requests,,all,5,,,count,unavailable,admitted requests at c32 not recorded in this campaign
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,output_throughput,mean,all,5,218.872,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,speedup_ratio,mean,all,5,0.756598789909,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,tpot_mean_ms,mean,all,5,103.2009,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,tpot_p95_ms,p95_mean,all,5,125,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,ttft_mean_ms,mean,all,5,20520.3559,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c32,ttft_p95_ms,p95_mean,all,5,37466,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,output_throughput,mean,all,5,131.4282,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,speedup_ratio,mean,all,5,1.60872343238,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,tpot_mean_ms,mean,all,5,27.9567,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,tpot_p95_ms,p95_mean,all,5,32.7,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,ttft_mean_ms,mean,all,5,1155.1298,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c4,ttft_p95_ms,p95_mean,all,5,3055,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,output_throughput,mean,all,5,207.4646,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,speedup_ratio,mean,all,5,1.40908078297,,ratio,derived,headline over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,tpot_mean_ms,mean,all,5,34.5595,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,tpot_p95_ms,p95_mean,all,5,40.5,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,ttft_mean_ms,mean,all,5,1614.545,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-int-mtp2-xpugraph-c8,ttft_p95_ms,p95_mean,all,5,6009,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,output_throughput,mean,all,5,29.4873,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,speedup_ratio,mean,all,5,1.5644457885,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,tpot_mean_ms,mean,all,5,32.3435,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,tpot_p95_ms,p95_mean,all,5,34.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,ttft_mean_ms,mean,all,5,835.5523,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c1,ttft_p95_ms,p95_mean,all,5,839,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,output_throughput,mean,all,5,257.6597,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,speedup_ratio,mean,all,5,1.11992650881,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,tpot_mean_ms,mean,all,5,56.9084,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,tpot_p95_ms,p95_mean,all,5,66.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,ttft_mean_ms,mean,all,5,2397.1854,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c16,ttft_p95_ms,p95_mean,all,5,11938,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,output_throughput,mean,all,5,56.0007,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,speedup_ratio,mean,all,5,1.29867837936,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,tpot_mean_ms,mean,all,5,33.5069,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,tpot_p95_ms,p95_mean,all,5,36.2,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,ttft_mean_ms,mean,all,5,1088.3357,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,ttft_p95_ms,,1,,5473,,ms,measured,"rep 1, first batch-2 speculative decode on a fresh server"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c2,ttft_p95_ms,p95_mean,all,5,2284,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,attempted_requests,,all,5,,,count,unavailable,admitted requests at c32 not recorded in this campaign
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,output_throughput,mean,all,5,296.1252,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,speedup_ratio,mean,all,5,1.02364837888,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,tpot_mean_ms,mean,all,5,99.1851,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,tpot_p95_ms,p95_mean,all,5,118.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,ttft_mean_ms,mean,all,5,4293.3716,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c32,ttft_p95_ms,p95_mean,all,5,18349,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,output_throughput,mean,all,5,104.2886,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,speedup_ratio,mean,all,5,1.27652600089,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,tpot_mean_ms,mean,all,5,35.8015,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,tpot_p95_ms,p95_mean,all,5,39.7,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,ttft_mean_ms,mean,all,5,1175.077,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c4,ttft_p95_ms,p95_mean,all,5,3087,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,completed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,failed_requests,,all,5,,,count,unavailable,per-request counts not in the committed results
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,output_throughput,mean,all,5,179.61,,tok/s,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,output_throughput_cv,cv,all,5,,,percent,unavailable,"report gives only the max over cells, 1.42%"
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,spec_acceptance,,all,5,,,fraction,unavailable,not recorded on the random-token ladder
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,speedup_ratio,mean,all,5,1.21989486124,,ratio,derived,MTP-1 over eager; Welch significant_95=True
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,tpot_mean_ms,mean,all,5,40.6738,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,tpot_p95_ms,p95_mean,all,5,44.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,ttft_mean_ms,mean,all,5,1650.6414,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,f1-load-mtp1-c8,ttft_p95_ms,p95_mean,all,5,6053,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f0-control-final,fit_status,,all,,,passed,text,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f0-control-final,kv_cache_pool_tokens,,all,,150634,,tokens,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f0-control-final,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log
+2026-09-24-qwen38-27b-speed-campaign,fit-f0-control-final,time_to_ready_s,,all,,15.681,,s,measured,"loader load_seconds, not readiness-gate time"
+2026-09-24-qwen38-27b-speed-campaign,fit-f0-control-final,weights_gib_per_card,,all,,16.95,,GiB,measured,loader-reported GPU memory for weights
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-int-mtp2-xpugraph,fit_status,,all,,,passed,text,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-int-mtp2-xpugraph,kv_cache_pool_tokens,,all,,130623,,tokens,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-int-mtp2-xpugraph,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-int-mtp2-xpugraph,time_to_ready_s,,all,,17.674,,s,measured,"loader load_seconds, not readiness-gate time"
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-int-mtp2-xpugraph,weights_gib_per_card,,all,,17.17,,GiB,measured,loader-reported GPU memory for weights
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-load-mtp1,fit_status,,all,,,passed,text,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-load-mtp1,kv_cache_pool_tokens,,all,,136221,,tokens,measured,
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-load-mtp1,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-load-mtp1,time_to_ready_s,,all,,17.628,,s,measured,"loader load_seconds, not readiness-gate time"
+2026-09-24-qwen38-27b-speed-campaign,fit-f1-load-mtp1,weights_gib_per_card,,all,,17.17,,GiB,measured,loader-reported GPU memory for weights
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_correct,,all,150,127,,count,measured,ifeval prompt-level strict; 150 frozen pilot items
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_correct,,all,1319,723,,count,derived,gsm8k; score x 1319
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_items,,all,,150,,count,measured,ifeval
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_score,,all,150,0.846666666667,,fraction,derived,"ifeval strict, correct / 150"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_score,,all,1319,0.548142532221,,fraction,measured,"gsm8k exact_match flexible-extract, 0-shot, 256-token cap, conc 8"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_score,,all,,0.581058020478,,fraction,measured,"arc_challenge acc_norm, full test set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,quality_score,,all,,0.768745067088,,fraction,measured,"winogrande acc, full set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f0-control-final,truncated_outputs,,all,1319,598,,count,measured,"gsm8k generations ending at the 256-token harness cap; 721 stop of 1,319; all arms identical"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,paired_only_first,,all,,0,,count,measured,ifeval: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,paired_only_first,,all,,2,,count,measured,gsm8k: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,paired_only_second,,all,,0,,count,measured,ifeval: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,paired_only_second,,all,,5,,count,measured,gsm8k: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_correct,,all,150,127,,count,measured,ifeval prompt-level strict; 150 frozen pilot items
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_correct,,all,1319,726,,count,derived,gsm8k; score x 1319
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_items,,all,,150,,count,measured,ifeval
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_score,,all,150,0.846666666667,,fraction,derived,"ifeval strict, correct / 150"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_score,,all,1319,0.550416982563,,fraction,measured,"gsm8k exact_match flexible-extract, 0-shot, 256-token cap, conc 8"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_score,,all,,0.581058020478,,fraction,measured,"arc_challenge acc_norm, full test set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,quality_score,,all,,0.768745067088,,fraction,measured,"winogrande acc, full set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,sign_test_p,,all,,0.45,,p,derived,gsm8k: exact two-sided sign test on flips
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-int-mtp2-xpugraph,truncated_outputs,,all,1319,598,,count,measured,"gsm8k generations ending at the 256-token harness cap; 721 stop of 1,319; all arms identical"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,paired_only_first,,all,,1,,count,measured,ifeval: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,paired_only_first,,all,,4,,count,measured,gsm8k: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,paired_only_second,,all,,0,,count,measured,ifeval: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,paired_only_second,,all,,4,,count,measured,gsm8k: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_correct,,all,150,126,,count,measured,ifeval prompt-level strict; 150 frozen pilot items
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_correct,,all,1319,723,,count,derived,gsm8k; score x 1319
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_items,,all,,150,,count,measured,ifeval
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_score,,all,150,0.84,,fraction,derived,"ifeval strict, correct / 150"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_score,,all,1319,0.548142532221,,fraction,measured,"gsm8k exact_match flexible-extract, 0-shot, 256-token cap, conc 8"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_score,,all,,0.581058020478,,fraction,measured,"arc_challenge acc_norm, full test set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,quality_score,,all,,0.768745067088,,fraction,measured,"winogrande acc, full set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,sign_test_p,,all,,1,,p,derived,ifeval: exact two-sided sign test on flips
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,sign_test_p,,all,,1,,p,derived,gsm8k: exact two-sided sign test on flips
+2026-09-24-qwen38-27b-speed-campaign,genquality-f1-load-mtp1,truncated_outputs,,all,1319,598,,count,measured,"gsm8k generations ending at the 256-token harness cap; 721 stop of 1,319; all arms identical"
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,paired_only_first,,all,,0,,count,measured,ifeval: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,paired_only_first,,all,,2,,count,measured,gsm8k: items correct only on the control (lost)
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,paired_only_second,,all,,0,,count,measured,ifeval: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,paired_only_second,,all,,2,,count,measured,gsm8k: items correct only on this arm (gained vs control)
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_correct,,all,150,127,,count,measured,ifeval prompt-level strict; 150 frozen pilot items
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_correct,,all,1319,723,,count,derived,gsm8k; score x 1319
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_items,,all,,150,,count,measured,ifeval
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_score,,all,150,0.846666666667,,fraction,derived,"ifeval strict, correct / 150"
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_score,,all,1319,0.548142532221,,fraction,measured,"gsm8k exact_match flexible-extract, 0-shot, 256-token cap, conc 8"
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_score,,all,,0.581058020478,,fraction,measured,"arc_challenge acc_norm, full test set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,quality_score,,all,,0.768745067088,,fraction,measured,"winogrande acc, full set"
+2026-09-24-qwen38-27b-speed-campaign,genquality-q0-control-repeat,truncated_outputs,,all,1319,598,,count,measured,"gsm8k generations ending at the 256-token harness cap; 721 stop of 1,319; all arms identical"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_score,,all,50,0.08,,fraction,measured,"arith, 50 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_score,,all,40,1,,fraction,measured,"reverse, 40 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_score,,all,30,1,,fraction,measured,"sequence, 30 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c1,quality_score,,all,40,0.975,,fraction,measured,"sort, 40 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_score,,all,50,0.08,,fraction,measured,"arith, 50 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_score,,all,40,1,,fraction,measured,"reverse, 40 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_score,,all,30,1,,fraction,measured,"sequence, 30 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f0-control-final-c8,quality_score,,all,40,0.975,,fraction,measured,"sort, 40 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,greedy_matching_prompts,,all,,191,,count,measured,identical to control; median first-divergence char 641
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_score,,all,,0.08,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c1,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,greedy_matching_prompts,,all,,191,,count,measured,identical to control; median first-divergence char 656
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_score,,all,160,0.7125,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_score,,all,,0.1,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-int-mtp2-xpugraph-c8,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,greedy_matching_prompts,,all,,190,,count,measured,identical to control; median first-divergence char 657.0
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_score,,all,,0.08,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c1,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,greedy_matching_prompts,,all,,191,,count,measured,identical to control; median first-divergence char 627
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_score,,all,,0.08,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-f1-load-mtp1-c8,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,greedy_matching_prompts,,all,,200,,count,measured,identical to control; median first-divergence char n/a
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_score,,all,,0.08,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c1,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,greedy_matching_prompts,,all,,200,,count,measured,identical to control; median first-divergence char n/a
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_items,,all,,160,,count,measured,checkable prompts
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_score,,all,160,0.70625,,fraction,measured,"checkable accuracy, 160 of 200 prompts"
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_score,,all,,0.08,,fraction,measured,arith
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_score,,all,,1,,fraction,measured,reverse
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_score,,all,,1,,fraction,measured,sequence
+2026-09-24-qwen38-27b-speed-campaign,greedy-q0-control-repeat-c8,quality_score,,all,,0.975,,fraction,measured,sort
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_items,,all,150,150,,count,measured,arc_challenge
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_items,,all,150,150,,count,measured,winogrande
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_items,,all,150,150,,count,measured,hellaswag
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_items,,all,150,150,,count,measured,kasa_mmlu
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_items,,all,150,150,,count,measured,boolq
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.52,,fraction,measured,"arc_challenge acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.6,,fraction,measured,"arc_challenge acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.753333333333,,fraction,measured,"winogrande acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.686666666667,,fraction,measured,"hellaswag acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.826666666667,,fraction,measured,"hellaswag acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.786666666667,,fraction,measured,"kasa_mmlu acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_score,,all,150,0.84,,fraction,measured,"boolq acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f0-control-final,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_items,,all,150,150,,count,measured,arc_challenge
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_items,,all,150,150,,count,measured,winogrande
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_items,,all,150,150,,count,measured,hellaswag
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_items,,all,150,150,,count,measured,kasa_mmlu
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_items,,all,150,150,,count,measured,boolq
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.52,,fraction,measured,"arc_challenge acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.6,,fraction,measured,"arc_challenge acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.753333333333,,fraction,measured,"winogrande acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.686666666667,,fraction,measured,"hellaswag acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.826666666667,,fraction,measured,"hellaswag acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.786666666667,,fraction,measured,"kasa_mmlu acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_score,,all,150,0.84,,fraction,measured,"boolq acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-int-mtp2-xpugraph,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_items,,all,150,150,,count,measured,arc_challenge
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_items,,all,150,150,,count,measured,winogrande
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_items,,all,150,150,,count,measured,hellaswag
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_items,,all,150,150,,count,measured,kasa_mmlu
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_items,,all,150,150,,count,measured,boolq
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.52,,fraction,measured,"arc_challenge acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.6,,fraction,measured,"arc_challenge acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.753333333333,,fraction,measured,"winogrande acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.686666666667,,fraction,measured,"hellaswag acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.826666666667,,fraction,measured,"hellaswag acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.786666666667,,fraction,measured,"kasa_mmlu acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_score,,all,150,0.84,,fraction,measured,"boolq acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-f1-load-mtp1,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_items,,all,150,150,,count,measured,arc_challenge
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_items,,all,150,150,,count,measured,winogrande
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_items,,all,150,150,,count,measured,hellaswag
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_items,,all,150,150,,count,measured,kasa_mmlu
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_items,,all,150,150,,count,measured,boolq
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.52,,fraction,measured,"arc_challenge acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.6,,fraction,measured,"arc_challenge acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.753333333333,,fraction,measured,"winogrande acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.686666666667,,fraction,measured,"hellaswag acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.826666666667,,fraction,measured,"hellaswag acc_norm; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.786666666667,,fraction,measured,"kasa_mmlu acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_score,,all,150,0.84,,fraction,measured,"boolq acc; 0-shot, 150 frozen items"
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-24-qwen38-27b-speed-campaign,lmeval-q0-control-repeat,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-cold,cache_hit_rate,mean,all,12,0.786136861011,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-cold,spec_acceptance,,all,12,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-cold,time_to_answer_s,mean,all,12,39.6092955833,,s,measured,"deep corpus, whole conversation; CV 5.7% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-cold,tpot_mean_ms,mean,all,12,42.0820029796,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-cold,ttft_mean_ms,mean,all,12,1522.9002037,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,cache_hit_rate,mean,all,12,0.962796829778,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,spec_acceptance,,all,12,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,time_to_answer_s,mean,all,12,31.9596279167,,s,measured,"deep corpus, whole conversation; CV 7.0% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,tpot_mean_ms,mean,all,12,42.0409283419,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,ttft_mean_ms,mean,all,12,678.775222222,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-deep-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-cold,cache_hit_rate,mean,all,12,0.60130585182,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-cold,spec_acceptance,,all,12,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-cold,time_to_answer_s,mean,all,12,23.1343550833,,s,measured,"standard corpus, whole conversation; CV 9.6% across 4 conversations x 3 reps; 4555 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-cold,tpot_mean_ms,mean,all,12,45.0029340782,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-cold,ttft_mean_ms,mean,all,12,1447.47339583,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,cache_hit_rate,mean,all,12,0.901958777731,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,spec_acceptance,,all,12,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,time_to_answer_s,mean,all,12,20.24256175,,s,measured,"standard corpus, whole conversation; CV 10.9% across 4 conversations x 3 reps; 4555 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,tpot_mean_ms,mean,all,12,45.0717244584,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,ttft_mean_ms,mean,all,12,711.590375,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-ctl-standard-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,cache_hit_rate,mean,all,12,0.715472873505,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,spec_acceptance,,all,12,0.992891490696,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,speedup_ratio,mean,all,12,1.72945745632,,ratio,derived,"headline over eager: control time to answer over this arm's, deep cold"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,time_to_answer_s,mean,all,12,22.9027290833,,s,measured,"deep corpus, whole conversation; CV 3.1% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,tpot_mean_ms,mean,all,12,13.3382268318,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-cold,ttft_mean_ms,mean,all,12,1637.69391667,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,cache_hit_rate,mean,all,12,0.883299843833,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,spec_acceptance,,all,12,0.992891490696,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,speedup_ratio,mean,all,12,2.07173907353,,ratio,derived,"headline over eager: control time to answer over this arm's, deep warm"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,time_to_answer_s,mean,all,12,15.4264735,,s,measured,"deep corpus, whole conversation; CV 4.6% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,tpot_mean_ms,mean,all,12,13.3353620659,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,ttft_mean_ms,mean,all,12,807.125648148,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-deep-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,cache_hit_rate,mean,all,12,0.488561004604,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,spec_acceptance,,all,12,0.988595633757,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,speedup_ratio,mean,all,12,2.01800126646,,ratio,derived,"headline over eager: control time to answer over this arm's, standard cold"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,time_to_answer_s,mean,all,12,11.4639943333,,s,measured,"standard corpus, whole conversation; CV 6.0% across 4 conversations x 3 reps; 4581 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,tpot_mean_ms,mean,all,12,14.1721197547,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-cold,ttft_mean_ms,mean,all,12,1501.186625,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,cache_hit_rate,mean,all,12,0.751632314775,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,spec_acceptance,,all,12,0.988595633757,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,speedup_ratio,mean,all,12,2.29957834755,,ratio,derived,"headline over eager: control time to answer over this arm's, standard warm"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,time_to_answer_s,mean,all,12,8.80272758333,,s,measured,"standard corpus, whole conversation; CV 7.7% across 4 conversations x 3 reps; 4568 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,tpot_mean_ms,mean,all,12,14.1454264975,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,ttft_mean_ms,mean,all,12,840.982583333,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-int-standard-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,cache_hit_rate,mean,all,12,0.715472873505,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,spec_acceptance,,all,12,0.995791245791,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,speedup_ratio,mean,all,12,1.28245002226,,ratio,derived,"MTP-1 over eager: control time to answer over this arm's, deep cold"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,time_to_answer_s,mean,all,12,30.8856445833,,s,measured,"deep corpus, whole conversation; CV 4.1% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,tpot_mean_ms,mean,all,12,24.6616169201,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-cold,ttft_mean_ms,mean,all,12,1752.11391667,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,cache_hit_rate,mean,all,12,0.883299843833,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,spec_acceptance,,all,12,0.995791245791,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,speedup_ratio,mean,all,12,1.36199221651,,ratio,derived,"MTP-1 over eager: control time to answer over this arm's, deep warm"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,time_to_answer_s,mean,all,12,23.4653528333,,s,measured,"deep corpus, whole conversation; CV 5.3% across 4 conversations x 3 reps; 7164 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,tpot_mean_ms,mean,all,12,24.6847836368,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,ttft_mean_ms,mean,all,12,925.251148148,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-deep-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,cache_hit_rate,mean,all,12,0.488561004604,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,spec_acceptance,,all,12,0.991460477337,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,speedup_ratio,mean,all,12,1.39510326311,,ratio,derived,"MTP-1 over eager: control time to answer over this arm's, standard cold"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,time_to_answer_s,mean,all,12,16.5825395833,,s,measured,"standard corpus, whole conversation; CV 7.4% across 4 conversations x 3 reps; 4568 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,tpot_mean_ms,mean,all,12,26.3109911954,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-cold,ttft_mean_ms,mean,all,12,1614.896875,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,cache_hit_rate,mean,all,12,0.751632314775,,fraction,measured,prefix cache
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,spec_acceptance,,all,12,0.991460477337,,fraction,measured,"corpus-level spec-decode counters, cold and warm passes pooled"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,speedup_ratio,mean,all,12,1.45051748551,,ratio,derived,"MTP-1 over eager: control time to answer over this arm's, standard warm"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,time_to_answer_s,mean,all,12,13.9554069167,,s,measured,"standard corpus, whole conversation; CV 8.6% across 4 conversations x 3 reps; 4568 completion tokens"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,tpot_mean_ms,mean,all,12,26.3393676028,,ms,measured,"decode ms/token, (e2e - TTFT)/(completion tokens - 1) per turn"
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,ttft_mean_ms,mean,all,12,955.4463125,,ms,measured,per-turn mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,ttft_p50_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,mt-load-standard-warm,ttft_p95_ms,,all,12,,,ms,unavailable,per-turn warm; this campaign's summary records only the mean
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c1,output_throughput,mean,all,3,19.4717228211,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c1,output_throughput_cv,cv,all,3,0.178949304817,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c1,tpot_p95_ms,p95_mean,all,3,50.7696429902,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c1,ttft_p95_ms,p95_mean,all,3,767.879425577,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c16,output_throughput,mean,all,3,230.056780062,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c16,output_throughput_cv,cv,all,3,0.0152359422535,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c16,tpot_p95_ms,p95_mean,all,3,67.9292094215,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c16,ttft_p95_ms,p95_mean,all,3,11662.1305251,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c32,output_throughput,mean,all,3,289.263295215,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c32,output_throughput_cv,cv,all,3,0.00335889236411,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c32,tpot_p95_ms,p95_mean,all,3,99.159151263,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c32,ttft_p95_ms,p95_mean,all,3,17937.8743157,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c8,output_throughput,mean,all,3,148.133755993,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c8,output_throughput_cv,cv,all,3,0.278900799289,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c8,tpot_p95_ms,p95_mean,all,3,52.6122206495,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-close-c8,ttft_p95_ms,p95_mean,all,3,5879.46572504,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c1,output_throughput,mean,all,3,19.5116571212,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c1,output_throughput_cv,cv,all,3,0.366221387643,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c1,tpot_p95_ms,p95_mean,all,3,51.150522371,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c1,ttft_p95_ms,p95_mean,all,3,768.902207754,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c16,output_throughput,mean,all,3,230.045013783,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c16,output_throughput_cv,cv,all,3,0.0126890029027,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c16,tpot_p95_ms,p95_mean,all,3,67.9473915473,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c16,ttft_p95_ms,p95_mean,all,3,11660.6099495,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c32,output_throughput,mean,all,3,289.214438637,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c32,output_throughput_cv,cv,all,3,0.00227566379456,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c32,tpot_p95_ms,p95_mean,all,3,99.1766171013,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c32,ttft_p95_ms,p95_mean,all,3,17940.6247679,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c8,output_throughput,mean,all,3,148.704168382,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c8,output_throughput_cv,cv,all,3,0.297556293237,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c8,tpot_p95_ms,p95_mean,all,3,52.41630087,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-control-open-c8,ttft_p95_ms,p95_mean,all,3,5879.18172084,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c1,output_throughput,mean,all,3,49.7663067391,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c1,output_throughput_cv,cv,all,3,0.405625509273,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c1,speedup_ratio,mean,all,3,2.5532063568,,ratio,derived,over control median 19.49 tok/s; phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c1,tpot_p95_ms,p95_mean,all,3,20.3324066693,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c1,ttft_p95_ms,p95_mean,all,3,822.583660081,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c16,output_throughput,mean,all,3,268.569257184,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c16,output_throughput_cv,cv,all,3,0.0697025561206,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c16,speedup_ratio,mean,all,3,1.16743407992,,ratio,derived,over control median 230.1 tok/s; phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c16,tpot_p95_ms,p95_mean,all,3,65.396966158,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c16,ttft_p95_ms,p95_mean,all,3,11922.8395318,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c32,output_throughput,mean,all,3,219.124981684,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c32,output_throughput_cv,cv,all,3,0.796869764305,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c32,speedup_ratio,mean,all,3,0.757591758028,,ratio,derived,over control median 289.2 tok/s; phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c32,tpot_p95_ms,p95_mean,all,3,125.113070028,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c32,ttft_p95_ms,p95_mean,all,3,37873.5666893,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c8,output_throughput,mean,all,3,207.118932234,,tok/s,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c8,output_throughput_cv,cv,all,3,0.910798929096,,percent,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c8,speedup_ratio,mean,all,3,1.39550182255,,ratio,derived,over control median 148.4 tok/s; phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c8,tpot_p95_ms,p95_mean,all,3,40.4492035473,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-c8,ttft_p95_ms,p95_mean,all,3,6710.55578393,,ms,measured,phase-2 combination re-screen
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-interactive,speedup_ratio,geomean,all,3,1.88759214987,,ratio,derived,interactive track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,p2-int-mtp2-xpugraph-loaded,speedup_ratio,geomean,all,3,0.940445871376,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c1,output_throughput,mean,all,5,19,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c1,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c1,tpot_p95_ms,p95_mean,all,5,52.9,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c1,ttft_p95_ms,p95_mean,all,5,791,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c1-router-cost,speedup_ratio,mean,all,3,0.9772,,ratio,derived,"through router over direct to replica 0, 3 reps each; throughput -2.28%, TTFT +25 ms"
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c16,output_throughput,mean,all,5,318.3,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c16,tpot_p95_ms,p95_mean,all,5,48.6,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c16,ttft_p95_ms,p95_mean,all,5,2974,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c2,output_throughput,mean,all,5,38.2,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c2,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c2,tpot_p95_ms,p95_mean,all,5,52.4,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c2,ttft_p95_ms,p95_mean,all,5,786,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c32,output_throughput,mean,all,5,577.8,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c32,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c32,tpot_p95_ms,p95_mean,all,5,53.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c32,ttft_p95_ms,p95_mean,all,5,5869,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c4,output_throughput,mean,all,5,74,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c4,tpot_p95_ms,p95_mean,all,5,53.5,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c4,ttft_p95_ms,p95_mean,all,5,805,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c8,output_throughput,mean,all,5,168.3,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c8,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c8,tpot_p95_ms,p95_mean,all,5,46.8,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-ctl-c8,ttft_p95_ms,p95_mean,all,5,1569,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1,output_throughput,mean,all,5,49.9,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1,speedup_ratio,mean,all,5,2.62631578947,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1,tpot_p95_ms,p95_mean,all,5,20.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1,ttft_p95_ms,p95_mean,all,5,815,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c1-router-cost,speedup_ratio,mean,all,3,1.0024,,ratio,derived,"through router over direct to replica 0, 3 reps each; throughput +0.24%, TTFT -7 ms"
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c16,output_throughput,mean,all,5,508,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c16,speedup_ratio,mean,all,5,1.59597863651,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c16,tpot_p95_ms,p95_mean,all,5,32.4,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c16,ttft_p95_ms,p95_mean,all,5,3037,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c2,output_throughput,mean,all,5,98.9,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c2,speedup_ratio,mean,all,5,2.5890052356,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c2,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c2,tpot_p95_ms,p95_mean,all,5,20.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c2,ttft_p95_ms,p95_mean,all,5,817,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c32,output_throughput,mean,all,5,826.6,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c32,speedup_ratio,mean,all,5,1.43059882312,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c32,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c32,tpot_p95_ms,p95_mean,all,5,42,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c32,ttft_p95_ms,p95_mean,all,5,5972,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c4,output_throughput,mean,all,5,196.2,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c4,speedup_ratio,mean,all,5,2.65135135135,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c4,tpot_p95_ms,p95_mean,all,5,20.5,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c4,ttft_p95_ms,p95_mean,all,5,837,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,output_throughput,mean,all,5,343.1,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,output_throughput_cv,cv,all,5,2.78,,percent,measured,only cell reported individually
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,speedup_ratio,mean,all,5,2.03862150921,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,tpot_p95_ms,p95_mean,all,5,23.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,,1,,7910,,ms,measured,rep 1 carries the first batch-2 speculative decode
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,,2,,1583,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,,3,,1487,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,,4,,1568,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,,5,,1487,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-int-c8,ttft_p95_ms,p95_mean,all,5,2807,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1,output_throughput,mean,all,5,29.5,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1,speedup_ratio,mean,all,5,1.55263157895,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1,tpot_p95_ms,p95_mean,all,5,34,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1,ttft_p95_ms,p95_mean,all,5,860,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c1-router-cost,speedup_ratio,mean,all,3,0.9943,,ratio,derived,"through router over direct to replica 0, 3 reps each; throughput -0.57%, TTFT +21 ms"
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c16,output_throughput,mean,all,5,413.8,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c16,speedup_ratio,mean,all,5,1.3000314169,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c16,tpot_p95_ms,p95_mean,all,5,38.8,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c16,ttft_p95_ms,p95_mean,all,5,3071,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c2,output_throughput,mean,all,5,58.6,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c2,speedup_ratio,mean,all,5,1.53403141361,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c2,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c2,tpot_p95_ms,p95_mean,all,5,34.3,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c2,ttft_p95_ms,p95_mean,all,5,858,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c32,output_throughput,mean,all,5,718.1,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c32,speedup_ratio,mean,all,5,1.24281758394,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c32,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c32,tpot_p95_ms,p95_mean,all,5,46.1,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c32,ttft_p95_ms,p95_mean,all,5,6018,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c4,output_throughput,mean,all,5,116.1,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c4,speedup_ratio,mean,all,5,1.56891891892,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c4,tpot_p95_ms,p95_mean,all,5,34.4,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c4,ttft_p95_ms,p95_mean,all,5,881,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,output_throughput,mean,all,5,219.8,,tok/s,measured,aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,speedup_ratio,mean,all,5,1.30600118835,,ratio,derived,over four control replicas
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,tpot_p95_ms,p95_mean,all,5,36.1,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,,1,,5746,,ms,measured,rep 1 carries the first batch-2 speculative decode
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,,2,,1624,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,,3,,1603,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,,4,,1511,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,,5,,1614,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4-load-c8,ttft_p95_ms,p95_mean,all,5,2419,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c16,output_throughput,mean,all,5,318,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c16,tpot_p95_ms,p95_mean,all,5,,,ms,unavailable,not printed for c16
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c16,ttft_p95_ms,,0,,2961,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c16,ttft_p95_ms,p95_mean,all,5,2963,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c4,output_throughput,mean,all,5,74.2,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c4,tpot_p95_ms,p95_mean,all,5,53.4,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c4,ttft_p95_ms,,0,,823,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c4,ttft_p95_ms,p95_mean,all,5,806,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c8,output_throughput,mean,all,5,168.7,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c8,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c8,tpot_p95_ms,p95_mean,all,5,46.5,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c8,ttft_p95_ms,,0,,1572,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-ctl-c8,ttft_p95_ms,p95_mean,all,5,1572,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,output_throughput,mean,all,5,510.4,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,speedup_ratio,mean,all,5,1.60503144654,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,tpot_p95_ms,p95_mean,all,5,,,ms,unavailable,not printed for c16
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,ttft_p95_ms,,0,,3038,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c16,ttft_p95_ms,p95_mean,all,5,3024,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,output_throughput,mean,all,5,196.2,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,speedup_ratio,mean,all,5,2.64420485175,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,tpot_p95_ms,p95_mean,all,5,20.5,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,ttft_p95_ms,,0,,856,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c4,ttft_p95_ms,p95_mean,all,5,838,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,output_throughput,mean,all,5,345.4,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,speedup_ratio,mean,all,5,2.04742145821,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,tpot_p95_ms,p95_mean,all,5,23.4,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,ttft_p95_ms,,0,,7857,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,ttft_p95_ms,max,all,5,1584,,ms,measured,pre-warmed; max over reps
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,ttft_p95_ms,min,all,5,1479,,ms,measured,pre-warmed; min over reps
+2026-09-24-qwen38-27b-speed-campaign,p4b-int-c8,ttft_p95_ms,p95_mean,all,5,1541,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,output_throughput,mean,all,5,412.8,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,speedup_ratio,mean,all,5,1.29811320755,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,target_met,,all,5,0,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,tpot_p95_ms,p95_mean,all,5,,,ms,unavailable,not printed for c16
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,ttft_p95_ms,,0,,3077,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c16,ttft_p95_ms,p95_mean,all,5,3066,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,output_throughput,mean,all,5,116.5,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,speedup_ratio,mean,all,5,1.57008086253,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,tpot_p95_ms,p95_mean,all,5,34.5,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,ttft_p95_ms,,0,,895,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c4,ttft_p95_ms,p95_mean,all,5,878,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,output_throughput,mean,all,5,221.9,,tok/s,measured,pre-warmed; aggregate through the router
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,speedup_ratio,mean,all,5,1.3153526971,,ratio,derived,"over four control replicas, pre-warmed"
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,target_met,,all,5,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms; every rep
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,tpot_p95_ms,p95_mean,all,5,36,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,ttft_p95_ms,,0,,5738,,ms,measured,discarded pre-warm pass (rep 0)
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,ttft_p95_ms,max,all,5,1634,,ms,measured,pre-warmed; max over reps
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,ttft_p95_ms,min,all,5,1603,,ms,measured,pre-warmed; min over reps
+2026-09-24-qwen38-27b-speed-campaign,p4b-load-c8,ttft_p95_ms,p95_mean,all,5,1619,,ms,measured,pre-warmed
+2026-09-24-qwen38-27b-speed-campaign,quality-f1-int-mtp2-xpugraph,spec_acceptance,,all,,0.798532440783,,fraction,derived,"greedy quality run, c1 and c8 pooled, synthetic prompts; 18609 of 23304 draft tokens"
+2026-09-24-qwen38-27b-speed-campaign,quality-f1-load-mtp1,spec_acceptance,,all,,0.880811761749,,fraction,derived,"greedy quality run, c1 and c8 pooled, synthetic prompts; 14019 of 15916 draft tokens"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,output_throughput,,all,1,19.345919931,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,tpot_mean_ms,mean,all,1,50.735407157,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,tpot_p95_ms,p95,all,1,52.5723743375,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,ttft_mean_ms,mean,all,1,180.017353797,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c1,ttft_p95_ms,p95,all,1,197.389766225,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,output_throughput,,all,1,152.343599339,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,tpot_mean_ms,mean,all,1,47.0123559111,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,tpot_p95_ms,p95,all,1,49.6941075129,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,ttft_mean_ms,mean,all,1,265.005670489,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f0-control-final-c8,ttft_p95_ms,p95,all,1,658.825723542,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,output_throughput,,all,1,45.6641839744,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,spec_acceptance,,all,1,0.600217864924,,fraction,measured,"per draft token, per cell; 1.20 accepted per draft, 4131 drafts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,speedup_ratio,,all,1,2.36040385452,,ratio,derived,"over eager, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,tpot_mean_ms,mean,all,1,21.4878753956,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,tpot_p95_ms,p95,all,1,26.7216825191,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,ttft_mean_ms,mean,all,1,228.671341082,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c1,ttft_p95_ms,p95,all,1,248.77324379,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,output_throughput,,all,1,220.419944916,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,spec_acceptance,,all,1,0.595166696066,,fraction,measured,"per draft token, per cell; 1.19 accepted per draft, 11338 drafts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,speedup_ratio,,all,1,1.44686055648,,ratio,derived,"over eager, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,tpot_mean_ms,mean,all,1,33.0306202977,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,tpot_p95_ms,p95,all,1,41.0889630237,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,ttft_mean_ms,mean,all,1,364.350831904,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-int-mtp2-xpugraph-c8,ttft_p95_ms,p95,all,1,781.20927065,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,output_throughput,,all,1,29.3782081066,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,spec_acceptance,,all,1,0.742566660272,,fraction,measured,"per draft token, per cell; 0.74 accepted per draft, 5213 drafts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,speedup_ratio,,all,1,1.51857384975,,ratio,derived,"over eager, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,tpot_mean_ms,mean,all,1,33.6405014169,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,tpot_p95_ms,p95,all,1,38.137152519,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,ttft_mean_ms,mean,all,1,239.420484053,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c1,ttft_p95_ms,p95,all,1,257.794062613,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,output_throughput,,all,1,192.542863389,,tok/s,measured,"IFEval sentinel corpus, natural EOS"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,spec_acceptance,,all,1,0.746418539326,,fraction,measured,"per draft token, per cell; 0.75 accepted per draft, 14240 drafts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,speedup_ratio,,all,1,1.26387235319,,ratio,derived,"over eager, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,tpot_mean_ms,mean,all,1,36.9814061152,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,tpot_p95_ms,p95,all,1,42.3471178648,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,ttft_mean_ms,mean,all,1,367.438077488,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-f1-load-mtp1-c8,ttft_p95_ms,p95,all,1,842.948996963,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,output_throughput,,all,1,19.681168445,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,tpot_p95_ms,p95,all,1,52.1844514053,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c1,ttft_p95_ms,p95,all,1,218.373863032,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,output_throughput,,all,1,291.667660901,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,tpot_p95_ms,p95,all,1,47.604242421,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c16,ttft_p95_ms,p95,all,1,462.45036844,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,output_throughput,,all,1,39.2702984696,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,tpot_p95_ms,p95,all,1,50.5597692222,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c2,ttft_p95_ms,p95,all,1,209.83511688,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,completed_requests,,all,1,256,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,output_throughput,,all,1,557.674114616,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,tpot_p95_ms,p95,all,1,49.2898386982,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c32,ttft_p95_ms,p95,all,1,743.342892791,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,output_throughput,,all,1,73.7810266769,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,tpot_p95_ms,p95,all,1,50.9853404808,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c4,ttft_p95_ms,p95,all,1,196.322472993,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,completed_requests,,all,1,64,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,output_throughput,,all,1,153.319808524,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,spec_acceptance,,all,1,,,fraction,not_applicable,no drafter
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,tpot_p95_ms,p95,all,1,45.8680758606,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-ctl-c8,ttft_p95_ms,p95,all,1,329.777057696,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,output_throughput,,all,1,45.8906015262,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,spec_acceptance,,all,1,0.599227426364,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,speedup_ratio,,all,1,2.33170107021,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,tpot_p95_ms,p95,all,1,26.6010168038,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c1,ttft_p95_ms,p95,all,1,231.894192012,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,output_throughput,,all,1,467.468834513,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,spec_acceptance,,all,1,0.596818504077,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,speedup_ratio,,all,1,1.60274482631,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,tpot_p95_ms,p95,all,1,34.8808131068,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c16,ttft_p95_ms,p95,all,1,514.2169901,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,output_throughput,,all,1,91.0260437888,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,spec_acceptance,,all,1,0.600484261501,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,speedup_ratio,,all,1,2.31793613332,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,tpot_p95_ms,p95,all,1,26.6097108658,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c2,ttft_p95_ms,p95,all,1,229.341795162,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,completed_requests,,all,1,256,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,output_throughput,,all,1,833.866863792,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,spec_acceptance,,all,1,0.60856531947,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,speedup_ratio,,all,1,1.49525832729,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,tpot_p95_ms,p95,all,1,41.4335315171,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c32,ttft_p95_ms,p95,all,1,862.832029059,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,output_throughput,,all,1,168.736236422,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,spec_acceptance,,all,1,0.600484261501,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,speedup_ratio,,all,1,2.28698683146,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,tpot_p95_ms,p95,all,1,26.6248112073,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c4,ttft_p95_ms,p95,all,1,247.992415755,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,completed_requests,,all,1,64,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,output_throughput,,all,1,290.657617611,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,spec_acceptance,,all,1,0.595689798635,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,speedup_ratio,,all,1,1.8957603744,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,tpot_p95_ms,p95,all,1,27.6492350011,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-int-c8,ttft_p95_ms,p95,all,1,370.286003599,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,output_throughput,,all,1,29.0520967824,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,spec_acceptance,,all,1,0.742016160062,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,speedup_ratio,,all,1,1.4761367885,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,tpot_p95_ms,p95,all,1,38.2285654242,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c1,ttft_p95_ms,p95,all,1,273.80865934,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,completed_requests,,all,1,128,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,output_throughput,,all,1,371.785130835,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,spec_acceptance,,all,1,0.747140319716,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,speedup_ratio,,all,1,1.27468753199,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,tpot_p95_ms,p95,all,1,40.4275400656,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c16,ttft_p95_ms,p95,all,1,570.965065842,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,output_throughput,,all,1,57.3501047579,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,spec_acceptance,,all,1,0.743902439024,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,speedup_ratio,,all,1,1.46039391074,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,tpot_p95_ms,p95,all,1,38.2852776336,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c2,ttft_p95_ms,p95,all,1,268.815369258,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,completed_requests,,all,1,256,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,output_throughput,,all,1,700.327513004,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,spec_acceptance,,all,1,0.753712136211,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,speedup_ratio,,all,1,1.2558006453,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,tpot_p95_ms,p95,all,1,45.071180633,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c32,ttft_p95_ms,p95,all,1,947.320840962,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,completed_requests,,all,1,48,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,output_throughput,,all,1,108.417289861,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,spec_acceptance,,all,1,0.742566660272,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,speedup_ratio,,all,1,1.46944674999,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,tpot_p95_ms,p95,all,1,38.396943638,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c4,ttft_p95_ms,p95,all,1,256.838127499,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,completed_requests,,all,1,64,,count,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,output_throughput,,all,1,194.404927523,,tok/s,measured,aggregate through the router; IFEval corpus
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,spec_acceptance,,all,1,0.745269091397,,fraction,measured,"per draft token, summed over four replicas"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,speedup_ratio,,all,1,1.26797006463,,ratio,derived,"over four control replicas, same prompts"
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,target_met,,all,1,1,,bool,derived,p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,tpot_p95_ms,p95,all,1,38.5147821593,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,realprompt-p4-load-c8,ttft_p95_ms,p95,all,1,421.634063096,,ms,measured,
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c1,output_throughput,mean,all,3,19.4261181656,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c1,output_throughput_cv,cv,all,3,0.770284570175,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c1,tpot_p95_ms,p95_mean,all,3,52.00875641,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c1,ttft_p95_ms,p95_mean,all,3,767.645855905,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c16,output_throughput,mean,all,3,230.318223654,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c16,output_throughput_cv,cv,all,3,0.0140949511361,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c16,tpot_p95_ms,p95_mean,all,3,67.8490658227,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c16,ttft_p95_ms,p95_mean,all,3,11624.0810389,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c32,output_throughput,mean,all,3,289.830587394,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c32,output_throughput_cv,cv,all,3,0.0148642014714,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c32,tpot_p95_ms,p95_mean,all,3,98.9781894576,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c32,ttft_p95_ms,p95_mean,all,3,17895.4542004,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c8,output_throughput,mean,all,3,149.082270481,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c8,output_throughput_cv,cv,all,3,0.23800348497,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c8,tpot_p95_ms,p95_mean,all,3,52.1856035406,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s0-control-open-c8,ttft_p95_ms,p95_mean,all,3,5874.8342906,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c1,output_throughput,mean,all,3,18.9719639547,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c1,output_throughput_cv,cv,all,3,0.00675587435929,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c1,speedup_ratio,mean,all,3,0.987323722988,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c1,tpot_p95_ms,p95_mean,all,3,51.3406854327,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c1,ttft_p95_ms,p95_mean,all,3,769.299162833,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c16,output_throughput,mean,all,3,225.986257988,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c16,output_throughput_cv,cv,all,3,0.0021650102992,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c16,speedup_ratio,mean,all,3,0.98119138991,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c16,tpot_p95_ms,p95_mean,all,3,69.168511584,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c16,ttft_p95_ms,p95_mean,all,3,11658.9168156,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c32,output_throughput,mean,all,3,286.746854267,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c32,output_throughput_cv,cv,all,3,0.0149844418464,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c32,speedup_ratio,mean,all,3,0.989360221931,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c32,tpot_p95_ms,p95_mean,all,3,100.165061333,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c32,ttft_p95_ms,p95_mean,all,3,17906.4484568,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c8,output_throughput,mean,all,3,143.934831906,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c8,output_throughput_cv,cv,all,3,0.159346984429,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c8,speedup_ratio,mean,all,3,0.972605270752,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c8,tpot_p95_ms,p95_mean,all,3,53.9913127945,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-c8,ttft_p95_ms,p95_mean,all,3,5870.38561385,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-interactive,speedup_ratio,geomean,all,3,0.97993686374,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s1-esimd-on-loaded,speedup_ratio,geomean,all,3,0.985267340004,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c1,output_throughput,mean,all,3,19.6482803804,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c1,output_throughput_cv,cv,all,3,0.341610346873,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c1,speedup_ratio,mean,all,3,1.02252003967,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c1,tpot_p95_ms,p95_mean,all,3,50.3358681229,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c1,ttft_p95_ms,p95_mean,all,3,766.115751501,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c16,output_throughput,mean,all,3,230.2322795,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c16,output_throughput_cv,cv,all,3,0.00845188423562,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c16,speedup_ratio,mean,all,3,0.999626846056,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c16,tpot_p95_ms,p95_mean,all,3,67.8782849652,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c16,ttft_p95_ms,p95_mean,all,3,11647.0121332,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c32,output_throughput,mean,all,3,289.565394727,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c32,output_throughput_cv,cv,all,3,0.0151515051582,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c32,speedup_ratio,mean,all,3,0.999085008006,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c32,tpot_p95_ms,p95_mean,all,3,99.055459749,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c32,ttft_p95_ms,p95_mean,all,3,17911.2850092,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c8,output_throughput,mean,all,3,149.529289596,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c8,output_throughput_cv,cv,all,3,0.312683362169,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c8,speedup_ratio,mean,all,3,1.01040848325,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c8,tpot_p95_ms,p95_mean,all,3,52.0492473254,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-c8,ttft_p95_ms,p95_mean,all,3,5873.83821933,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-interactive,speedup_ratio,geomean,all,3,1.01644622207,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s10-block128-loaded,speedup_ratio,geomean,all,3,0.999355890309,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c1,output_throughput,mean,all,3,19.2155455328,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c1,output_throughput_cv,cv,all,3,0.530989793393,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c1,tpot_p95_ms,p95_mean,all,3,52.15746941,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c1,ttft_p95_ms,p95_mean,all,3,766.284310676,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c16,output_throughput,mean,all,3,230.41278337,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c16,output_throughput_cv,cv,all,3,0.0322888213712,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c16,tpot_p95_ms,p95_mean,all,3,67.8143736965,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c16,ttft_p95_ms,p95_mean,all,3,11620.1768803,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c32,output_throughput,mean,all,3,289.953565277,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c32,output_throughput_cv,cv,all,3,0.0073790404461,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c32,tpot_p95_ms,p95_mean,all,3,98.9303807698,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c32,ttft_p95_ms,p95_mean,all,3,17889.6000079,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c8,output_throughput,mean,all,3,147.988949099,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c8,output_throughput_cv,cv,all,3,0.266063533557,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c8,tpot_p95_ms,p95_mean,all,3,52.5534716866,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s11-control-mid-c8,ttft_p95_ms,p95_mean,all,3,5873.31355511,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c1,output_throughput,mean,all,3,19.1146221323,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c1,output_throughput_cv,cv,all,3,0.254640850309,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c1,tpot_p95_ms,p95_mean,all,3,52.0046182512,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c1,ttft_p95_ms,p95_mean,all,3,767.134287404,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c16,output_throughput,mean,all,3,230.118636112,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c16,output_throughput_cv,cv,all,3,0.00166669509397,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c16,tpot_p95_ms,p95_mean,all,3,67.9176883657,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c16,ttft_p95_ms,p95_mean,all,3,11658.2163411,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c32,output_throughput,mean,all,3,289.292033117,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c32,output_throughput_cv,cv,all,3,0.00127274451921,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c32,tpot_p95_ms,p95_mean,all,3,99.1403628486,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c32,ttft_p95_ms,p95_mean,all,3,17931.0032121,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c8,output_throughput,mean,all,3,147.750613731,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c8,output_throughput_cv,cv,all,3,0.198021197304,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c8,tpot_p95_ms,p95_mean,all,3,52.6791598352,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s12-control-close-c8,ttft_p95_ms,p95_mean,all,3,5878.11737941,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c1,output_throughput,mean,all,3,18.8973087406,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c1,output_throughput_cv,cv,all,3,0.835088542074,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c1,speedup_ratio,mean,all,3,0.983438576247,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c1,tpot_p95_ms,p95_mean,all,3,52.7721107956,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c1,ttft_p95_ms,p95_mean,all,3,768.086537433,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c16,output_throughput,mean,all,3,230.170004676,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c16,output_throughput_cv,cv,all,3,0.0166183612319,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c16,speedup_ratio,mean,all,3,0.999356460054,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c16,tpot_p95_ms,p95_mean,all,3,67.8880724701,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c16,ttft_p95_ms,p95_mean,all,3,11669.1554059,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c32,output_throughput,mean,all,3,289.493042226,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c32,output_throughput_cv,cv,all,3,0.00855670372302,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c32,speedup_ratio,mean,all,3,0.998835370788,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c32,tpot_p95_ms,p95_mean,all,3,99.0803827503,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c32,ttft_p95_ms,p95_mean,all,3,17910.3404881,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c8,output_throughput,mean,all,3,146.919816532,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c8,output_throughput_cv,cv,all,3,0.515866768122,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c8,speedup_ratio,mean,all,3,0.992775591875,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c8,tpot_p95_ms,p95_mean,all,3,53.0396929292,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-c8,ttft_p95_ms,p95_mean,all,3,5873.55669297,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-interactive,speedup_ratio,geomean,all,3,0.988096055354,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s13-gpu95-loaded,speedup_ratio,geomean,all,3,0.999095881449,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c1,output_throughput,mean,all,3,29.6187350805,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c1,output_throughput_cv,cv,all,3,0.174949775114,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c1,speedup_ratio,mean,all,3,1.5413944418,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c1,tpot_p95_ms,p95_mean,all,3,33.9652506972,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c1,ttft_p95_ms,p95_mean,all,3,839.565966589,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c16,output_throughput,mean,all,3,258.440086079,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c16,output_throughput_cv,cv,all,3,0.128534452079,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c16,speedup_ratio,mean,all,3,1.12210003177,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c16,tpot_p95_ms,p95_mean,all,3,66.1087130307,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c16,ttft_p95_ms,p95_mean,all,3,11913.7657502,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c32,output_throughput,mean,all,3,298.597523094,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c32,output_throughput_cv,cv,all,3,0.145667945761,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c32,speedup_ratio,mean,all,3,1.03024848336,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c32,tpot_p95_ms,p95_mean,all,3,118.662916422,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c32,ttft_p95_ms,p95_mean,all,3,18319.1050355,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c8,output_throughput,mean,all,3,180.483383383,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c8,output_throughput_cv,cv,all,3,0.633682759734,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c8,speedup_ratio,mean,all,3,1.21957338357,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c8,tpot_p95_ms,p95_mean,all,3,44.9336602826,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-c8,ttft_p95_ms,p95_mean,all,3,6056.4897226,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-interactive,speedup_ratio,geomean,all,3,1.37107389838,,ratio,derived,interactive track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,s2-mtp1-loaded,speedup_ratio,geomean,all,3,1.07519386899,,ratio,derived,loaded track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c1,output_throughput,mean,all,3,37.8342662324,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c1,output_throughput_cv,cv,all,3,0.323606091935,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c1,speedup_ratio,mean,all,3,1.96894052099,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c1,tpot_p95_ms,p95_mean,all,3,27.2719060734,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c1,ttft_p95_ms,p95_mean,all,3,844.739276339,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c16,output_throughput,mean,all,3,268.48722283,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c16,output_throughput_cv,cv,all,3,0.172083237821,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c16,speedup_ratio,mean,all,3,1.16572287929,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c16,tpot_p95_ms,p95_mean,all,3,64.8828778935,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c16,ttft_p95_ms,p95_mean,all,3,11951.2043114,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c32,output_throughput,mean,all,3,218.955363114,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c32,output_throughput_cv,cv,all,3,0.427756326784,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c32,speedup_ratio,mean,all,3,0.755459819069,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c32,tpot_p95_ms,p95_mean,all,3,125.036791544,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c32,ttft_p95_ms,p95_mean,all,3,36918.3595562,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c8,output_throughput,mean,all,3,208.526526346,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c8,output_throughput_cv,cv,all,3,0.860602324249,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c8,speedup_ratio,mean,all,3,1.40906822852,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c8,tpot_p95_ms,p95_mean,all,3,39.6765924386,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-c8,ttft_p95_ms,p95_mean,all,3,6750.85519372,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-interactive,speedup_ratio,geomean,all,3,1.66564447946,,ratio,derived,interactive track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,s3-mtp2-loaded,speedup_ratio,geomean,all,3,0.938433159832,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c1,output_throughput,mean,all,3,38.9463956891,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c1,output_throughput_cv,cv,all,3,0.284753474918,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c1,speedup_ratio,mean,all,3,2.02681706968,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c1,tpot_p95_ms,p95_mean,all,3,26.821919839,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c1,ttft_p95_ms,p95_mean,all,3,854.31553909,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c16,output_throughput,mean,all,3,255.940083231,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c16,output_throughput_cv,cv,all,3,0.188050759148,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c16,speedup_ratio,mean,all,3,1.11124547233,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c16,tpot_p95_ms,p95_mean,all,3,69.0885177515,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c16,ttft_p95_ms,p95_mean,all,3,11975.3159734,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c32,output_throughput,mean,all,3,211.384151815,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c32,output_throughput_cv,cv,all,3,0.136661373664,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c32,speedup_ratio,mean,all,3,0.729336933397,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c32,tpot_p95_ms,p95_mean,all,3,100.717733114,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c32,ttft_p95_ms,p95_mean,all,3,43186.074024,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c8,output_throughput,mean,all,3,200.073823666,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c8,output_throughput_cv,cv,all,3,0.518861560874,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c8,speedup_ratio,mean,all,3,1.35195110773,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c8,tpot_p95_ms,p95_mean,all,3,42.3737746649,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-c8,ttft_p95_ms,p95_mean,all,3,6751.02501571,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-interactive,speedup_ratio,geomean,all,3,1.65534213458,,ratio,derived,interactive track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,s4-mtp3-loaded,speedup_ratio,geomean,all,3,0.900262386775,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s5-graph-c1,output_throughput,,all,0,,,tok/s,unavailable,"phase-1 screen; no cells: c1: expected 3 reps, found 0; c8: expected 3 reps, found 0; c16: expected 3 reps"
+2026-09-24-qwen38-27b-speed-campaign,s5-graph-c16,output_throughput,,all,0,,,tok/s,unavailable,"phase-1 screen; no cells: c1: expected 3 reps, found 0; c8: expected 3 reps, found 0; c16: expected 3 reps"
+2026-09-24-qwen38-27b-speed-campaign,s5-graph-c32,output_throughput,,all,0,,,tok/s,unavailable,"phase-1 screen; no cells: c1: expected 3 reps, found 0; c8: expected 3 reps, found 0; c16: expected 3 reps"
+2026-09-24-qwen38-27b-speed-campaign,s5-graph-c8,output_throughput,,all,0,,,tok/s,unavailable,"phase-1 screen; no cells: c1: expected 3 reps, found 0; c8: expected 3 reps, found 0; c16: expected 3 reps"
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c1,output_throughput,mean,all,3,28.6786663829,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c1,output_throughput_cv,cv,all,3,0.00339056387365,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c1,speedup_ratio,mean,all,3,1.49247214106,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c1,tpot_p95_ms,p95_mean,all,3,33.4407002005,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c1,ttft_p95_ms,p95_mean,all,3,768.875183669,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c16,output_throughput,mean,all,3,225.162675029,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c16,output_throughput_cv,cv,all,3,0.0511146764337,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c16,speedup_ratio,mean,all,3,0.97761554191,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c16,tpot_p95_ms,p95_mean,all,3,69.4241568722,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c16,ttft_p95_ms,p95_mean,all,3,11681.4779738,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c32,output_throughput,mean,all,3,287.207710675,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c32,output_throughput_cv,cv,all,3,0.0191764189855,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c32,speedup_ratio,mean,all,3,0.990950310859,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c32,tpot_p95_ms,p95_mean,all,3,99.9521214046,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c32,ttft_p95_ms,p95_mean,all,3,17957.2229897,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c8,output_throughput,mean,all,3,157.877997465,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c8,output_throughput_cv,cv,all,3,0.0185482480807,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c8,speedup_ratio,mean,all,3,1.06682288391,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c8,tpot_p95_ms,p95_mean,all,3,49.2173155063,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-c8,ttft_p95_ms,p95_mean,all,3,5872.05821039,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-interactive,speedup_ratio,geomean,all,3,1.26182543709,,ratio,derived,interactive track geomean over control median; advances=True
+2026-09-24-qwen38-27b-speed-campaign,s5b-xpugraph-loaded,speedup_ratio,geomean,all,3,0.984260344196,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c1,output_throughput,mean,all,3,19.2400332062,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c1,output_throughput_cv,cv,all,3,1.58406637527,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c1,speedup_ratio,mean,all,3,1.00127436785,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c1,tpot_p95_ms,p95_mean,all,3,51.7501633589,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c1,ttft_p95_ms,p95_mean,all,3,767.03844625,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c16,output_throughput,mean,all,3,230.383640347,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c16,output_throughput_cv,cv,all,3,0.00752777056493,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c16,speedup_ratio,mean,all,3,1.00028402743,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c16,tpot_p95_ms,p95_mean,all,3,67.6124200808,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c16,ttft_p95_ms,p95_mean,all,3,9304.31878618,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c32,output_throughput,mean,all,3,288.136335091,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c32,output_throughput_cv,cv,all,3,0.0133983772169,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c32,speedup_ratio,mean,all,3,0.994154335749,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c32,tpot_p95_ms,p95_mean,all,3,105.214487333,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c32,ttft_p95_ms,p95_mean,all,3,15077.2520225,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c8,output_throughput,mean,all,3,148.254340754,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c8,output_throughput_cv,cv,all,3,0.140216840121,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c8,speedup_ratio,mean,all,3,1.00179332076,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c8,tpot_p95_ms,p95_mean,all,3,52.4261586698,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-c8,ttft_p95_ms,p95_mean,all,3,5823.06232759,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-interactive,speedup_ratio,geomean,all,3,1.00153381069,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s6-batch4096-loaded,speedup_ratio,geomean,all,3,0.997214471842,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c1,output_throughput,mean,all,3,19.1183130419,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c1,output_throughput_cv,cv,all,3,0.945886796561,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c1,speedup_ratio,mean,all,3,0.994939904736,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c1,tpot_p95_ms,p95_mean,all,3,52.5158854887,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c1,ttft_p95_ms,p95_mean,all,3,767.016000342,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c16,output_throughput,mean,all,3,230.87740591,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c16,output_throughput_cv,cv,all,3,0.106691080231,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c16,speedup_ratio,mean,all,3,1.00242786805,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c16,tpot_p95_ms,p95_mean,all,3,67.7478656911,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c16,ttft_p95_ms,p95_mean,all,3,11653.5882979,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c32,output_throughput,mean,all,3,290.691918532,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c32,output_throughput_cv,cv,all,3,0.0320552000558,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c32,speedup_ratio,mean,all,3,1.00297184346,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c32,tpot_p95_ms,p95_mean,all,3,99.1868850409,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c32,ttft_p95_ms,p95_mean,all,3,23284.1133021,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c8,output_throughput,mean,all,3,147.476343454,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c8,output_throughput_cv,cv,all,3,0.475454142885,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c8,speedup_ratio,mean,all,3,0.996536189713,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c8,tpot_p95_ms,p95_mean,all,3,52.8749744088,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-c8,ttft_p95_ms,p95_mean,all,3,5870.88809351,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-interactive,speedup_ratio,geomean,all,3,0.995737727345,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s7-batch16384-loaded,speedup_ratio,geomean,all,3,1.00269981887,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c1,output_throughput,mean,all,3,19.4895104076,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c1,output_throughput_cv,cv,all,3,0.599512364641,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c1,speedup_ratio,mean,all,3,1.01425746016,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c1,tpot_p95_ms,p95_mean,all,3,50.6824059674,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c1,ttft_p95_ms,p95_mean,all,3,767.354067759,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c16,output_throughput,mean,all,3,230.38093364,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c16,output_throughput_cv,cv,all,3,0.00477723144405,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c16,speedup_ratio,mean,all,3,1.0002722754,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c16,tpot_p95_ms,p95_mean,all,3,67.8238215957,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c16,ttft_p95_ms,p95_mean,all,3,11618.2255427,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c32,output_throughput,mean,all,3,289.954974737,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c32,output_throughput_cv,cv,all,3,0.0144507473317,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c32,speedup_ratio,mean,all,3,1.00042917259,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c32,tpot_p95_ms,p95_mean,all,3,98.9351177294,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c32,ttft_p95_ms,p95_mean,all,3,17892.7803532,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c8,output_throughput,mean,all,3,148.091854819,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c8,output_throughput_cv,cv,all,3,0.32942550482,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c8,speedup_ratio,mean,all,3,1.00069536084,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c8,tpot_p95_ms,p95_mean,all,3,52.5862628769,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-c8,ttft_p95_ms,p95_mean,all,3,5871.88824474,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-interactive,speedup_ratio,geomean,all,3,1.00745358954,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s8-block16-loaded,speedup_ratio,geomean,all,3,1.00035072092,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c1,output_throughput,mean,all,3,19.712317901,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c1,output_throughput_cv,cv,all,3,0.524074810793,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c1,speedup_ratio,mean,all,3,1.02585262892,,ratio,derived,over control median 19.22 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c1,tpot_p95_ms,p95_mean,all,3,49.9930489444,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c1,ttft_p95_ms,p95_mean,all,3,767.858995246,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c16,output_throughput,mean,all,3,230.279741097,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c16,output_throughput_cv,cv,all,3,0.0338541825691,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c16,speedup_ratio,mean,all,3,0.999832915712,,ratio,derived,over control median 230.3 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c16,tpot_p95_ms,p95_mean,all,3,67.850384929,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c16,ttft_p95_ms,p95_mean,all,3,11628.3017243,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c32,output_throughput,mean,all,3,289.879958985,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c32,output_throughput_cv,cv,all,3,0.0640560492838,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c32,speedup_ratio,mean,all,3,1.00017034638,,ratio,derived,over control median 289.8 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c32,tpot_p95_ms,p95_mean,all,3,98.9649173493,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c32,ttft_p95_ms,p95_mean,all,3,17890.0472002,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c8,output_throughput,mean,all,3,149.187280042,,tok/s,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c8,output_throughput_cv,cv,all,3,0.426447122707,,percent,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c8,speedup_ratio,mean,all,3,1.00809743532,,ratio,derived,over control median 148 tok/s; phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c8,tpot_p95_ms,p95_mean,all,3,52.191480624,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-c8,ttft_p95_ms,p95_mean,all,3,5871.68110093,,ms,measured,phase-1 screen
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-interactive,speedup_ratio,geomean,all,3,1.01693628327,,ratio,derived,interactive track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,s9-block32-loaded,speedup_ratio,geomean,all,3,1.00000161681,,ratio,derived,loaded track geomean over control median; advances=False
+2026-09-24-qwen38-27b-speed-campaign,sentinel-f0-control-final,sentinel_nll,,all,17552,3.0937676133,,nats/token,measured,"reference arm NLL, 391 prompts"
+2026-09-24-qwen38-27b-speed-campaign,sentinel-f1-int-mtp2-xpugraph,sentinel_nll,,all,17552,3.0937676133,,nats/token,measured,"391 prompts, 17,552 scored token positions"
+2026-09-24-qwen38-27b-speed-campaign,sentinel-f1-int-mtp2-xpugraph,sentinel_perplexity_ratio,,all,17552,1,,ratio,derived,candidate over f0-control-final; stop line 1.05
+2026-09-24-qwen38-27b-speed-campaign,sentinel-f1-load-mtp1,sentinel_nll,,all,17552,3.0937676133,,nats/token,measured,"391 prompts, 17,552 scored token positions"
+2026-09-24-qwen38-27b-speed-campaign,sentinel-f1-load-mtp1,sentinel_perplexity_ratio,,all,17552,1,,ratio,derived,candidate over f0-control-final; stop line 1.05
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c2-after,ttft_p95_ms,,1,1,1603,,ms,measured,single probe; immediately after the fresh probe
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c2-fresh,ttft_p95_ms,,1,1,7627,,ms,measured,single probe; first request batch of 2 on a fresh server (one-time warm-up delay)
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c2-idle10,ttft_p95_ms,,1,1,1591,,ms,measured,single probe; after 10 min idle
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c2-idle30,ttft_p95_ms,,1,1,1591,,ms,measured,single probe; after a further 30 min idle
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c2-idle60,ttft_p95_ms,,1,1,1594,,ms,measured,single probe; after a further 60 min idle
+2026-09-24-qwen38-27b-speed-campaign,warmidle-f1-int-mtp2-xpugraph-c4-first,ttft_p95_ms,,1,1,3060,,ms,measured,"single probe; first c4 on this server, after the c2 probes"

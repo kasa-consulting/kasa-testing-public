@@ -1,0 +1,76 @@
+claim,shown_on_site,value,metric,aggregation,n,status,model,weights,engine_image,gpus_active,tp,replicas,input_tokens,output_tokens,concurrent_users,campaign_id,cell_id
+baseline-bw-max,533.8,533.768,mem_bandwidth_gb_s,max_of_cards,4,derived,,,,4,1,1,,,,2026-09-20-baseline,microbench-4card
+baseline-bw-min,532.8,532.788,mem_bandwidth_gb_s,min_of_cards,4,derived,,,,4,1,1,,,,2026-09-20-baseline,microbench-4card
+baseline-p2p-0-1,28.5,28.5306,p2p_gb_s,mean,5,measured,,,,2,1,1,,,,2026-09-20-baseline,p2p-0->1
+compile-confirmation-c1,51.94,51.9409,output_throughput,mean,5,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,1024,512,1,2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1
+depth-260k-tp2-mean,255.0,255.0080251,ttft_mean_ms,mean,6,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,260109,512,1,2026-09-24-qwen38-long-context,depth-tp2-d260096
+energy-1card-eager-c32,0.73,0.73,joules_per_output_token,mean,5,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,1024,512,32,2026-09-30-b65-fit-and-prefill,m3-eager-speed-c32
+idle-no-model,49.4,49.3775,power_idle_w_per_card,mean,4,derived,,,intel/llm-scaler-vllm:0.26.0-b2,0,,1,,,,2026-09-30-b65-fit-and-prefill,p0-idle-nomodel
+ifeval-redhat-upstream,126,126,quality_correct,value,,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+mtp-speedup-128k,1.48,1.48,speedup_ratio,mean,6,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,131085,512,1,2026-09-30-b65-fit-and-prefill,p2-headline-d131072
+mtp-speedup-8k,2.78,2.78,speedup_ratio,mean,6,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,8205,512,1,2026-09-30-b65-fit-and-prefill,p2-headline-d8192
+poisson-cap256-1.75-completed,1.660,1.66,request_rate_completed,single,1,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,,2026-10-01-b65-overnight,n3-poisson-cap256-r1.75
+poisson-cap256-1.75-tps,850,849.8,output_throughput,single,1,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,,2026-10-01-b65-overnight,n3-poisson-cap256-r1.75
+quality-arc-challenge-bf16,689/1172 (58.79%),0.587883959,quality_correct,value,1172,derived,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,,,2026-10-01-b65-report-gaps,g3-bf16-tp4
+quality-arc-challenge-bf16tp2,690/1172 (58.87%),0.5887372014,quality_score,value,1172,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+quality-arc-challenge-int4,681/1172 (58.11%),0.5810580205,quality_correct,value,1172,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+quality-arc-challenge-rh,670/1172 (57.17%),0.5716723549,quality_score,value,1172,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+quality-arithmetic-bf16,14/50 (28.00%),0.28,quality_correct,value,50,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,256,1,2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1
+quality-arithmetic-int4,4/50 (8.00%),0.08,quality_correct,value,50,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,256,1,2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1
+quality-arithmetic-rh,9/50 (18.00%),0.18,quality_score,value,50,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+quality-checkable-answers-bf16,124/160 (77.50%),0.775,quality_score,value,160,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,256,1,2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1
+quality-checkable-answers-int4,113/160 (70.63%),0.70625,quality_score,value,160,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,"synthetic (200 prompts: 160 checkable, 40 open-ended)",256 max,1,2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1
+quality-checkable-answers-rh,118/160 (73.75%),0.7375,quality_score,value,160,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+quality-gsm8k-bf16,669/1319 (50.72%),0.5072024261,quality_correct,value,1319,derived,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,,,2026-10-01-b65-report-gaps,g3-bf16-tp4
+quality-gsm8k-bf16tp2,669/1319 (50.72%),0.5072024261,quality_score,value,1319,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+quality-gsm8k-int4,725/1319 (54.97%),0.5496588324,quality_correct,value,1319,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+quality-gsm8k-rh,731/1319 (55.42%),0.5542077331,quality_score,value,1319,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+quality-ifeval-bf16,122/150 (81.33%),0.8133333333,quality_correct,value,150,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,,,2026-10-01-b65-report-gaps,g3-bf16-tp4
+quality-ifeval-bf16tp2,122/150 (81.33%),0.8133333333,quality_correct,value,150,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+quality-ifeval-int4,126/150 (84.00%),0.84,quality_correct,value,150,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+quality-ifeval-rh,126/150 (84.00%),0.84,quality_correct,value,150,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+quality-winogrande-bf16,957/1267 (75.53%),0.7553275454,quality_correct,value,1267,derived,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,,,,2026-10-01-b65-report-gaps,g3-bf16-tp4
+quality-winogrande-bf16tp2,956/1267 (75.45%),0.7545382794,quality_score,value,1267,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+quality-winogrande-int4,974/1267 (76.87%),0.7687450671,quality_correct,value,1267,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+quality-winogrande-rh,954/1267 (75.30%),0.7529597474,quality_score,value,1267,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+rank:fastest-one-card,52.13,52.13400723,output_throughput,mean,3,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,1024,512,1,2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1
+rank:fastest-one-card-unmodified,49.9,49.90552092,output_throughput,mean,3,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,1024,512,1,2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1
+rank:fastest-single-answer,105.9,105.8849222,output_throughput,mean,3,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,4,4,1,1024,512,1,2026-10-04-upstream-vllm-031,tp4-cand-c1
+rank:most-total-output-1k,843.2,843.2,output_throughput,mean,5,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,32,2026-09-28-qwen38-27b-speed-2,p3-compile-c32
+rank:most-total-output-1k-unmodified,830.9,830.9281608,output_throughput,mean,3,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,4,1,4,1024,512,32,2026-10-04-upstream-vllm-031,p4-cand-4replica-c32
+rank:shortest-first-token-1k,290,290,ttft_p95_ms,mean,5,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,1024,512,1,2026-10-01-b65-overnight,n2-tp4-c1
+ruler-attempted,240,240,attempted_requests,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,26577-258048,,1,2026-09-24-qwen38-long-context,ruler-tp4
+ruler-mean,99.57,99.5726,ruler_score,mean,234,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,26577-258048,,1,2026-09-24-qwen38-long-context,ruler-tp4
+ruler-scored,234,234,quality_items,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,26577-258048,,1,2026-09-24-qwen38-long-context,ruler-tp4
+ruler-truncated,6,6,truncated_outputs,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,26577-258048,,1,2026-09-24-qwen38-long-context,ruler-tp4
+sentinel-f2-27b-bf16-tp2,0.99880,0.9988,sentinel_perplexity_ratio,value,17552,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+sentinel-g3-int4-headline-1card,1.05750,1.0575,sentinel_perplexity_ratio,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+sentinel-q-cand,1.04291,1.042913259,sentinel_perplexity_ratio,value,,measured,RedHatAI/Qwen3.8-27B-INT4,compressed-tensors (offline INT4 checkpoint),vllm/vllm-openai-xpu:v0.31.0,1,1,1,,,1,2026-10-04-upstream-vllm-031,q-cand
+sign-p-arc-challenge,0.4600,0.46,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+sign-p-gsm8k,0.0020,0.002,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+sign-p-gsm8k-bf16-tp2-vs-tp4,1.0,1,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,none,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,,,,2026-10-02-b65-followup,f2-27b-bf16-tp2
+sign-p-gsm8k-bf16act-vs-bf16,0.0004,0.0004,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-overnight,n1-int4-bf16act-1card
+sign-p-gsm8k-bf16act-vs-fp16,0.31,0.31,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-overnight,n1-int4-bf16act-1card
+sign-p-ifeval,0.4800,0.48,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+sign-p-winogrande,0.1100,0.11,sign_test_p,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,,2026-10-01-b65-report-gaps,g3-int4-headline-1card
+soak-completed,"3,648",3648,completed_requests,sum,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-cv,0.77,0.77,output_throughput_cv,cv,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-failed,0,0,failed_requests,sum,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-mem-max,86,86,temp_mem_max_c,max,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-throughput,344.8,344.8,output_throughput,mean,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-ttft-p95-max,"1,609",1609,ttft_p95_ms,max,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+soak-ttft-p95-min,"1,471",1471,ttft_p95_ms,min,57,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,1,4,1024,512,8,2026-10-02-b65-soak-and-tools,k-ref-4replica-soak
+thinking-off-internal-1card,5,5,quality_correct,value,,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,32768-149026,,1,2026-09-24-qwen38-long-context,internal-tp1
+thinking-on-correct,18,18,quality_correct,value,18,derived,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,1,2026-09-30-b65-fit-and-prefill,o1
+tools-passed,69,69,tool_cases_passed,sum,3,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,1,2026-10-02-b65-soak-and-tools,k-tool-headline-1card
+tools-total,72,72,tool_cases_total,sum,3,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,1,1,1,,,1,2026-10-02-b65-soak-and-tools,k-tool-headline-1card
+tp4-b2-c1,104.7,104.6894545,output_throughput,mean,3,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,1024,512,1,2026-10-04-upstream-vllm-031,tp4-ref-c1
+ttft-260k-tp4,145,145.1021169,ttft_mean_ms,mean,6,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,260109,512,1,2026-09-24-qwen38-long-context,depth-tp4-d260096
+window-122b-tp4,114.0,113.9657,ttft_mean_ms,value,1,measured,Qwen/Qwen3.5-122B-A10B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-122b-int4-4card
+window-bf16-tp4,143.7,143.731,ttft_mean_ms,value,1,measured,Qwen/Qwen3.8-27B,none (native bf16),intel/llm-scaler-vllm:0.26.0-b2,4,4,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-27b-bf16-4card
+window-coder-tp2,233.3,233.2725,ttft_mean_ms,value,1,measured,Qwen/Qwen3-Coder-30B-A3B-Instruct,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-coder30b-int4-2card
+window-coder-tp4,121.2,121.2364,ttft_mean_ms,value,1,measured,Qwen/Qwen3-Coder-30B-A3B-Instruct,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-coder30b-int4-4card
+window-fp8-tp2,256.1,256.0559,ttft_mean_ms,value,1,measured,Qwen/Qwen3.8-27B-FP8,"offline fp8 (Qwen, e4m3)",intel/llm-scaler-vllm:0.26.0-b2,2,2,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-27b-fp8-2card
+window-fp8-tp4,144.6,144.5786,ttft_mean_ms,value,1,measured,Qwen/Qwen3.8-27B-FP8,"offline fp8 (Qwen, e4m3)",intel/llm-scaler-vllm:0.26.0-b2,4,4,1,261632,512,1,2026-09-30-b65-fit-and-prefill,f-27b-fp8-4card
+window-int4-tp2,255.7,255.7164,ttft_mean_ms,value,1,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,2,2,1,261632,512,1,2026-09-24-qwen38-long-context,capacity-tp2-262144
+window-int4-tp4,145.5,145.4629,ttft_mean_ms,value,1,measured,Qwen/Qwen3.8-27B,online sym_int4,intel/llm-scaler-vllm:0.26.0-b2,4,4,1,261632,512,1,2026-09-24-qwen38-long-context,capacity-tp4-262144

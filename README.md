@@ -9,6 +9,7 @@ applies to the configuration tested; a newer software release needs its own test
 | Measured | Investigation | Result |
 | --- | --- | --- |
 | 2026-09-09 | [MS-02 Ultra Thunderbolt 5 runtime PM](hardware/ms-02-ultra/thunderbolt5/2026-09-09/report.md) | Keeping the discrete TB5 root port powered prevented the observed AER storm on kernel `7.0.14-16-pve` during short tests with empty ports. Peripheral compatibility was not tested. |
+| 2026-09-16 | [Intel Arc Pro B65 local LLM inference, 1-4 cards: raw data](reports/2026-09-16-b65-local-llm-inference/report.md) · [file index](reports/2026-09-16-b65-local-llm-inference/README.md) | Every measured value and GPU/host telemetry trace behind https://b65.thekaiser.us. Qwen3.8-27B INT4 up to 105.9 tok/s for one user on four cards. |
 
 New report bundles belong in [reports/](reports/README.md). No GPU inference report has
 been published here yet.

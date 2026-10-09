@@ -1,0 +1,303 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-10-01-b65-overnight,comparator-1card-c1,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c1,joules_per_output_token,pooled,all,,8.45,,J/token,measured,one-card figure restated from fill-in M3; upper bound
+2026-10-01-b65-overnight,comparator-1card-c1,output_throughput,mean,all,5,18.85,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c1,output_throughput_sd,sd,all,5,0.08,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c1,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c1,tpot_p95_ms,mean,all,5,52.9,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c1,ttft_p95_ms,mean,all,5,768,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c16,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c16,output_throughput,mean,all,5,230.07,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c16,output_throughput_sd,sd,all,5,0.05,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c16,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c16,tpot_p95_ms,mean,all,5,67.9,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c16,ttft_p95_ms,mean,all,5,11651,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c2,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c2,output_throughput,mean,all,5,43.12,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c2,output_throughput_sd,sd,all,5,0.39,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c2,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c2,tpot_p95_ms,mean,all,5,46.0,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c2,ttft_p95_ms,mean,all,5,1540,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c32,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c32,joules_per_output_token,pooled,all,,0.73,,J/token,measured,one-card figure restated from fill-in M3; upper bound
+2026-10-01-b65-overnight,comparator-1card-c32,output_throughput,mean,all,5,289.28,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c32,output_throughput_sd,sd,all,5,0.02,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c32,power_limited_fraction,,all,,0.92,,fraction,measured,restated in n2-n6 from speed-2 phase-0 D0d: '92% of samples limited' at c32 eager on one card
+2026-10-01-b65-overnight,comparator-1card-c32,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c32,tpot_p95_ms,mean,all,5,99.2,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c32,ttft_p95_ms,mean,all,5,17934,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c4,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c4,output_throughput,mean,all,5,81.70,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c4,output_throughput_sd,sd,all,5,0.49,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c4,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c4,tpot_p95_ms,mean,all,5,47.9,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c4,ttft_p95_ms,mean,all,5,2964,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c8,failed_requests,sum,all,5,0,,count,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; 'No request failed'"
+2026-10-01-b65-overnight,comparator-1card-c8,joules_per_output_token,pooled,all,,1.41,,J/token,measured,one-card figure restated from fill-in M3; upper bound
+2026-10-01-b65-overnight,comparator-1card-c8,output_throughput,mean,all,5,147.23,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c8,output_throughput_sd,sd,all,5,0.55,,tok/s,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved"
+2026-10-01-b65-overnight,comparator-1card-c8,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,comparator-1card-c8,tpot_p95_ms,mean,all,5,52.8,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,comparator-1card-c8,ttft_p95_ms,mean,all,5,5878,,ms,measured,"one-card comparator restated in n2-n6: speed campaign 1's f0-control-final, a session, 2026-09-26, same image, recipe, profile and boot; arms were not interleaved; mean of per-rep p95 values"
+2026-10-01-b65-overnight,n0-bf16-tp4-recollected,sentinel_nll,,all,,3.0377928,,nats/token,measured,BF16 TP=4 reference re-collected first in a session; report-gaps' collection was 3.0378203
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,28,,count,measured,"gsm8k INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 28 / 20"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,193,,count,measured,"gsm8k INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 193 / 129"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,1,,count,measured,"IFEval INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 1 / 4"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,9,,count,measured,"IFEval INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 9 / 8"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,3,,count,measured,"ARC-Challenge INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 3 / 9"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,38,,count,measured,"ARC-Challenge INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 38 / 52"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,7,,count,measured,"WinoGrande INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 7 / 7"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_first,,all,,58,,count,measured,"WinoGrande INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 58 / 41"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,20,,count,measured,"gsm8k INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 28 / 20"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,129,,count,measured,"gsm8k INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 193 / 129"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,4,,count,measured,"IFEval INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 1 / 4"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,8,,count,measured,"IFEval INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 9 / 8"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,9,,count,measured,"ARC-Challenge INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 3 / 9"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,52,,count,measured,"ARC-Challenge INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 38 / 52"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,7,,count,measured,"WinoGrande INT4-bf16act vs INT4-fp16-headline; first = INT4 bfloat16 activations (N1), second = speed-2 f0-ref-final; file column 'gains / losses' = 7 / 7"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,paired_only_second,,all,,41,,count,measured,"WinoGrande INT4-bf16act vs BF16-TP4; first = INT4 bfloat16 activations (N1), second = report-gaps g3-27b-bf16-tp4; file column 'gains / losses' = 58 / 41"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_correct,,all,,733,,count,derived,"gsm8k 0-shot flexible extract 256-token cap; bfloat16 activations; score x items, rounded"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_correct,,all,,123,,count,measured,IFEval prompt-level strict; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_correct,,all,,675,,count,derived,"ARC-Challenge full acc_norm; bfloat16 activations; score x items, rounded"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_correct,,all,,974,,count,derived,"WinoGrande full acc; bfloat16 activations; score x items, rounded"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_items,,all,,1319,,count,measured,gsm8k 0-shot flexible extract 256-token cap; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_items,,all,,150,,count,measured,IFEval prompt-level strict; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_items,,all,,1172,,count,measured,ARC-Challenge full acc_norm; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_items,,all,,1267,,count,measured,WinoGrande full acc; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_score,,all,,0.5557,,fraction,measured,gsm8k 0-shot flexible extract 256-token cap; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_score,,all,,0.8200,,fraction,derived,IFEval prompt-level strict; bfloat16 activations; correct / items (file states the count only)
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_score,,all,,0.5759,,fraction,measured,ARC-Challenge full acc_norm; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,quality_score,,all,,0.7687,,fraction,measured,WinoGrande full acc; bfloat16 activations
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sentinel_nll,,all,,,,nats/token,unavailable,bfloat16 activations; measured in a session but the committed report states only the ratio
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sentinel_perplexity_ratio,,all,,1.0571,,ratio,measured,"bfloat16 activations; against the reference re-collected in the same session; sentinel-check.py stopped at the 1.05 line, ratio from its sentinel_metrics read-only; the sentinel job's exit code was not captured because the runner was restarted while it ran; its sentinel-arm.done marker and log are in the session"
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.31,,p,measured,gsm8k INT4-bf16act vs INT4-fp16-headline; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.0004,,p,measured,gsm8k INT4-bf16act vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.38,,p,measured,IFEval INT4-bf16act vs INT4-fp16-headline; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,1.0,,p,measured,IFEval INT4-bf16act vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.15,,p,measured,ARC-Challenge INT4-bf16act vs INT4-fp16-headline; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.17,,p,measured,ARC-Challenge INT4-bf16act vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,1.0,,p,measured,WinoGrande INT4-bf16act vs INT4-fp16-headline; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n1-int4-bf16act-1card,sign_test_p,,all,,0.11,,p,measured,WinoGrande INT4-bf16act vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-overnight,n2-tp4-c1,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c1,joules_per_output_token,pooled,all,,24.82,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n2-tp4-c1,output_throughput,mean,all,5,16.32,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c1,output_throughput_sd,sd,all,5,0.15,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c1,speedup_ratio,ratio_of_means,all,,0.87,,ratio,derived,"throughput ratio TP=4 over one card at c1, arithmetic on the means (16.32 / 18.85), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c1,speedup_ratio,ratio_of_means,all,,2.65,,ratio,derived,p95 TTFT ratio one card over TP=4 at c1 (768 / 290); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c1,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c1,tpot_p95_ms,mean,all,5,61.8,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c1,ttft_p95_ms,mean,all,5,290,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c16,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c16,output_throughput,mean,all,5,257.94,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c16,output_throughput_sd,sd,all,5,0.74,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c16,speedup_ratio,ratio_of_means,all,,1.12,,ratio,derived,"throughput ratio TP=4 over one card at c16, arithmetic on the means (257.94 / 230.07), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c16,speedup_ratio,ratio_of_means,all,,2.78,,ratio,derived,p95 TTFT ratio one card over TP=4 at c16 (11651 / 4193); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c16,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c16,tpot_p95_ms,mean,all,5,60.3,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c16,ttft_p95_ms,mean,all,5,4193,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c2,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c2,output_throughput,mean,all,5,36.57,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c2,output_throughput_sd,sd,all,5,0.38,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c2,speedup_ratio,ratio_of_means,all,,0.85,,ratio,derived,"throughput ratio TP=4 over one card at c2, arithmetic on the means (36.57 / 43.12), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c2,speedup_ratio,ratio_of_means,all,,2.69,,ratio,derived,p95 TTFT ratio one card over TP=4 at c2 (1540 / 572); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c2,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c2,tpot_p95_ms,mean,all,5,54.7,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c2,ttft_p95_ms,mean,all,5,572,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c32,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c32,joules_per_output_token,pooled,all,,1.39,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n2-tp4-c32,output_throughput,mean,all,5,457.00,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c32,output_throughput_sd,sd,all,5,1.57,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c32,speedup_ratio,ratio_of_means,all,,1.58,,ratio,derived,"throughput ratio TP=4 over one card at c32, arithmetic on the means (457.00 / 289.28), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c32,speedup_ratio,ratio_of_means,all,,2.81,,ratio,derived,p95 TTFT ratio one card over TP=4 at c32 (17934 / 6386); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c32,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c32,tpot_p95_ms,mean,all,5,67.2,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c32,ttft_p95_ms,mean,all,5,6386,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c4,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c4,output_throughput,mean,all,5,71.66,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c4,output_throughput_sd,sd,all,5,0.45,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c4,speedup_ratio,ratio_of_means,all,,0.88,,ratio,derived,"throughput ratio TP=4 over one card at c4, arithmetic on the means (71.66 / 81.70), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c4,speedup_ratio,ratio_of_means,all,,2.75,,ratio,derived,p95 TTFT ratio one card over TP=4 at c4 (2964 / 1078); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c4,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c4,tpot_p95_ms,mean,all,5,55.7,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c4,ttft_p95_ms,mean,all,5,1078,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c8,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n2-tp4-c8,joules_per_output_token,pooled,all,,3.63,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n2-tp4-c8,output_throughput,mean,all,5,138.08,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c8,output_throughput_sd,sd,all,5,0.36,,tok/s,measured,
+2026-10-01-b65-overnight,n2-tp4-c8,speedup_ratio,ratio_of_means,all,,0.94,,ratio,derived,"throughput ratio TP=4 over one card at c8, arithmetic on the means (138.08 / 147.23), as the file states it"
+2026-10-01-b65-overnight,n2-tp4-c8,speedup_ratio,ratio_of_means,all,,2.76,,ratio,derived,p95 TTFT ratio one card over TP=4 at c8 (5878 / 2133); the file states 2.6-2.8x at every level
+2026-10-01-b65-overnight,n2-tp4-c8,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n2-tp4-c8,tpot_p95_ms,mean,all,5,57.4,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n2-tp4-c8,ttft_p95_ms,mean,all,5,2133,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,attempted_requests,single,all,1,420,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,completed_requests,single,all,1,420,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,failed_requests,single,all,1,0,,count,measured,client cap 256; 'No request failed'
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,goodput_req_per_s,single,all,1,1.616,,req/s,measured,"client cap 256; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,output_throughput,single,all,1,849.8,,tok/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,request_rate_completed,single,all,1,1.660,,req/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,target_met,single,all,1,true,,bool,measured,"client cap 256; file's target column: 'inside' (p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms)"
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,tpot_p95_ms,single,all,1,56.0,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,ttft_p50_ms,single,all,1,999,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,ttft_p95_ms,single,all,1,1821,,ms,measured,"client cap 256; backlog waits in the servers, where TTFT counts it"
+2026-10-01-b65-overnight,n3-poisson-cap256-r1.75,ttft_p99_ms,single,all,1,2508,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,attempted_requests,single,all,1,480,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,completed_requests,single,all,1,480,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,failed_requests,single,all,1,0,,count,measured,client cap 256; 'No request failed'
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,goodput_req_per_s,single,all,1,1.323,,req/s,measured,"client cap 256; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,output_throughput,single,all,1,939.9,,tok/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,request_rate_completed,single,all,1,1.836,,req/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,target_met,single,all,1,false,,bool,measured,"client cap 256; file's target column: 'missed (both)' (p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms)"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,tpot_p95_ms,single,all,1,107.7,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,ttft_p50_ms,single,all,1,1176,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,ttft_p95_ms,single,all,1,4249,,ms,measured,"client cap 256; backlog waits in the servers, where TTFT counts it"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.0,ttft_p99_ms,single,all,1,7220,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,attempted_requests,single,all,1,504,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,completed_requests,single,all,1,504,,count,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,failed_requests,single,all,1,0,,count,measured,client cap 256; 'No request failed'
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,goodput_req_per_s,single,all,1,0.449,,req/s,measured,"client cap 256; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,output_throughput,single,all,1,878.2,,tok/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,request_rate_completed,single,all,1,1.715,,req/s,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,target_met,single,all,1,false,,bool,measured,"client cap 256; file's target column: 'missed; ladder ends' (p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms)"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,tpot_p95_ms,single,all,1,118.3,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,ttft_p50_ms,single,all,1,9828,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,ttft_p95_ms,single,all,1,35855,,ms,measured,"client cap 256; backlog waits in the servers, where TTFT counts it"
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.1,ttft_p99_ms,single,all,1,38731,,ms,measured,client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.2,completed_requests,,all,,,,count,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.2,goodput_req_per_s,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.2,request_rate_completed,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.2,tpot_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.2,ttft_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.3,completed_requests,,all,,,,count,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.3,goodput_req_per_s,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.3,request_rate_completed,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.3,tpot_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.3,ttft_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.5,completed_requests,,all,,,,count,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.5,goodput_req_per_s,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.5,request_rate_completed,,all,,,,req/s,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.5,tpot_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n3-poisson-cap256-r2.5,ttft_p95_ms,,all,,,,ms,not_applicable,cancelled by stop rule; declared but not run because the 2.1 rung's p95 TTFT passed the 30 s stop rule; client cap 256
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-id_attribute_transform,reasoning_tokens,mean,all,3,286,,tokens,measured,"id_attribute_transform; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-id_attribute_transform,ttft_first_answer_ms,mean,all,3,15590,,ms,measured,"id_attribute_transform; first answer token, file gives 15.59 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-id_attribute_transform,ttft_mean_ms,mean,all,3,710,,ms,measured,"id_attribute_transform; first reasoning token, file gives 0.71 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-ledger_delta,reasoning_tokens,mean,all,3,278,,tokens,measured,"ledger_delta; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-ledger_delta,ttft_first_answer_ms,mean,all,3,14790,,ms,measured,"ledger_delta; first answer token, file gives 14.79 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-ledger_delta,ttft_mean_ms,mean,all,3,750,,ms,measured,"ledger_delta; first reasoning token, file gives 0.75 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-region_reconcile,reasoning_tokens,mean,all,3,288,,tokens,measured,"region_reconcile; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-region_reconcile,ttft_first_answer_ms,mean,all,3,15370,,ms,measured,"region_reconcile; first answer token, file gives 15.37 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-1024-region_reconcile,ttft_mean_ms,mean,all,3,710,,ms,measured,"region_reconcile; first reasoning token, file gives 0.71 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-id_attribute_transform,reasoning_tokens,mean,all,3,1361,,tokens,measured,"id_attribute_transform; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-id_attribute_transform,ttft_first_answer_ms,mean,all,3,96340,,ms,measured,"id_attribute_transform; first answer token, file gives 96.34 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-id_attribute_transform,ttft_mean_ms,mean,all,3,27050,,ms,measured,"id_attribute_transform; first reasoning token, file gives 27.05 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-ledger_delta,reasoning_tokens,mean,all,3,307,,tokens,measured,"ledger_delta; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-ledger_delta,ttft_first_answer_ms,mean,all,3,43020,,ms,measured,"ledger_delta; first answer token, file gives 43.02 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-ledger_delta,ttft_mean_ms,mean,all,3,27110,,ms,measured,"ledger_delta; first reasoning token, file gives 27.11 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-region_reconcile,reasoning_tokens,mean,all,3,4541,,tokens,measured,"region_reconcile; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-region_reconcile,ttft_first_answer_ms,mean,all,3,260170,,ms,measured,"region_reconcile; first answer token, file gives 260.17 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-eager-comparator-32768-region_reconcile,ttft_mean_ms,mean,all,3,27110,,ms,measured,"region_reconcile; first reasoning token, file gives 27.11 s; eager comparator restated in n4 from fill-in O1 (o1-thinking-ttft.md), same plan, same boot"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,quality_correct,sum,all,3,3,,count,measured,"id_attribute_transform; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,quality_items,sum,all,3,3,,count,measured,id_attribute_transform; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,reasoning_tokens,mean,all,3,286,,tokens,measured,"id_attribute_transform; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,speedup_ratio,ratio_of_means,all,,2.86,,ratio,derived,"id_attribute_transform; eager first answer over headline first answer (15.59 / 5.46 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,ttft_first_answer_ms,max,all,3,5460,,ms,measured,"id_attribute_transform; first answer token, file gives 5.46 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,ttft_first_answer_ms,mean,all,3,5460,,ms,measured,"id_attribute_transform; first answer token, file gives 5.46 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,ttft_first_answer_ms,min,all,3,5450,,ms,measured,"id_attribute_transform; first answer token, file gives 5.45 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-id_attribute_transform,ttft_mean_ms,mean,all,3,750,,ms,measured,"id_attribute_transform; first reasoning token, file gives 0.75 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,quality_correct,sum,all,3,3,,count,measured,"ledger_delta; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,quality_items,sum,all,3,3,,count,measured,ledger_delta; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,reasoning_tokens,mean,all,3,278,,tokens,measured,"ledger_delta; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,speedup_ratio,ratio_of_means,all,,2.83,,ratio,derived,"ledger_delta; eager first answer over headline first answer (14.79 / 5.23 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,ttft_first_answer_ms,max,all,3,5310,,ms,measured,"ledger_delta; first answer token, file gives 5.31 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,ttft_first_answer_ms,mean,all,3,5230,,ms,measured,"ledger_delta; first answer token, file gives 5.23 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,ttft_first_answer_ms,min,all,3,5170,,ms,measured,"ledger_delta; first answer token, file gives 5.17 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-ledger_delta,ttft_mean_ms,mean,all,3,780,,ms,measured,"ledger_delta; first reasoning token, file gives 0.78 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,quality_correct,sum,all,3,3,,count,measured,"region_reconcile; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,quality_items,sum,all,3,3,,count,measured,region_reconcile; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,reasoning_tokens,mean,all,3,288,,tokens,measured,"region_reconcile; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,speedup_ratio,ratio_of_means,all,,2.79,,ratio,derived,"region_reconcile; eager first answer over headline first answer (15.37 / 5.50 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,ttft_first_answer_ms,max,all,3,5510,,ms,measured,"region_reconcile; first answer token, file gives 5.51 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,ttft_first_answer_ms,mean,all,3,5500,,ms,measured,"region_reconcile; first answer token, file gives 5.50 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,ttft_first_answer_ms,min,all,3,5500,,ms,measured,"region_reconcile; first answer token, file gives 5.50 s"
+2026-10-01-b65-overnight,n4-thinking-headline-1024-region_reconcile,ttft_mean_ms,mean,all,3,750,,ms,measured,"region_reconcile; first reasoning token, file gives 0.75 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,quality_correct,sum,all,3,3,,count,measured,"id_attribute_transform; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,quality_items,sum,all,3,3,,count,measured,id_attribute_transform; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,reasoning_tokens,mean,all,3,1361,,tokens,measured,"id_attribute_transform; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,speedup_ratio,ratio_of_means,all,,1.83,,ratio,derived,"id_attribute_transform; eager first answer over headline first answer (96.34 / 52.60 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,ttft_first_answer_ms,max,all,3,52620,,ms,measured,"id_attribute_transform; first answer token, file gives 52.62 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,ttft_first_answer_ms,mean,all,3,52600,,ms,measured,"id_attribute_transform; first answer token, file gives 52.60 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,ttft_first_answer_ms,min,all,3,52590,,ms,measured,"id_attribute_transform; first answer token, file gives 52.59 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-id_attribute_transform,ttft_mean_ms,mean,all,3,27790,,ms,measured,"id_attribute_transform; first reasoning token, file gives 27.79 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,quality_correct,sum,all,3,3,,count,measured,"ledger_delta; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,quality_items,sum,all,3,3,,count,measured,ledger_delta; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,reasoning_tokens,mean,all,3,307,,tokens,measured,"ledger_delta; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,speedup_ratio,ratio_of_means,all,,1.27,,ratio,derived,"ledger_delta; eager first answer over headline first answer (43.02 / 33.80 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,ttft_first_answer_ms,max,all,3,33820,,ms,measured,"ledger_delta; first answer token, file gives 33.82 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,ttft_first_answer_ms,mean,all,3,33800,,ms,measured,"ledger_delta; first answer token, file gives 33.80 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,ttft_first_answer_ms,min,all,3,33790,,ms,measured,"ledger_delta; first answer token, file gives 33.79 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-ledger_delta,ttft_mean_ms,mean,all,3,27830,,ms,measured,"ledger_delta; first reasoning token, file gives 27.83 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,quality_correct,sum,all,3,3,,count,measured,"region_reconcile; derived-answer task, 3/3 correct"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,quality_items,sum,all,3,3,,count,measured,region_reconcile; derived-answer task
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,reasoning_tokens,mean,all,3,3303,,tokens,measured,"region_reconcile; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,speedup_ratio,ratio_of_means,all,,2.91,,ratio,derived,"region_reconcile; eager first answer over headline first answer (260.17 / 89.36 s); file states 2.8x at 1K, 1.3x and 1.8x at 32K; NOT a speed-up: the headline reasoned 3,303 tokens against eager's 4,541, so this mixes decode speed with a shorter reasoning path (file says do not quote it)"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,ttft_first_answer_ms,max,all,3,89390,,ms,measured,"region_reconcile; first answer token, file gives 89.39 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,ttft_first_answer_ms,mean,all,3,89360,,ms,measured,"region_reconcile; first answer token, file gives 89.36 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,ttft_first_answer_ms,min,all,3,89340,,ms,measured,"region_reconcile; first answer token, file gives 89.34 s"
+2026-10-01-b65-overnight,n4-thinking-headline-32768-region_reconcile,ttft_mean_ms,mean,all,3,27840,,ms,measured,"region_reconcile; first reasoning token, file gives 27.84 s"
+2026-10-01-b65-overnight,n4-thinking-headline-run,quality_correct,sum,all,18,18,,count,measured,"all 18 answers correct; max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n4-thinking-headline-run,quality_items,sum,all,18,18,,count,measured,3 tasks x 2 lengths x 3 reps
+2026-10-01-b65-overnight,n4-thinking-headline-run,spec_acceptance,pooled,all,18,0.932,,fraction,measured,"accepted / drafted speculative tokens over the run: 11,678 / 12,524"
+2026-10-01-b65-overnight,n4-thinking-headline-run,truncated_outputs,sum,all,18,0,,count,measured,"max_tokens 8,192; every reply ended 'stop' under the cap"
+2026-10-01-b65-overnight,n5-flashnext-4card,correctness_gate,,all,,,"FAIL: 2,048-token slot context refused the 2,459-token long-prompt recall request",text,measured,"did not run: the config gave llama-server 32 slots in a 65,536-token context, 2,048 tokens per slot; the correctness gate's long-prompt recall request is 2,459 tokens and was refused ('request (2459 tokens) exceeds the available context size (2048 tokens)'); nothing was timed; a config error, not a finding about Flash-Next; arithmetic check answered correctly with reasoning inline"
+2026-10-01-b65-overnight,n5-flashnext-4card,max_context_configured,,all,,65536,,tokens,measured,"--parallel 32 --ctx-size 65536: 2,048 tokens per slot"
+2026-10-01-b65-overnight,n5-flashnext-4card,output_throughput,,all,,,,tok/s,unavailable,"did not run: the config gave llama-server 32 slots in a 65,536-token context, 2,048 tokens per slot; the correctness gate's long-prompt recall request is 2,459 tokens and was refused ('request (2459 tokens) exceeds the available context size (2048 tokens)'); nothing was timed; a config error, not a finding about Flash-Next"
+2026-10-01-b65-overnight,n5-flashnext-4card,time_to_ready_s,,all,,181,,s,measured,"server loaded in 181 s with n_slots = 32, n_ctx_slot = 2048"
+2026-10-01-b65-overnight,n5-flashnext-4card,tpot_p95_ms,,all,,,,ms,unavailable,"did not run: the config gave llama-server 32 slots in a 65,536-token context, 2,048 tokens per slot; the correctness gate's long-prompt recall request is 2,459 tokens and was refused ('request (2459 tokens) exceeds the available context size (2048 tokens)'); nothing was timed; a config error, not a finding about Flash-Next"
+2026-10-01-b65-overnight,n5-flashnext-4card,ttft_p95_ms,,all,,,,ms,unavailable,"did not run: the config gave llama-server 32 slots in a 65,536-token context, 2,048 tokens per slot; the correctness gate's long-prompt recall request is 2,459 tokens and was refused ('request (2459 tokens) exceeds the available context size (2048 tokens)'); nothing was timed; a config error, not a finding about Flash-Next"
+2026-10-01-b65-overnight,n6-tp2-c1,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c1,joules_per_output_token,pooled,all,,14.60,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n6-tp2-c1,output_throughput,mean,all,5,16.58,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c1,output_throughput_sd,sd,all,5,0.10,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c1,speedup_ratio,ratio_of_means,all,,0.88,,ratio,derived,"throughput ratio TP=2 over one card at c1, arithmetic on the means (16.58 / 18.85), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c1,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c1,tpot_p95_ms,mean,all,5,61.3,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c1,ttft_p95_ms,mean,all,5,441,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c16,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c16,output_throughput,mean,all,5,245.76,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c16,output_throughput_sd,sd,all,5,1.51,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c16,speedup_ratio,ratio_of_means,all,,1.07,,ratio,derived,"throughput ratio TP=2 over one card at c16, arithmetic on the means (245.76 / 230.07), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c16,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c16,tpot_p95_ms,mean,all,5,63.4,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c16,ttft_p95_ms,mean,all,5,6740,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c2,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c2,output_throughput,mean,all,5,37.19,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c2,output_throughput_sd,sd,all,5,0.24,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c2,speedup_ratio,ratio_of_means,all,,0.86,,ratio,derived,"throughput ratio TP=2 over one card at c2, arithmetic on the means (37.19 / 43.12), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c2,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c2,tpot_p95_ms,mean,all,5,53.9,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c2,ttft_p95_ms,mean,all,5,889,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c32,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c32,joules_per_output_token,pooled,all,,1.00,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n6-tp2-c32,output_throughput,mean,all,5,401.08,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c32,output_throughput_sd,sd,all,5,1.42,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c32,speedup_ratio,ratio_of_means,all,,1.39,,ratio,derived,"throughput ratio TP=2 over one card at c32, arithmetic on the means (401.08 / 289.28), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c32,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c32,tpot_p95_ms,mean,all,5,74.8,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c32,ttft_p95_ms,mean,all,5,10443,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c4,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c4,output_throughput,mean,all,5,72.08,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c4,output_throughput_sd,sd,all,5,0.64,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c4,speedup_ratio,ratio_of_means,all,,0.88,,ratio,derived,"throughput ratio TP=2 over one card at c4, arithmetic on the means (72.08 / 81.70), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c4,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c4,tpot_p95_ms,mean,all,5,55.1,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c4,ttft_p95_ms,mean,all,5,1725,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c8,failed_requests,sum,all,5,0,,count,measured,'No request failed'
+2026-10-01-b65-overnight,n6-tp2-c8,joules_per_output_token,pooled,all,,2.25,,J/token,measured,upper bound; energy-per-cell.py on the served cards
+2026-10-01-b65-overnight,n6-tp2-c8,output_throughput,mean,all,5,136.01,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c8,output_throughput_sd,sd,all,5,0.83,,tok/s,measured,
+2026-10-01-b65-overnight,n6-tp2-c8,speedup_ratio,ratio_of_means,all,,0.92,,ratio,derived,"throughput ratio TP=2 over one card at c8, arithmetic on the means (136.01 / 147.23), as the file states it"
+2026-10-01-b65-overnight,n6-tp2-c8,target_met,,all,,false,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms applied to the means above; file: one card to 2 users, TP=2 to 4, TP=4 to 4, TP=4 misses 8 users by 133 ms"
+2026-10-01-b65-overnight,n6-tp2-c8,tpot_p95_ms,mean,all,5,57.9,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n6-tp2-c8,ttft_p95_ms,mean,all,5,3400,,ms,measured,mean of per-rep p95 values
+2026-10-01-b65-overnight,n7-bf16-fp16act-tp4,quality_score,,all,,,,fraction,unavailable,"gsm8k; did not run: N7's sentinel refused to start ('campaign.json differs from the campaign's') because the N5 swap edited campaign.json after N1 had staged it in the session; its generative check (IFEval, gsm8k) was then skipped by the budget rule (8 h 27 min elapsed + 130 min); a rerun needs a fresh session with the BF16 reference re-collected there; BF16 weights with float16 activations"
+2026-10-01-b65-overnight,n7-bf16-fp16act-tp4,quality_score,,all,,,,fraction,unavailable,"IFEval; did not run: N7's sentinel refused to start ('campaign.json differs from the campaign's') because the N5 swap edited campaign.json after N1 had staged it in the session; its generative check (IFEval, gsm8k) was then skipped by the budget rule (8 h 27 min elapsed + 130 min); a rerun needs a fresh session with the BF16 reference re-collected there; BF16 weights with float16 activations"
+2026-10-01-b65-overnight,n7-bf16-fp16act-tp4,sentinel_perplexity_ratio,,all,,,,ratio,unavailable,"sentinel; did not run: N7's sentinel refused to start ('campaign.json differs from the campaign's') because the N5 swap edited campaign.json after N1 had staged it in the session; its generative check (IFEval, gsm8k) was then skipped by the budget rule (8 h 27 min elapsed + 130 min); a rerun needs a fresh session with the BF16 reference re-collected there; BF16 weights with float16 activations"

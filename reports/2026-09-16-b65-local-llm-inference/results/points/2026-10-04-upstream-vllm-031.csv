@@ -1,0 +1,582 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-10-04-upstream-vllm-031,d32-cand-c1,completed_requests,sum,all,3,6,,count,measured,
+2026-10-04-upstream-vllm-031,d32-cand-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,d32-cand-c1,output_throughput,mean,all,3,13.368598954,,tok/s,measured,
+2026-10-04-upstream-vllm-031,d32-cand-c1,output_throughput_cv,cv,all,3,0.0291726039723,,percent,derived,
+2026-10-04-upstream-vllm-031,d32-cand-c1,tpot_mean_ms,mean,all,3,20.5445194422,,ms,measured,
+2026-10-04-upstream-vllm-031,d32-cand-c1,tpot_p95_ms,p95_mean,all,3,21.6627786283,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,d32-cand-c1,ttft_mean_ms,mean,all,3,27799.9399135,,ms,measured,
+2026-10-04-upstream-vllm-031,d32-cand-c1,ttft_p95_ms,p95_mean,all,3,27814.706565,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,d32-ref-c1,completed_requests,sum,all,3,6,,count,measured,
+2026-10-04-upstream-vllm-031,d32-ref-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,d32-ref-c1,output_throughput,mean,all,3,13.2700448702,,tok/s,measured,
+2026-10-04-upstream-vllm-031,d32-ref-c1,output_throughput_cv,cv,all,3,0.0285537808754,,percent,derived,
+2026-10-04-upstream-vllm-031,d32-ref-c1,tpot_mean_ms,mean,all,3,20.7291240319,,ms,measured,
+2026-10-04-upstream-vllm-031,d32-ref-c1,tpot_p95_ms,p95_mean,all,3,22.6700359975,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,d32-ref-c1,ttft_mean_ms,mean,all,3,27990.0986844,,ms,measured,
+2026-10-04-upstream-vllm-031,d32-ref-c1,ttft_p95_ms,p95_mean,all,3,28017.9072018,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,output_throughput,mean,all,5,46.569229472,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,output_throughput_cv,cv,all,5,0.418977360228,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,speedup_ratio,,all,,0.934646535112,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,tpot_mean_ms,mean,all,5,19.9254124931,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,tpot_p95_ms,p95_mean,all,5,22.2183751647,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,ttft_mean_ms,mean,all,5,812.298452732,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c1,ttft_p95_ms,p95_mean,all,5,826.82061689,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,output_throughput,mean,all,5,265.654962259,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,output_throughput_cv,cv,all,5,0.160744880672,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,speedup_ratio,,all,,0.988408292589,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,tpot_mean_ms,mean,all,5,54.656263513,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,tpot_p95_ms,p95_mean,all,5,66.2589588897,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,ttft_mean_ms,mean,all,5,2364.02412959,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c16,ttft_p95_ms,p95_mean,all,5,10882.5774711,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,output_throughput,mean,all,5,82.2109847143,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,output_throughput_cv,cv,all,5,3.94367567611,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,speedup_ratio,,all,,0.938323433947,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,tpot_mean_ms,mean,all,5,21.9588650118,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,tpot_p95_ms,p95_mean,all,5,24.3624281097,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,ttft_mean_ms,mean,all,5,1172.21339519,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c2,ttft_p95_ms,p95_mean,all,5,3151.25754742,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,output_throughput,mean,all,5,203.841933203,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,output_throughput_cv,cv,all,5,0.298756183686,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,speedup_ratio,,all,,0.933448014349,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,tpot_mean_ms,mean,all,5,102.241709711,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,tpot_p95_ms,p95_mean,all,5,120.210666278,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,ttft_mean_ms,mean,all,5,26466.3408816,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c32,ttft_p95_ms,p95_mean,all,5,44192.2229255,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,output_throughput,mean,all,5,127.758950467,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,output_throughput_cv,cv,all,5,0.326871770407,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,speedup_ratio,,all,,0.974050967164,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,tpot_mean_ms,mean,all,5,28.8284791011,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,tpot_p95_ms,p95_mean,all,5,33.2674998145,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,ttft_mean_ms,mean,all,5,1227.4726907,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c4,ttft_p95_ms,p95_mean,all,5,2867.88565351,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,output_throughput,mean,all,5,202.250634418,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,output_throughput_cv,cv,all,5,0.208600978079,,percent,derived,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,speedup_ratio,,all,,0.974798539382,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,tpot_mean_ms,mean,all,5,35.476570348,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,tpot_p95_ms,p95_mean,all,5,42.0481307189,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,ttft_mean_ms,mean,all,5,1663.97416308,,ms,measured,
+2026-10-04-upstream-vllm-031,f-attr-b2-redhat-c8,ttft_p95_ms,p95_mean,all,5,5973.53407304,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,output_throughput,mean,all,5,49.735722409,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,output_throughput_cv,cv,all,5,0.00923941785007,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,speedup_ratio,,all,,0.998198191123,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,speedup_ratio,,all,,1.06799539037,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,tpot_mean_ms,mean,all,5,18.5725828694,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,tpot_p95_ms,p95_mean,all,5,20.8398338303,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,ttft_mean_ms,mean,all,5,803.460570765,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c1,ttft_p95_ms,p95_mean,all,5,816.669499979,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,output_throughput,mean,all,5,256.487510943,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,output_throughput_cv,cv,all,5,0.224840096965,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,speedup_ratio,,all,,0.954299443932,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,speedup_ratio,,all,,0.965491134672,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,tpot_mean_ms,mean,all,5,54.8603619735,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,tpot_p95_ms,p95_mean,all,5,67.5548177906,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,ttft_mean_ms,mean,all,5,2939.59604533,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c16,ttft_p95_ms,p95_mean,all,5,11809.1866065,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,output_throughput,mean,all,5,89.1393396199,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,output_throughput_cv,cv,all,5,0.0465805446915,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,speedup_ratio,,all,,1.0174009172,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,speedup_ratio,,all,,1.08427529398,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,tpot_mean_ms,mean,all,5,20.5598268289,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,tpot_p95_ms,p95_mean,all,5,23.1082108715,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,ttft_mean_ms,mean,all,5,959.979737908,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c2,ttft_p95_ms,p95_mean,all,5,1578.83612072,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,output_throughput,mean,all,5,259.318372554,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,output_throughput_cv,cv,all,5,0.138489838437,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,speedup_ratio,,all,,1.18748981695,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,speedup_ratio,,all,,1.27215420537,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,tpot_mean_ms,mean,all,5,55.9233062942,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,tpot_p95_ms,p95_mean,all,5,66.9920814612,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,ttft_mean_ms,mean,all,5,32068.8375817,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c32,ttft_p95_ms,p95_mean,all,5,37326.4463602,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,output_throughput,mean,all,5,141.557178902,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,output_throughput_cv,cv,all,5,0.0685065878173,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,speedup_ratio,,all,,1.0792504675,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,speedup_ratio,,all,,1.10800204905,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,tpot_mean_ms,mean,all,5,25.8191993322,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,tpot_p95_ms,p95_mean,all,5,30.5993080898,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,ttft_mean_ms,mean,all,5,1175.5216748,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c4,ttft_p95_ms,p95_mean,all,5,2877.70241827,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,output_throughput,mean,all,5,208.218751526,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,output_throughput_cv,cv,all,5,0.273653026296,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,speedup_ratio,,all,,1.00356340263,,ratio,derived,output tok/s over f-ref-median
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,speedup_ratio,,all,,1.02950852108,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,tpot_mean_ms,mean,all,5,34.5252204219,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,tpot_p95_ms,p95_mean,all,5,41.1162572578,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,ttft_mean_ms,mean,all,5,1611.94955423,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-interactive-c8,ttft_p95_ms,p95_mean,all,5,5958.06606664,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,output_throughput,mean,all,5,49.5244237827,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,output_throughput_cv,cv,all,5,0.0305152884536,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,speedup_ratio,,all,,0.994412649982,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,speedup_ratio,,all,,1.06345808905,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,tpot_mean_ms,mean,all,5,18.661187711,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,tpot_p95_ms,p95_mean,all,5,20.7376477932,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,ttft_mean_ms,mean,all,5,802.103123354,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c1,ttft_p95_ms,p95_mean,all,5,815.414544952,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,output_throughput,mean,all,5,271.110189205,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,output_throughput_cv,cv,all,5,0.0431082301121,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,speedup_ratio,,all,,1.00968287033,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,speedup_ratio,,all,,1.02053500864,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,tpot_mean_ms,mean,all,5,53.4360006973,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,tpot_p95_ms,p95_mean,all,5,64.7955504324,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,ttft_mean_ms,mean,all,5,2415.76951702,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c16,ttft_p95_ms,p95_mean,all,5,11820.0098606,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,output_throughput,mean,all,5,88.6848352161,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,output_throughput_cv,cv,all,5,0.697060830959,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,speedup_ratio,,all,,1.01472911489,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,speedup_ratio,,all,,1.07874678213,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,tpot_mean_ms,mean,all,5,20.6687611967,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,tpot_p95_ms,p95_mean,all,5,23.0087755712,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,ttft_mean_ms,mean,all,5,929.010947392,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c2,ttft_p95_ms,p95_mean,all,5,1234.3048522,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,output_throughput,mean,all,5,233.057083539,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,output_throughput_cv,cv,all,5,0.935818244415,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,speedup_ratio,,all,,1.06933736722,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,speedup_ratio,,all,,1.14332257292,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,tpot_mean_ms,mean,all,5,78.773836162,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,tpot_p95_ms,p95_mean,all,5,93.7691065107,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,ttft_mean_ms,mean,all,5,27727.7322597,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c32,ttft_p95_ms,p95_mean,all,5,40600.7507933,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,output_throughput,mean,all,5,141.367095981,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,output_throughput_cv,cv,all,5,0.208029358978,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,speedup_ratio,,all,,1.07829468246,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,speedup_ratio,,all,,1.10651422436,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,tpot_mean_ms,mean,all,5,25.847275135,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,tpot_p95_ms,p95_mean,all,5,29.9719667308,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,ttft_mean_ms,mean,all,5,1196.63910707,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c4,ttft_p95_ms,p95_mean,all,5,2861.2797949,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,output_throughput,mean,all,5,208.258989665,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,output_throughput_cv,cv,all,5,0.210020460521,,percent,derived,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,speedup_ratio,,all,,1.00482789192,,ratio,derived,output tok/s over f-ref-median-u1
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,speedup_ratio,,all,,1.02970747293,,ratio,derived,"runtime, same weights: output tok/s over f-attr-b2-redhat"
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,tpot_mean_ms,mean,all,5,34.5426966452,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,tpot_p95_ms,p95_mean,all,5,41.6167790304,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,ttft_mean_ms,mean,all,5,1596.5106421,,ms,measured,
+2026-10-04-upstream-vllm-031,f-cand-u1-c8,ttft_p95_ms,p95_mean,all,5,5961.45508413,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,output_throughput,mean,all,5,49.834048142,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,output_throughput_cv,cv,all,5,0.294238166502,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,tpot_mean_ms,mean,all,5,18.5178846802,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,tpot_p95_ms,p95_mean,all,5,20.3161978101,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c1,ttft_mean_ms,mean,all,5,811.17080276,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c1,ttft_p95_ms,p95_mean,all,5,822.716899507,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,output_throughput,mean,all,5,268.695892595,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,output_throughput_cv,cv,all,5,0.102032329038,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,tpot_mean_ms,mean,all,5,53.7803451109,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,tpot_p95_ms,p95_mean,all,5,65.409101073,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c16,ttft_mean_ms,mean,all,5,2274.7040165,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c16,ttft_p95_ms,p95_mean,all,5,11911.1852333,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,output_throughput,mean,all,5,87.6050764314,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,output_throughput_cv,cv,all,5,3.52881570729,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,tpot_mean_ms,mean,all,5,20.3918191541,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,tpot_p95_ms,p95_mean,all,5,22.5026337445,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c2,ttft_mean_ms,mean,all,5,1196.25576384,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c2,ttft_p95_ms,p95_mean,all,5,2691.84251406,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,output_throughput,mean,all,5,217.353728007,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,output_throughput_cv,cv,all,5,0.504696260092,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,tpot_mean_ms,mean,all,5,103.912202444,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,tpot_p95_ms,p95_mean,all,5,126.735032269,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c32,ttft_mean_ms,mean,all,5,20646.5746203,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c32,ttft_p95_ms,p95_mean,all,5,37206.7842432,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,output_throughput,mean,all,5,131.018522777,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,output_throughput_cv,cv,all,5,1.01803983509,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,tpot_mean_ms,mean,all,5,27.9960978097,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,tpot_p95_ms,p95_mean,all,5,32.6750660883,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c4,ttft_mean_ms,mean,all,5,1173.63267646,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c4,ttft_p95_ms,p95_mean,all,5,3050.70516959,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,output_throughput,mean,all,5,207.199517765,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,output_throughput_cv,cv,all,5,0.31222616201,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,tpot_mean_ms,mean,all,5,34.540417409,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,tpot_p95_ms,p95_mean,all,5,40.2629823367,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-close-c8,ttft_mean_ms,mean,all,5,1615.70331957,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-close-c8,ttft_p95_ms,p95_mean,all,5,6003.92199312,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-median-c1,output_throughput,median_of_arms,all,2,49.8254984344,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c1,tpot_p95_ms,median_of_arms,all,2,20.3610182736,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c1,ttft_p95_ms,median_of_arms,all,2,822.689525841,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c16,output_throughput,median_of_arms,all,2,268.770470919,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c16,tpot_p95_ms,median_of_arms,all,2,65.2095899305,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c16,ttft_p95_ms,median_of_arms,all,2,11904.667359,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c2,output_throughput,median_of_arms,all,2,87.6147623944,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c2,tpot_p95_ms,median_of_arms,all,2,22.7261139117,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c2,ttft_p95_ms,median_of_arms,all,2,2698.02920534,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c32,output_throughput,median_of_arms,all,2,218.375238973,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c32,tpot_p95_ms,median_of_arms,all,2,125.669584166,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c32,ttft_p95_ms,median_of_arms,all,2,37003.73156,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c4,output_throughput,median_of_arms,all,2,131.162490233,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c4,tpot_p95_ms,median_of_arms,all,2,32.6686374383,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c4,ttft_p95_ms,median_of_arms,all,2,3050.03773404,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c8,output_throughput,median_of_arms,all,2,207.47941882,,tok/s,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c8,tpot_p95_ms,median_of_arms,all,2,40.5856148652,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-c8,ttft_p95_ms,median_of_arms,all,2,5999.65274973,,ms,derived,"median (mean of two) of f-ref-open and f-ref-close, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c1,output_throughput,median_of_arms,all,2,49.8026888371,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c1,tpot_p95_ms,median_of_arms,all,2,20.3148698414,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c1,ttft_p95_ms,median_of_arms,all,2,822.709632077,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c16,output_throughput,median_of_arms,all,2,268.510239374,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c16,tpot_p95_ms,median_of_arms,all,2,65.0827261285,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c16,ttft_p95_ms,median_of_arms,all,2,11912.8201461,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c2,output_throughput,median_of_arms,all,2,87.3975467096,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c2,tpot_p95_ms,median_of_arms,all,2,22.7769797197,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c2,ttft_p95_ms,median_of_arms,all,2,2675.46285657,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c32,output_throughput,median_of_arms,all,2,217.945328277,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c32,tpot_p95_ms,median_of_arms,all,2,125.932455312,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c32,ttft_p95_ms,median_of_arms,all,2,37240.7858916,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c4,output_throughput,median_of_arms,all,2,131.102469742,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c4,tpot_p95_ms,median_of_arms,all,2,32.6921620013,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c4,ttft_p95_ms,median_of_arms,all,2,3051.65612429,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c8,output_throughput,median_of_arms,all,2,207.258368661,,tok/s,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c8,tpot_p95_ms,median_of_arms,all,2,40.5791577534,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-median-u1-c8,ttft_p95_ms,median_of_arms,all,2,6007.93768685,,ms,derived,"median (mean of two) of f-ref-close and f-ref-post, the reference the campaign's ratios use"
+2026-10-04-upstream-vllm-031,f-ref-open-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,output_throughput,mean,all,5,49.8169487268,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,output_throughput_cv,cv,all,5,0.164251387995,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,tpot_mean_ms,mean,all,5,18.52604717,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,tpot_p95_ms,p95_mean,all,5,20.4058387371,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c1,ttft_mean_ms,mean,all,5,810.470096226,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c1,ttft_p95_ms,p95_mean,all,5,822.662152175,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,output_throughput,mean,all,5,268.845049242,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,output_throughput_cv,cv,all,5,0.0670409743443,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,tpot_mean_ms,mean,all,5,53.7658433524,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,tpot_p95_ms,p95_mean,all,5,65.0100787879,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c16,ttft_mean_ms,mean,all,5,2262.90974961,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c16,ttft_p95_ms,p95_mean,all,5,11898.1494847,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,output_throughput,mean,all,5,87.6244483574,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,output_throughput_cv,cv,all,5,3.23908646216,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,tpot_mean_ms,mean,all,5,20.489439914,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,tpot_p95_ms,p95_mean,all,5,22.949594079,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c2,ttft_mean_ms,mean,all,5,1138.51169787,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c2,ttft_p95_ms,p95_mean,all,5,2704.21589662,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,output_throughput,mean,all,5,219.39674994,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,output_throughput_cv,cv,all,5,0.27584667787,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,tpot_mean_ms,mean,all,5,102.827647239,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,tpot_p95_ms,p95_mean,all,5,124.604136062,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c32,ttft_mean_ms,mean,all,5,20467.9964202,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c32,ttft_p95_ms,p95_mean,all,5,36800.6788768,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,output_throughput,mean,all,5,131.306457689,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,output_throughput_cv,cv,all,5,0.48946507903,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,tpot_mean_ms,mean,all,5,27.9766360489,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,tpot_p95_ms,p95_mean,all,5,32.6622087883,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c4,ttft_mean_ms,mean,all,5,1161.82478342,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c4,ttft_p95_ms,p95_mean,all,5,3049.37029849,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,output_throughput,mean,all,5,207.759319875,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,output_throughput_cv,cv,all,5,0.438836123887,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,tpot_mean_ms,mean,all,5,34.5088501739,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,tpot_p95_ms,p95_mean,all,5,40.9082473938,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-open-c8,ttft_mean_ms,mean,all,5,1619.08763628,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-open-c8,ttft_p95_ms,p95_mean,all,5,5995.38350635,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c1,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,output_throughput,mean,all,5,49.7713295322,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,output_throughput_cv,cv,all,5,0.29983428146,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,tpot_mean_ms,mean,all,5,18.5454315848,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,tpot_p95_ms,p95_mean,all,5,20.3135418727,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c1,ttft_mean_ms,mean,all,5,810.030004842,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c1,ttft_p95_ms,p95_mean,all,5,822.702364647,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c16,completed_requests,sum,all,5,640,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,output_throughput,mean,all,5,268.324586153,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,output_throughput_cv,cv,all,5,0.231717064063,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,tpot_mean_ms,mean,all,5,53.910850325,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,tpot_p95_ms,p95_mean,all,5,64.756351184,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c16,ttft_mean_ms,mean,all,5,2273.28685071,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c16,ttft_p95_ms,p95_mean,all,5,11914.4550589,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c2,completed_requests,sum,all,5,80,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,output_throughput,mean,all,5,87.1900169878,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,output_throughput_cv,cv,all,5,2.93195145363,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,tpot_mean_ms,mean,all,5,20.5605625143,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,tpot_p95_ms,p95_mean,all,5,23.0513256949,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c2,ttft_mean_ms,mean,all,5,1146.7587574,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c2,ttft_p95_ms,p95_mean,all,5,2659.08319908,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c32,completed_requests,sum,all,5,1280,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,output_throughput,mean,all,5,218.536928548,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,output_throughput_cv,cv,all,5,0.255114864737,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,tpot_mean_ms,mean,all,5,103.326105516,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,tpot_p95_ms,p95_mean,all,5,125.129878355,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c32,ttft_mean_ms,mean,all,5,20561.0484213,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c32,ttft_p95_ms,p95_mean,all,5,37274.78754,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c4,completed_requests,sum,all,5,160,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,output_throughput,mean,all,5,131.186416708,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,output_throughput_cv,cv,all,5,0.177054215607,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,tpot_mean_ms,mean,all,5,28.0106333245,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,tpot_p95_ms,p95_mean,all,5,32.7092579144,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c4,ttft_mean_ms,mean,all,5,1169.41463014,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c4,ttft_p95_ms,p95_mean,all,5,3052.60707899,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c8,completed_requests,sum,all,5,320,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,failed_requests,sum,all,5,0,,count,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,output_throughput,mean,all,5,207.317219556,,tok/s,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,output_throughput_cv,cv,all,5,0.290101343997,,percent,derived,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,tpot_mean_ms,mean,all,5,34.5567904485,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,tpot_p95_ms,p95_mean,all,5,40.8953331702,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,f-ref-post-c8,ttft_mean_ms,mean,all,5,1611.92356775,,ms,measured,
+2026-10-04-upstream-vllm-031,f-ref-post-c8,ttft_p95_ms,p95_mean,all,5,6011.95338058,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,output_throughput,mean,all,3,49.7721040488,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,output_throughput_cv,cv,all,3,0.0684827716316,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,tpot_mean_ms,mean,all,3,18.5726282561,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,tpot_p95_ms,p95_mean,all,3,20.8568631397,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,ttft_mean_ms,mean,all,3,795.873223416,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c1,ttft_p95_ms,p95_mean,all,3,805.027495216,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,completed_requests,sum,all,3,384,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,output_throughput,mean,all,3,551.949205782,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,output_throughput_cv,cv,all,3,0.215596065974,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,tpot_mean_ms,mean,all,3,26.0062081885,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,tpot_p95_ms,p95_mean,all,3,29.9588059554,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,ttft_mean_ms,mean,all,3,1163.33362497,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c16,ttft_p95_ms,p95_mean,all,3,3001.22524049,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,completed_requests,sum,all,3,768,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,output_throughput,mean,all,3,830.928160755,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,output_throughput_cv,cv,all,3,0.132110815433,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,tpot_mean_ms,mean,all,3,34.5136538012,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,tpot_p95_ms,p95_mean,all,3,40.3017474149,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,ttft_mean_ms,mean,all,3,1612.54135045,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c32,ttft_p95_ms,p95_mean,all,3,5936.4463621,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,completed_requests,sum,all,3,192,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,output_throughput,mean,all,3,343.563222856,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,output_throughput_cv,cv,all,3,1.01335005359,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,tpot_mean_ms,mean,all,3,20.6181271406,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,tpot_p95_ms,p95_mean,all,3,23.4390595278,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,ttft_mean_ms,mean,all,3,953.787862736,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-4replica-c8,ttft_p95_ms,p95_mean,all,3,1539.63190558,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,output_throughput,mean,all,3,49.7782267415,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,output_throughput_cv,cv,all,3,0.0140924543722,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,tpot_mean_ms,mean,all,3,18.5537661718,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,tpot_p95_ms,p95_mean,all,3,20.8203442947,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,ttft_mean_ms,mean,all,3,804.266099352,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-cand-control-direct-c1,ttft_p95_ms,p95_mean,all,3,817.299448167,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,output_throughput,mean,all,3,49.9216091402,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,output_throughput_cv,cv,all,3,0.079088921948,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,tpot_mean_ms,mean,all,3,18.5000326892,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,tpot_p95_ms,p95_mean,all,3,20.1044300547,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,ttft_mean_ms,mean,all,3,802.148631493,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c1,ttft_p95_ms,p95_mean,all,3,812.225370551,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,completed_requests,sum,all,3,384,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,output_throughput,mean,all,3,509.342824414,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,output_throughput_cv,cv,all,3,0.284408244252,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,tpot_mean_ms,mean,all,3,28.2035757423,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,tpot_p95_ms,p95_mean,all,3,32.7194547368,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,ttft_mean_ms,mean,all,3,1143.01162977,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c16,ttft_p95_ms,p95_mean,all,3,3025.13121822,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,completed_requests,sum,all,3,768,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,output_throughput,mean,all,3,823.575857089,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,output_throughput_cv,cv,all,3,0.531111904084,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,tpot_mean_ms,mean,all,3,34.5825167895,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,tpot_p95_ms,p95_mean,all,3,42.194022631,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,ttft_mean_ms,mean,all,3,1632.8098975,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c32,ttft_p95_ms,p95_mean,all,3,5962.24170223,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,completed_requests,sum,all,3,192,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,output_throughput,mean,all,3,342.878623736,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,output_throughput_cv,cv,all,3,0.948214035613,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,tpot_mean_ms,mean,all,3,20.5894138678,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,tpot_p95_ms,p95_mean,all,3,23.4362989915,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,ttft_mean_ms,mean,all,3,947.647496066,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-4replica-c8,ttft_p95_ms,p95_mean,all,3,1519.18586307,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,output_throughput,mean,all,3,49.9248709731,,tok/s,measured,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,output_throughput_cv,cv,all,3,0.442006311939,,percent,derived,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,tpot_mean_ms,mean,all,3,18.4791801571,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,tpot_p95_ms,p95_mean,all,3,20.2737601,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,ttft_mean_ms,mean,all,3,812.32110069,,ms,measured,
+2026-10-04-upstream-vllm-031,p4-ref-control-direct-c1,ttft_p95_ms,p95_mean,all,3,822.506829281,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,q-cand,greedy_matching_prompts,,all,,116,,count,measured,"identical to b2 f0-ref-final, c1"
+2026-10-04-upstream-vllm-031,q-cand,greedy_matching_prompts,,all,,116,,count,measured,"identical to b2 f0-ref-final, c8"
+2026-10-04-upstream-vllm-031,q-cand,greedy_prompts,,all,,200,,count,measured,c1
+2026-10-04-upstream-vllm-031,q-cand,greedy_prompts,,all,,200,,count,measured,c8
+2026-10-04-upstream-vllm-031,q-cand,quality_correct,,all,,126,,count,measured,ifeval prompt-level strict
+2026-10-04-upstream-vllm-031,q-cand,quality_items,,all,,150,,count,measured,ifeval prompt-level strict
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.554207733131,,fraction,measured,"gsm8k flexible-extract, 1,319 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.571672354949,,fraction,measured,"arc_challenge acc, full"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.752959747435,,fraction,measured,"winogrande acc, full"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.613333333333,,fraction,measured,"b65-screen-v1 arc_challenge acc_norm, 150 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.853333333333,,fraction,measured,"b65-screen-v1 boolq acc, 150 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.833333333333,,fraction,measured,"b65-screen-v1 hellaswag acc_norm, 150 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.773333333333,,fraction,measured,"b65-screen-v1 kasa_mmlu acc, 150 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.74,,fraction,measured,"b65-screen-v1 winogrande acc, 150 items"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.7375,,fraction,measured,"greedy checkable accuracy, c1"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.18,,fraction,measured,"greedy synthetic arithmetic, c1"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.70625,,fraction,derived,"greedy checkable accuracy of the b2 reference f0-ref-final, c1, as this file scores it"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.7375,,fraction,measured,"greedy checkable accuracy, c8"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.18,,fraction,measured,"greedy synthetic arithmetic, c8"
+2026-10-04-upstream-vllm-031,q-cand,quality_score,,all,,0.7125,,fraction,derived,"greedy checkable accuracy of the b2 reference f0-ref-final, c8, as this file scores it"
+2026-10-04-upstream-vllm-031,q-cand,sentinel_nll,,all,,3.07990928119,,nats/token,measured,candidate
+2026-10-04-upstream-vllm-031,q-cand,sentinel_perplexity_ratio,,all,,1.04291325867,,ratio,measured,"over BF16 TP=4, 17552 token positions"
+2026-10-04-upstream-vllm-031,q-cand,spec_acceptance,,all,,0.813926840018,,fraction,derived,accepted / draft tokens during greedy
+2026-10-04-upstream-vllm-031,tp2-cand-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,output_throughput,mean,all,3,71.2399383051,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,output_throughput_cv,cv,all,3,0.0441210009555,,percent,derived,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,speedup_ratio,,all,,1.42978877369,,ratio,derived,"one user over one b2 card (f-ref-median-c1, phase 1)"
+2026-10-04-upstream-vllm-031,tp2-cand-c1,tpot_mean_ms,mean,all,3,13.153430107,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,tpot_p95_ms,p95_mean,all,3,14.3893620741,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c1,ttft_mean_ms,mean,all,3,465.259796193,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c1,ttft_p95_ms,p95_mean,all,3,480.398917338,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c16,completed_requests,sum,all,3,384,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,output_throughput,mean,all,3,401.910581467,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,output_throughput_cv,cv,all,3,0.0495546619538,,percent,derived,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,speedup_ratio,,all,,0.728165884211,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp2-cand-c16,tpot_mean_ms,mean,all,3,36.5127198745,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,tpot_p95_ms,p95_mean,all,3,43.8760646861,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c16,ttft_mean_ms,mean,all,3,1394.79732924,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c16,ttft_p95_ms,p95_mean,all,3,6898.00015353,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c32,completed_requests,sum,all,3,768,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,output_throughput,mean,all,3,437.376219946,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,output_throughput_cv,cv,all,3,0.133312885676,,percent,derived,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,speedup_ratio,,all,,0.526370678722,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp2-cand-c32,tpot_mean_ms,mean,all,3,68.1583964689,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,tpot_p95_ms,p95_mean,all,3,80.2224565232,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c32,ttft_mean_ms,mean,all,3,2145.68811807,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c32,ttft_p95_ms,p95_mean,all,3,10598.7872179,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c8,completed_requests,sum,all,3,192,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,output_throughput,mean,all,3,294.217783323,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,output_throughput_cv,cv,all,3,0.0971695332269,,percent,derived,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,speedup_ratio,,all,,0.856371589709,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp2-cand-c8,tpot_mean_ms,mean,all,3,24.7770712715,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,tpot_p95_ms,p95_mean,all,3,28.7140774635,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp2-cand-c8,ttft_mean_ms,mean,all,3,962.943783545,,ms,measured,
+2026-10-04-upstream-vllm-031,tp2-cand-c8,ttft_p95_ms,p95_mean,all,3,3492.79754985,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,output_throughput,mean,all,3,105.884922169,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,output_throughput_cv,cv,all,3,0.0287617327632,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,speedup_ratio,,all,,2.12511516184,,ratio,derived,"one user over one b2 card (f-ref-median-c1, phase 1)"
+2026-10-04-upstream-vllm-031,tp4-cand-c1,tpot_mean_ms,mean,all,3,8.86559037173,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,tpot_p95_ms,p95_mean,all,3,9.95427988713,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c1,ttft_mean_ms,mean,all,3,304.882969615,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c1,ttft_p95_ms,p95_mean,all,3,313.730349978,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c16,completed_requests,sum,all,3,384,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,output_throughput,mean,all,3,616.030529892,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,output_throughput_cv,cv,all,3,0.0633082346772,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,speedup_ratio,,all,,1.11610003862,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-cand-c16,tpot_mean_ms,mean,all,3,23.8213530739,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,tpot_p95_ms,p95_mean,all,3,28.4260392577,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c16,ttft_mean_ms,mean,all,3,894.87153234,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c16,ttft_p95_ms,p95_mean,all,3,4328.04161549,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c32,completed_requests,sum,all,3,768,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,output_throughput,mean,all,3,711.496081165,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,output_throughput_cv,cv,all,3,0.063517803755,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,speedup_ratio,,all,,0.856266660308,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-cand-c32,tpot_mean_ms,mean,all,3,41.8497883339,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,tpot_p95_ms,p95_mean,all,3,49.5839201835,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c32,ttft_mean_ms,mean,all,3,1331.58721126,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c32,ttft_p95_ms,p95_mean,all,3,6570.85776901,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c8,completed_requests,sum,all,3,192,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,output_throughput,mean,all,3,456.510975479,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,output_throughput_cv,cv,all,3,0.223879963498,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,speedup_ratio,,all,,1.32875390935,,ratio,derived,output tok/s over p4-cand-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-cand-c8,tpot_mean_ms,mean,all,3,15.9570099865,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,tpot_p95_ms,p95_mean,all,3,18.5306532546,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-cand-c8,ttft_mean_ms,mean,all,3,620.548384228,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-cand-c8,ttft_p95_ms,p95_mean,all,3,2245.99421529,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c1,completed_requests,sum,all,3,48,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,output_throughput,mean,all,3,104.689454536,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,output_throughput_cv,cv,all,3,0.353613852922,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,speedup_ratio,,all,,2.10112207254,,ratio,derived,"one user over one b2 card (f-ref-median-c1, phase 1)"
+2026-10-04-upstream-vllm-031,tp4-ref-c1,tpot_mean_ms,mean,all,3,8.97512155607,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,tpot_p95_ms,p95_mean,all,3,10.0221811495,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c1,ttft_mean_ms,mean,all,3,304.162395221,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c1,ttft_p95_ms,p95_mean,all,3,312.863255133,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c16,completed_requests,sum,all,3,384,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,output_throughput,mean,all,3,608.642351958,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,output_throughput_cv,cv,all,3,0.171852950963,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,speedup_ratio,,all,,1.19495617251,,ratio,derived,output tok/s over p4-ref-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-ref-c16,tpot_mean_ms,mean,all,3,23.9895325749,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,tpot_p95_ms,p95_mean,all,3,28.5572863305,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c16,ttft_mean_ms,mean,all,3,852.272257425,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c16,ttft_p95_ms,p95_mean,all,3,4376.14201733,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c32,completed_requests,sum,all,3,768,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,output_throughput,mean,all,3,712.846643212,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,output_throughput_cv,cv,all,3,0.39185891856,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,speedup_ratio,,all,,0.865550680093,,ratio,derived,output tok/s over p4-ref-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-ref-c32,tpot_mean_ms,mean,all,3,41.639432053,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,tpot_p95_ms,p95_mean,all,3,51.3991320803,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c32,ttft_mean_ms,mean,all,3,1325.60332586,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c32,ttft_p95_ms,p95_mean,all,3,6571.10630919,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c8,completed_requests,sum,all,3,192,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,output_throughput,mean,all,3,438.337149578,,tok/s,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,output_throughput_cv,cv,all,3,5.21231322137,,percent,derived,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,speedup_ratio,,all,,1.27840325769,,ratio,derived,output tok/s over p4-ref-4replica at the same users
+2026-10-04-upstream-vllm-031,tp4-ref-c8,tpot_mean_ms,mean,all,3,16.3229775659,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,tpot_p95_ms,p95_mean,all,3,18.9121413044,,ms,measured,mean over reps of the per-rep p95
+2026-10-04-upstream-vllm-031,tp4-ref-c8,ttft_mean_ms,mean,all,3,827.005479908,,ms,measured,
+2026-10-04-upstream-vllm-031,tp4-ref-c8,ttft_p95_ms,p95_mean,all,3,4262.38861562,,ms,measured,mean over reps of the per-rep p95

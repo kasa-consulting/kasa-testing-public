@@ -1,0 +1,9 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-09-03-baseline,stress,duration_s,,all,,643.9,,s,measured,carried from gpu-2026-09-03; gpu-2026-09-20 did not rerun stress
+2026-09-03-baseline,stress.duration,check_result,,all,,,PASS: 643.9,text,measured,stress.duration; required 600; a load short enough to end before the cards settle cannot establish stability
+2026-09-03-baseline,stress.no_thermal_throttle,check_result,,all,,,PASS: none,text,measured,stress.no_thermal_throttle; required none; a power throttle at the stock cap is expected and is evidence the result is not heat-limited; a thermal throttle is not
+2026-09-03-baseline,stress.occupancy,check_result,,all,,,PASS: 100.0,text,measured,stress.occupancy; required 95.0; lowest engine occupancy on any card; proves the load was actually applied rather than assumed
+2026-09-03-baseline,stress.steady_state_clock,check_result,,all,,,PASS: 0.049,text,measured,stress.steady_state_clock; required 1.0; clock has stopped drooping
+2026-09-03-baseline,stress.steady_state_power,check_result,,all,,,PASS: 0.0662,text,measured,stress.steady_state_power; required 1.0; power draw has flattened
+2026-09-03-baseline,stress.steady_state_temp,check_result,,all,,,PASS: 0.0,text,measured,stress.steady_state_temp; required 0.5; package temperature has stopped climbing
+2026-09-03-baseline,stress.window_samples,check_result,,all,,,PASS: 29,text,measured,stress.window_samples; required 20; samples inside the trailing 180s window; too few and the slope is noise
