@@ -1,0 +1,209 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-09-20-baseline,anchor-allgather_ms-16MiB,between_boot_cv,,all,14,0,,percent,derived,"allgather_ms::16 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allgather_ms-256MiB,between_boot_cv,,all,14,0,,percent,derived,"allgather_ms::256 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allgather_ms-4MiB,between_boot_cv,,all,14,0.979,,percent,derived,"allgather_ms::4 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allgather_ms-64MiB,between_boot_cv,,all,14,0,,percent,derived,"allgather_ms::64 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allreduce_ms-16MiB,between_boot_cv,,all,14,0,,percent,derived,"allreduce_ms::16 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allreduce_ms-256MiB,between_boot_cv,,all,14,0.001,,percent,derived,"allreduce_ms::256 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allreduce_ms-4MiB,between_boot_cv,,all,14,0,,percent,derived,"allreduce_ms::4 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-allreduce_ms-64MiB,between_boot_cv,,all,14,0.014,,percent,derived,"allreduce_ms::64 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-broadcast_ms-16MiB,between_boot_cv,,all,14,0.357,,percent,derived,"broadcast_ms::16 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-broadcast_ms-256MiB,between_boot_cv,,all,14,0,,percent,derived,"broadcast_ms::256 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-broadcast_ms-4MiB,between_boot_cv,,all,14,0,,percent,derived,"broadcast_ms::4 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-broadcast_ms-64MiB,between_boot_cv,,all,14,0.21,,percent,derived,"broadcast_ms::64 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-d2h_gbs-xpu:0,between_boot_cv,,all,14,0,,percent,derived,"d2h_gbs::xpu:0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-d2h_gbs-xpu:1,between_boot_cv,,all,14,0.008,,percent,derived,"d2h_gbs::xpu:1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-d2h_gbs-xpu:2,between_boot_cv,,all,14,0.009,,percent,derived,"d2h_gbs::xpu:2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-d2h_gbs-xpu:3,between_boot_cv,,all,14,0,,percent,derived,"d2h_gbs::xpu:3; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-gemm_bf16_8192_tflops-xpu:0,between_boot_cv,,all,14,0,,percent,derived,"gemm_bf16_8192_tflops::xpu:0; 14 boots, 10 reps each"
+2026-09-20-baseline,anchor-gemm_bf16_8192_tflops-xpu:1,between_boot_cv,,all,14,0,,percent,derived,"gemm_bf16_8192_tflops::xpu:1; 14 boots, 10 reps each"
+2026-09-20-baseline,anchor-gemm_bf16_8192_tflops-xpu:2,between_boot_cv,,all,14,0,,percent,derived,"gemm_bf16_8192_tflops::xpu:2; 14 boots, 10 reps each"
+2026-09-20-baseline,anchor-gemm_bf16_8192_tflops-xpu:3,between_boot_cv,,all,14,0,,percent,derived,"gemm_bf16_8192_tflops::xpu:3; 14 boots, 10 reps each"
+2026-09-20-baseline,anchor-h2d_gbs-xpu:0,between_boot_cv,,all,14,0.169,,percent,derived,"h2d_gbs::xpu:0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-h2d_gbs-xpu:1,between_boot_cv,,all,14,0.106,,percent,derived,"h2d_gbs::xpu:1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-h2d_gbs-xpu:2,between_boot_cv,,all,14,0.117,,percent,derived,"h2d_gbs::xpu:2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-h2d_gbs-xpu:3,between_boot_cv,,all,14,0.115,,percent,derived,"h2d_gbs::xpu:3; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-0->1,between_boot_cv,,all,14,0.045,,percent,derived,"p2p_gbs::0->1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-0->2,between_boot_cv,,all,14,0.05,,percent,derived,"p2p_gbs::0->2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-0->3,between_boot_cv,,all,14,0.047,,percent,derived,"p2p_gbs::0->3; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-1->0,between_boot_cv,,all,14,0.059,,percent,derived,"p2p_gbs::1->0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-1->2,between_boot_cv,,all,14,0.058,,percent,derived,"p2p_gbs::1->2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-1->3,between_boot_cv,,all,14,0.056,,percent,derived,"p2p_gbs::1->3; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-2->0,between_boot_cv,,all,14,0.005,,percent,derived,"p2p_gbs::2->0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-2->1,between_boot_cv,,all,14,0.003,,percent,derived,"p2p_gbs::2->1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-2->3,between_boot_cv,,all,14,0.006,,percent,derived,"p2p_gbs::2->3; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-3->0,between_boot_cv,,all,14,0.005,,percent,derived,"p2p_gbs::3->0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-3->1,between_boot_cv,,all,14,0.005,,percent,derived,"p2p_gbs::3->1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-p2p_gbs-3->2,between_boot_cv,,all,14,0,,percent,derived,"p2p_gbs::3->2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-reduce_scatter_ms-16MiB,between_boot_cv,,all,14,0,,percent,derived,"reduce_scatter_ms::16 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-reduce_scatter_ms-256MiB,between_boot_cv,,all,14,0,,percent,derived,"reduce_scatter_ms::256 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-reduce_scatter_ms-4MiB,between_boot_cv,,all,14,0,,percent,derived,"reduce_scatter_ms::4 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-reduce_scatter_ms-64MiB,between_boot_cv,,all,14,0.035,,percent,derived,"reduce_scatter_ms::64 MiB; 14 boots, 3 reps each"
+2026-09-20-baseline,anchor-vllm_output_throughput_c1,between_boot_cv,,all,3,0,,percent,derived,"vllm_output_throughput_c1; 3 boots, 3 reps each"
+2026-09-20-baseline,anchor-vllm_output_throughput_c32,between_boot_cv,,all,3,0,,percent,derived,"vllm_output_throughput_c32; 3 boots, 3 reps each"
+2026-09-20-baseline,anchor-vram_bandwidth_gbs-xpu:0,between_boot_cv,,all,14,0,,percent,derived,"vram_bandwidth_gbs::xpu:0; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-vram_bandwidth_gbs-xpu:1,between_boot_cv,,all,14,0.014,,percent,derived,"vram_bandwidth_gbs::xpu:1; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-vram_bandwidth_gbs-xpu:2,between_boot_cv,,all,14,0,,percent,derived,"vram_bandwidth_gbs::xpu:2; 14 boots, 5 reps each"
+2026-09-20-baseline,anchor-vram_bandwidth_gbs-xpu:3,between_boot_cv,,all,14,0,,percent,derived,"vram_bandwidth_gbs::xpu:3; 14 boots, 5 reps each"
+2026-09-20-baseline,bandwidth.d2h_floor,check_result,,all,,,PASS: 9.10637,text,measured,bandwidth.d2h_floor; required 4.0; need ge 4.0
+2026-09-20-baseline,bandwidth.h2d_device_spread,check_result,,all,,,PASS: 0.769,text,measured,bandwidth.h2d_device_spread; required 5.0; need le 5.0
+2026-09-20-baseline,bandwidth.h2d_floor,check_result,,all,,,PASS: 28.4584,text,measured,bandwidth.h2d_floor; required 8.0; need ge 8.0
+2026-09-20-baseline,bandwidth.repetitions,check_result,,all,,,PASS: 5,text,measured,bandwidth.repetitions; required 5; every published figure has at least this many timed batches
+2026-09-20-baseline,bandwidth.run_to_run_rsd,check_result,,all,,,PASS: 0.156,text,measured,bandwidth.run_to_run_rsd; required 5.0; worst relative stddev across all bandwidth figures
+2026-09-20-baseline,bandwidth.vram_below_spec,check_result,,all,,,FAIL: None,text,measured,bandwidth.vram_below_spec; required None; NOT ENFORCED: no datasheet VRAM bandwidth supplied (--spec-vram-gbs or bandwidth.vram_spec_gbs)
+2026-09-20-baseline,bandwidth.vram_device_spread,check_result,,all,,,PASS: 0.184,text,measured,bandwidth.vram_device_spread; required 5.0; cards should look like each other
+2026-09-20-baseline,bandwidth.vram_floor,check_result,,all,,,PASS: 532.788,text,measured,bandwidth.vram_floor; required 100.0; slowest card; a floor only has to exclude a broken memory path
+2026-09-20-baseline,collective-allgather-16MiB,collective_busbw_gb_s,mean,all,3,23.17,,GB/s,measured,allgather 16 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allgather-16MiB,collective_busbw_gb_s,rsd_pct,all,3,0.485,,percent,derived,allgather 16 MiB time RSD
+2026-09-20-baseline,collective-allgather-256MiB,collective_busbw_gb_s,mean,all,3,24.52,,GB/s,measured,allgather 256 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allgather-256MiB,collective_busbw_gb_s,rsd_pct,all,3,0.006,,percent,derived,allgather 256 MiB time RSD
+2026-09-20-baseline,collective-allgather-4MiB,collective_busbw_gb_s,mean,all,3,17.03,,GB/s,measured,allgather 4 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allgather-4MiB,collective_busbw_gb_s,rsd_pct,all,3,1.249,,percent,derived,allgather 4 MiB time RSD
+2026-09-20-baseline,collective-allgather-64MiB,collective_busbw_gb_s,mean,all,3,24.24,,GB/s,measured,allgather 64 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allgather-64MiB,collective_busbw_gb_s,rsd_pct,all,3,0.216,,percent,derived,allgather 64 MiB time RSD
+2026-09-20-baseline,collective-allreduce-16MiB,collective_busbw_gb_s,mean,all,3,26.1,,GB/s,measured,allreduce 16 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allreduce-16MiB,collective_busbw_gb_s,rsd_pct,all,3,0.062,,percent,derived,allreduce 16 MiB time RSD
+2026-09-20-baseline,collective-allreduce-256MiB,collective_busbw_gb_s,mean,all,3,27.98,,GB/s,measured,allreduce 256 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allreduce-256MiB,collective_busbw_gb_s,rsd_pct,all,3,0.002,,percent,derived,allreduce 256 MiB time RSD
+2026-09-20-baseline,collective-allreduce-4MiB,collective_busbw_gb_s,mean,all,3,19.22,,GB/s,measured,allreduce 4 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allreduce-4MiB,collective_busbw_gb_s,rsd_pct,all,3,0.999,,percent,derived,allreduce 4 MiB time RSD
+2026-09-20-baseline,collective-allreduce-64MiB,collective_busbw_gb_s,mean,all,3,27.53,,GB/s,measured,allreduce 64 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-allreduce-64MiB,collective_busbw_gb_s,rsd_pct,all,3,0.01,,percent,derived,allreduce 64 MiB time RSD
+2026-09-20-baseline,collective-broadcast-16MiB,collective_busbw_gb_s,mean,all,3,7.09,,GB/s,measured,broadcast 16 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-broadcast-16MiB,collective_busbw_gb_s,rsd_pct,all,3,1.009,,percent,derived,broadcast 16 MiB time RSD
+2026-09-20-baseline,collective-broadcast-256MiB,collective_busbw_gb_s,mean,all,3,7.62,,GB/s,measured,broadcast 256 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-broadcast-256MiB,collective_busbw_gb_s,rsd_pct,all,3,8.4,,percent,derived,broadcast 256 MiB time RSD
+2026-09-20-baseline,collective-broadcast-4MiB,collective_busbw_gb_s,mean,all,3,5.79,,GB/s,measured,broadcast 4 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-broadcast-4MiB,collective_busbw_gb_s,rsd_pct,all,3,8.646,,percent,derived,broadcast 4 MiB time RSD
+2026-09-20-baseline,collective-broadcast-64MiB,collective_busbw_gb_s,mean,all,3,7.87,,GB/s,measured,broadcast 64 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-broadcast-64MiB,collective_busbw_gb_s,rsd_pct,all,3,0.981,,percent,derived,broadcast 64 MiB time RSD
+2026-09-20-baseline,collective-reduce_scatter-16MiB,collective_busbw_gb_s,mean,all,3,24.17,,GB/s,measured,reduce_scatter 16 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-reduce_scatter-16MiB,collective_busbw_gb_s,rsd_pct,all,3,0.824,,percent,derived,reduce_scatter 16 MiB time RSD
+2026-09-20-baseline,collective-reduce_scatter-256MiB,collective_busbw_gb_s,mean,all,3,26.54,,GB/s,measured,reduce_scatter 256 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-reduce_scatter-256MiB,collective_busbw_gb_s,rsd_pct,all,3,0.008,,percent,derived,reduce_scatter 256 MiB time RSD
+2026-09-20-baseline,collective-reduce_scatter-4MiB,collective_busbw_gb_s,mean,all,3,18.53,,GB/s,measured,reduce_scatter 4 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-reduce_scatter-4MiB,collective_busbw_gb_s,rsd_pct,all,3,1.384,,percent,derived,reduce_scatter 4 MiB time RSD
+2026-09-20-baseline,collective-reduce_scatter-64MiB,collective_busbw_gb_s,mean,all,3,25.95,,GB/s,measured,reduce_scatter 64 MiB; allreduce 2(n-1)/n; allgather and reduce_scatter (n-1)/n; br
+2026-09-20-baseline,collective-reduce_scatter-64MiB,collective_busbw_gb_s,rsd_pct,all,3,0.094,,percent,derived,reduce_scatter 64 MiB time RSD
+2026-09-20-baseline,collectives.all_required_correct,check_result,,all,,,PASS: 5/5,text,measured,"collectives.all_required_correct; required allreduce, broadcast, allgather, reduce_scatter, send_recv; every required collective returned a verified result"
+2026-09-20-baseline,collectives.allgather_correct,check_result,,all,,,PASS: None,text,measured,"collectives.allgather_correct; required None; each block must carry its owner's tag, so a reordered gather fails; mismatches on this rank={'block0': 0, 'block1': 0, '"
+2026-09-20-baseline,collectives.allreduce_correct,check_result,,all,,,PASS: None,text,measured,"collectives.allreduce_correct; required None; sum over 4 ranks, 2097152 elements, mismatches on this rank=0"
+2026-09-20-baseline,collectives.broadcast_correct,check_result,,all,,,PASS: None,text,measured,"collectives.broadcast_correct; required None; 4 roots, every card exercised as source, mismatches on this rank={'root0': 0, 'root1': 0, 'root2': 0, 'root3': 0}"
+2026-09-20-baseline,collectives.reduce_scatter_correct,check_result,,all,,,PASS: None,text,measured,"collectives.reduce_scatter_correct; required None; this rank must receive the reduction of global indices [0, 524288); mismatches on this rank=0"
+2026-09-20-baseline,collectives.repetitions,check_result,,all,,,PASS: 3,text,measured,collectives.repetitions; required 3; timed batches per collective per size
+2026-09-20-baseline,collectives.run_to_run_rsd,check_result,,all,,,PASS: 8.4,text,measured,"collectives.run_to_run_rsd; required 10.0; worst relative stddev at >= 64 MiB; smaller sizes are latency-bound and jittery, so they are published with n but not ga"
+2026-09-20-baseline,collectives.send_recv_correct,check_result,,all,,,PASS: None,text,measured,"collectives.send_recv_correct; required None; 12 ordered pairs, payload keyed to (sender, receiver); mismatches received by this rank={'1->0': 0, '2->0': 0, '3->0': 0"
+2026-09-20-baseline,devices.count,check_result,,all,,,PASS: 4,text,measured,devices.count; required 4; runtime device count vs the count this run is for
+2026-09-20-baseline,devices.runtime_usable,check_result,,all,,,PASS: 4/4,text,measured,devices.runtime_usable; required None; every device ran a kernel whose result was checked
+2026-09-20-baseline,gemm.correct_all_dtypes,check_result,,all,,,PASS: 4 device(s) tested,text,measured,gemm.correct_all_dtypes; required None; every dtype on every device inside its stated tolerance
+2026-09-20-baseline,gemm.correct_bf16,check_result,,all,,,PASS: max 0.0028810803762612126,text,measured,gemm.correct_bf16; required < 0.1; relative error vs fp64 on all 4 devices
+2026-09-20-baseline,gemm.correct_fp16,check_result,,all,,,PASS: max 0.0003602786762058131,text,measured,gemm.correct_fp16; required < 0.02; relative error vs fp64 on all 4 devices
+2026-09-20-baseline,gemm.correct_fp32,check_result,,all,,,PASS: max 5.150089337995201e-07,text,measured,gemm.correct_fp32; required < 1e-05; relative error vs fp64 on all 4 devices
+2026-09-20-baseline,gemm.device_spread,check_result,,all,,,PASS: 2.401,text,measured,gemm.device_spread; required 5.0; worst per-dtype spread across devices (at fp16_4096)
+2026-09-20-baseline,gemm.repetitions,check_result,,all,,,PASS: 10,text,measured,gemm.repetitions; required 10; timed batches per device per dtype; GEMM needs more than the bandwidth figures because it is far noisier run to run
+2026-09-20-baseline,gemm.run_to_run_rsd,check_result,,all,,,PASS: 7.228,text,measured,gemm.run_to_run_rsd; required 15.0; worst per-device run-to-run RSD across every dtype and size (at fp16_4096); above this the cross-device spread gate cann
+2026-09-20-baseline,microbench-4card,d2h_gb_s,max_of_cards,all,4,11.2625,,GB/s,derived,device to host
+2026-09-20-baseline,microbench-4card,d2h_gb_s,min_of_cards,all,4,9.10637,,GB/s,derived,device to host
+2026-09-20-baseline,microbench-4card,h2d_gb_s,max_of_cards,all,4,28.6788,,GB/s,derived,host to device
+2026-09-20-baseline,microbench-4card,h2d_gb_s,min_of_cards,all,4,28.4584,,GB/s,derived,host to device
+2026-09-20-baseline,microbench-4card,mem_bandwidth_gb_s,max_of_cards,all,4,533.768,,GB/s,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-4card,mem_bandwidth_gb_s,min_of_cards,all,4,532.788,,GB/s,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-4card-bf16_4096,gemm_tflops,mean_of_cards,all,4,84.134125,,TFLOP/s,derived,bf16_4096
+2026-09-20-baseline,microbench-4card-bf16_8192,gemm_tflops,mean_of_cards,all,4,86.47205,,TFLOP/s,derived,bf16_8192
+2026-09-20-baseline,microbench-4card-fp16_4096,gemm_tflops,mean_of_cards,all,4,84.8399,,TFLOP/s,derived,fp16_4096
+2026-09-20-baseline,microbench-4card-fp16_8192,gemm_tflops,mean_of_cards,all,4,81.2178,,TFLOP/s,derived,fp16_8192
+2026-09-20-baseline,microbench-4card-fp32_4096,gemm_tflops,mean_of_cards,all,4,11.53785,,TFLOP/s,derived,fp32_4096
+2026-09-20-baseline,microbench-4card-fp32_8192,gemm_tflops,mean_of_cards,all,4,11.828075,,TFLOP/s,derived,fp32_8192
+2026-09-20-baseline,microbench-xpu:0,d2h_gb_s,mean,all,5,9.10738,,GB/s,measured,device to host
+2026-09-20-baseline,microbench-xpu:0,d2h_gb_s,rsd_pct,all,5,0.051,,percent,derived,device to host
+2026-09-20-baseline,microbench-xpu:0,h2d_gb_s,mean,all,5,28.4584,,GB/s,measured,host to device
+2026-09-20-baseline,microbench-xpu:0,h2d_gb_s,rsd_pct,all,5,0.156,,percent,derived,host to device
+2026-09-20-baseline,microbench-xpu:0,mem_bandwidth_gb_s,mean,all,5,533.768,,GB/s,measured,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:0,mem_bandwidth_gb_s,rsd_pct,all,5,0.022,,percent,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:0-bf16_4096,gemm_tflops,mean,all,10,83.6396,,TFLOP/s,measured,bf16_4096
+2026-09-20-baseline,microbench-xpu:0-bf16_8192,gemm_tflops,mean,all,10,85.6997,,TFLOP/s,measured,bf16_8192
+2026-09-20-baseline,microbench-xpu:0-fp16_4096,gemm_tflops,mean,all,10,84.0163,,TFLOP/s,measured,fp16_4096
+2026-09-20-baseline,microbench-xpu:0-fp16_8192,gemm_tflops,mean,all,10,80.4694,,TFLOP/s,measured,fp16_8192
+2026-09-20-baseline,microbench-xpu:0-fp32_4096,gemm_tflops,mean,all,10,11.5358,,TFLOP/s,measured,fp32_4096
+2026-09-20-baseline,microbench-xpu:0-fp32_8192,gemm_tflops,mean,all,10,11.8278,,TFLOP/s,measured,fp32_8192
+2026-09-20-baseline,microbench-xpu:1,d2h_gb_s,mean,all,5,9.10637,,GB/s,measured,device to host
+2026-09-20-baseline,microbench-xpu:1,d2h_gb_s,rsd_pct,all,5,0.065,,percent,derived,device to host
+2026-09-20-baseline,microbench-xpu:1,h2d_gb_s,mean,all,5,28.6761,,GB/s,measured,host to device
+2026-09-20-baseline,microbench-xpu:1,h2d_gb_s,rsd_pct,all,5,0.028,,percent,derived,host to device
+2026-09-20-baseline,microbench-xpu:1,mem_bandwidth_gb_s,mean,all,5,532.788,,GB/s,measured,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:1,mem_bandwidth_gb_s,rsd_pct,all,5,0.011,,percent,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:1-bf16_4096,gemm_tflops,mean,all,10,83.8752,,TFLOP/s,measured,bf16_4096
+2026-09-20-baseline,microbench-xpu:1-bf16_8192,gemm_tflops,mean,all,10,86.7886,,TFLOP/s,measured,bf16_8192
+2026-09-20-baseline,microbench-xpu:1-fp16_4096,gemm_tflops,mean,all,10,86.0832,,TFLOP/s,measured,fp16_4096
+2026-09-20-baseline,microbench-xpu:1-fp16_8192,gemm_tflops,mean,all,10,81.8907,,TFLOP/s,measured,fp16_8192
+2026-09-20-baseline,microbench-xpu:1-fp32_4096,gemm_tflops,mean,all,10,11.538,,TFLOP/s,measured,fp32_4096
+2026-09-20-baseline,microbench-xpu:1-fp32_8192,gemm_tflops,mean,all,10,11.8283,,TFLOP/s,measured,fp32_8192
+2026-09-20-baseline,microbench-xpu:2,d2h_gb_s,mean,all,5,11.2625,,GB/s,measured,device to host
+2026-09-20-baseline,microbench-xpu:2,d2h_gb_s,rsd_pct,all,5,0.027,,percent,derived,device to host
+2026-09-20-baseline,microbench-xpu:2,h2d_gb_s,mean,all,5,28.6788,,GB/s,measured,host to device
+2026-09-20-baseline,microbench-xpu:2,h2d_gb_s,rsd_pct,all,5,0.025,,percent,derived,host to device
+2026-09-20-baseline,microbench-xpu:2,mem_bandwidth_gb_s,mean,all,5,533.759,,GB/s,measured,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:2,mem_bandwidth_gb_s,rsd_pct,all,5,0.04,,percent,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:2-bf16_4096,gemm_tflops,mean,all,10,84.4077,,TFLOP/s,measured,bf16_4096
+2026-09-20-baseline,microbench-xpu:2-bf16_8192,gemm_tflops,mean,all,10,86.3339,,TFLOP/s,measured,bf16_8192
+2026-09-20-baseline,microbench-xpu:2-fp16_4096,gemm_tflops,mean,all,10,84.3304,,TFLOP/s,measured,fp16_4096
+2026-09-20-baseline,microbench-xpu:2-fp16_8192,gemm_tflops,mean,all,10,80.397,,TFLOP/s,measured,fp16_8192
+2026-09-20-baseline,microbench-xpu:2-fp32_4096,gemm_tflops,mean,all,10,11.5391,,TFLOP/s,measured,fp32_4096
+2026-09-20-baseline,microbench-xpu:2-fp32_8192,gemm_tflops,mean,all,10,11.8283,,TFLOP/s,measured,fp32_8192
+2026-09-20-baseline,microbench-xpu:3,d2h_gb_s,mean,all,5,11.2616,,GB/s,measured,device to host
+2026-09-20-baseline,microbench-xpu:3,d2h_gb_s,rsd_pct,all,5,0.038,,percent,derived,device to host
+2026-09-20-baseline,microbench-xpu:3,h2d_gb_s,mean,all,5,28.6694,,GB/s,measured,host to device
+2026-09-20-baseline,microbench-xpu:3,h2d_gb_s,rsd_pct,all,5,0.036,,percent,derived,host to device
+2026-09-20-baseline,microbench-xpu:3,mem_bandwidth_gb_s,mean,all,5,532.958,,GB/s,measured,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:3,mem_bandwidth_gb_s,rsd_pct,all,5,0.035,,percent,derived,read+write; a copy moves 2N bytes
+2026-09-20-baseline,microbench-xpu:3-bf16_4096,gemm_tflops,mean,all,10,84.614,,TFLOP/s,measured,bf16_4096
+2026-09-20-baseline,microbench-xpu:3-bf16_8192,gemm_tflops,mean,all,10,87.066,,TFLOP/s,measured,bf16_8192
+2026-09-20-baseline,microbench-xpu:3-fp16_4096,gemm_tflops,mean,all,10,84.9297,,TFLOP/s,measured,fp16_4096
+2026-09-20-baseline,microbench-xpu:3-fp16_8192,gemm_tflops,mean,all,10,82.1141,,TFLOP/s,measured,fp16_8192
+2026-09-20-baseline,microbench-xpu:3-fp32_4096,gemm_tflops,mean,all,10,11.5385,,TFLOP/s,measured,fp32_4096
+2026-09-20-baseline,microbench-xpu:3-fp32_8192,gemm_tflops,mean,all,10,11.8279,,TFLOP/s,measured,fp32_8192
+2026-09-20-baseline,p2p-0->1,p2p_gb_s,mean,all,5,28.5306,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-0->2,p2p_gb_s,mean,all,5,28.5351,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-0->3,p2p_gb_s,mean,all,5,28.5381,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-1->0,p2p_gb_s,mean,all,5,28.5353,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-1->2,p2p_gb_s,mean,all,5,28.5387,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-1->3,p2p_gb_s,mean,all,5,28.5391,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-12pairs,p2p_gb_s,max_of_pairs,all,12,28.5397,,GB/s,derived,
+2026-09-20-baseline,p2p-12pairs,p2p_gb_s,min_of_pairs,all,12,28.5306,,GB/s,derived,
+2026-09-20-baseline,p2p-2->0,p2p_gb_s,mean,all,5,28.5333,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-2->1,p2p_gb_s,mean,all,5,28.5396,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-2->3,p2p_gb_s,mean,all,5,28.5359,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-3->0,p2p_gb_s,mean,all,5,28.5359,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-3->1,p2p_gb_s,mean,all,5,28.5397,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p-3->2,p2p_gb_s,mean,all,5,28.536,,GB/s,measured,"unidirectional, bytes transferred / elapsed"
+2026-09-20-baseline,p2p.bandwidth_physically_possible,check_result,,all,,,PASS: max 28.54 GB/s,text,measured,p2p.bandwidth_physically_possible; required <= 31.5 GB/s; every pair is under the link's theoretical ceiling
+2026-09-20-baseline,p2p.byte_exact,check_result,,all,,,PASS: 12/12,text,measured,p2p.byte_exact; required 12/12; every ordered pair transferred without a single differing element
+2026-09-20-baseline,p2p.pair_spread,check_result,,all,,,PASS: 0.032,text,measured,p2p.pair_spread; required 10.0; cross-pair uniformity; how link equivalence is settled when the negotiated width is unreadable
+2026-09-20-baseline,p2p.peer_access_flag,check_result,,all,,,PASS: 12/12,text,measured,p2p.peer_access_flag; required None; capability flag per ordered pair
+2026-09-20-baseline,p2p.repetitions,check_result,,all,,,PASS: 5,text,measured,p2p.repetitions; required 5; timed batches per pair
+2026-09-20-baseline,p2p.run_to_run_rsd,check_result,,all,,,PASS: 0.012,text,measured,p2p.run_to_run_rsd; required 5.0; worst relative stddev across pairs
+2026-09-20-baseline,preflight.engines_idle,check_result,,all,,,PASS: 0.0,text,measured,preflight.engines_idle; required 5.0; busiest compute engine at start
+2026-09-20-baseline,preflight.fault_baseline_readable,check_result,,all,,,PASS: 0,text,measured,preflight.fault_baseline_readable; required None; the count this run's post-stress check will be compared against
+2026-09-20-baseline,preflight.no_foreign_containers,check_result,,all,,,PASS: 0,text,measured,preflight.no_foreign_containers; required None; none running
+2026-09-20-baseline,preflight.no_foreign_dri_users,check_result,,all,,,PASS: 0,text,measured,preflight.no_foreign_dri_users; required None; none visible
+2026-09-20-baseline,preflight.vram_idle,check_result,,all,,,PASS: 226.5078125,text,measured,preflight.vram_idle; required 512.0; most-occupied card at start; a stale workload here has already once been mistaken for a hardware OOM
+2026-09-20-baseline,selftest.all_verifiers_trustworthy,check_result,,all,,,PASS: none failed,text,measured,selftest.all_verifiers_trustworthy; required None; a FAIL here invalidates every other result in this run
+2026-09-20-baseline,selftest.collective_arithmetic,check_result,,all,,,PASS: None,text,measured,selftest.collective_arithmetic; required None; the expected values verify-collectives.py compares against
+2026-09-20-baseline,selftest.fp16_trap_reproduced,check_result,,all,,,PASS: None,text,measured,"selftest.fp16_trap_reproduced; required None; documents WHY payloads are int32; if this ever stops reproducing, the reason for the int32 rule has changed, not disappe"
+2026-09-20-baseline,selftest.int32_payload_exact,check_result,,all,,,PASS: None,text,measured,selftest.int32_payload_exact; required None; 
+2026-09-20-baseline,selftest.verify_chunked_detects_corruption,check_result,,all,,,PASS: None,text,measured,selftest.verify_chunked_detects_corruption; required None; a comparator that cannot fail makes every later PASS vacuous
+2026-09-20-baseline,selftest.verify_chunked_passes_clean,check_result,,all,,,PASS: None,text,measured,selftest.verify_chunked_passes_clean; required None; 
+2026-09-20-baseline,selftest.verify_pair_detects_difference,check_result,,all,,,PASS: None,text,measured,selftest.verify_pair_detects_difference; required None; 
+2026-09-20-baseline,selftest.verify_pair_passes_identical,check_result,,all,,,PASS: None,text,measured,selftest.verify_pair_passes_identical; required None; 
+2026-09-20-baseline,selftest.verify_pair_rejects_shape_mismatch,check_result,,all,,,PASS: None,text,measured,selftest.verify_pair_rejects_shape_mismatch; required None; a comparison between differently shaped buffers must not pass
+2026-09-20-baseline,verify-devices-xpu:0,kernel_rel_err,,all,,4.05051478544e-07,,ratio,measured,
+2026-09-20-baseline,verify-devices-xpu:1,kernel_rel_err,,all,,4.0430781019e-07,,ratio,measured,
+2026-09-20-baseline,verify-devices-xpu:2,kernel_rel_err,,all,,4.06187960874e-07,,ratio,measured,
+2026-09-20-baseline,verify-devices-xpu:3,kernel_rel_err,,all,,4.05387647378e-07,,ratio,measured,
+2026-09-20-baseline,verify-vram-xpu:0,vram_held_gib,,all,,28.7,,GiB,measured,held 30.0 s on all four cards at once; total 31.89 GiB
+2026-09-20-baseline,verify-vram-xpu:1,vram_held_gib,,all,,28.7,,GiB,measured,held 30.0 s on all four cards at once; total 31.89 GiB
+2026-09-20-baseline,verify-vram-xpu:2,vram_held_gib,,all,,28.7,,GiB,measured,held 30.0 s on all four cards at once; total 31.89 GiB
+2026-09-20-baseline,verify-vram-xpu:3,vram_held_gib,,all,,28.7,,GiB,measured,held 30.0 s on all four cards at once; total 31.89 GiB
+2026-09-20-baseline,vram.allocatable_fraction,check_result,,all,,,PASS: 0.9,text,measured,"vram.allocatable_fraction; required 0.9; worst of 4 cards, all held at once"
+2026-09-20-baseline,vram.contents_intact,check_result,,all,,,PASS: 4/4,text,measured,vram.contents_intact; required None; every held allocation still read back its written value
+2026-09-20-baseline,vram.hold_seconds,check_result,,all,,,PASS: 30.0,text,measured,vram.hold_seconds; required 30; held long enough that the allocation was not merely transient

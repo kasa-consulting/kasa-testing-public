@@ -1,0 +1,1032 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,attempted_requests,,all,,128,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,fit_status,,all,,,running median 32 / max 32; waiting median 0 / max 15; KV usage median 62.5% / max 73.0%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,kv_cache_pool_tokens,,all,,150634,,tokens,measured,"serve-capacity line; per server, not per cell"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,output_throughput,single,all,1,290.4,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,tpot_p95_ms,single,all,1,98.9,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c32,ttft_p95_ms,single,all,1,23094,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c8,attempted_requests,,all,,64,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c8,fit_status,,all,,,running median 8 / max 8; waiting median 0 / max 0; KV usage median 15.6% / max 18.2%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c8,output_throughput,single,all,1,149.1,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c8,tpot_p95_ms,single,all,1,52.2,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-eager-c8,ttft_p95_ms,single,all,1,5870,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c32,attempted_requests,,all,,128,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c32,fit_status,,all,,,running median 31 / max 32; waiting median 0 / max 22; KV usage median 98.8% / max 100%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c32,output_throughput,single,all,1,297.1,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c32,tpot_p95_ms,single,all,1,116.6,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c32,ttft_p95_ms,single,all,1,23580,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c8,attempted_requests,,all,,64,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c8,fit_status,,all,,,running median 8 / max 8; waiting median 0 / max 0; KV usage median 24.8% / max 25.9%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c8,output_throughput,single,all,1,192.3,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c8,tpot_p95_ms,single,all,1,42.5,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-mtp1-c8,ttft_p95_ms,single,all,1,5949,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,attempted_requests,,all,,128,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,fit_status,,all,,,admission-capped: running median 24 / max 24; waiting median 8 / max 23; KV usage median 99.3% / max 100%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request; waiting_by_reason capacity median 8, deferred 0 (L41): 24 of 32 admitted"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,kv_cache_pool_tokens,,all,,130623,,tokens,measured,"serve-capacity line; per server, not per cell"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,output_throughput,single,all,1,217,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,spec_acceptance,,all,,0.745,,fraction,measured,2.00 draft tokens per draft
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,tpot_p95_ms,single,all,1,124.8,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c32,ttft_p95_ms,single,all,1,51900,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,attempted_requests,,all,,64,,count,measured,prompts in the cell
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,fit_status,,all,,,running median 8 / max 8; waiting median 0 / max 0; KV usage median 33.1% / max 33.8%,text,measured,"schema has no running/waiting request metrics; /metrics sampled every second, medians over samples with >=1 running request"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,output_throughput,single,all,1,207.2,,tok/s,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,spec_acceptance,,all,,0.76,,fraction,measured,2.00 draft tokens per draft
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,tpot_p95_ms,single,all,1,40.8,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0a-d0-ref-c8,ttft_p95_ms,single,all,1,5968,,ms,measured,"D0a, one rep"
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c1,correctness_gate,,all,,,passed,text,measured,decision keep; FULL_DECODE_ONLY graphs captured
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c1,kv_cache_pool_tokens,,all,,125466,,tokens,measured,
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c1,output_throughput,single,all,1,50.7,,tok/s,measured,"gating only: 8 prompts, not comparable with other cells"
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c1,spec_acceptance,single,all,1,0.624,,fraction,measured,"D0c probe, 8 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c32,attempted_requests,,all,,64,,count,measured,prompts in the probe cell
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c32,reasoning_tokens,,all,,11476,,count,measured,"new drafts during the c32 probe cell; schema has no spec_drafts metric, nearest used"
+2026-09-28-qwen38-27b-speed-2,d0c-a1-mtp3-xpugraph-c32,spec_acceptance,single,all,1,0.619,,fraction,measured,"D0c probe, 64 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c1,correctness_gate,,all,,,passed,text,measured,decision drop: NOT TESTABLE on b2; image overrides cudagraph_mode to NONE and skips graph capture under dynamic depth; c32 batch held <=24 by the admission cap so the depth-0 row is never reached (1.004 draft tok/draft)
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c1,output_throughput,single,all,1,37.9,,tok/s,measured,"gating only: 8 prompts, not comparable with other cells"
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c1,spec_acceptance,single,all,1,0.77,,fraction,measured,"D0c probe, 8 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c32,attempted_requests,,all,,64,,count,measured,prompts in the probe cell
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c32,reasoning_tokens,,all,,18012,,count,measured,"new drafts during the c32 probe cell; schema has no spec_drafts metric, nearest used"
+2026-09-28-qwen38-27b-speed-2,d0c-a2-mtp-dyn-c32,spec_acceptance,single,all,1,0.814,,fraction,measured,"D0c probe, 64 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c1,correctness_gate,,all,,,passed,text,measured,decision drop; acceptance 16-17 points below depth-2 arms (gate: 10)
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c1,output_throughput,single,all,1,51,,tok/s,measured,"gating only: 8 prompts, not comparable with other cells"
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c1,spec_acceptance,single,all,1,0.596,,fraction,measured,"D0c probe, 8 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c32,attempted_requests,,all,,64,,count,measured,prompts in the probe cell
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c32,reasoning_tokens,,all,,15117,,count,measured,"new drafts during the c32 probe cell; schema has no spec_drafts metric, nearest used"
+2026-09-28-qwen38-27b-speed-2,d0c-a3-mtp2-rvocab-c32,spec_acceptance,single,all,1,0.583,,fraction,measured,"D0c probe, 64 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c1,correctness_gate,,all,,,passed,text,measured,"decision keep; CompilationMode.VLLM_COMPILE 3, FULL_DECODE_ONLY captured"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c1,kv_cache_pool_tokens,,all,,108179,,tokens,measured,"17% smaller than the reference's 130,623"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c1,output_throughput,single,all,1,52.6,,tok/s,measured,"gating only: 8 prompts, not comparable with other cells"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c1,spec_acceptance,single,all,1,0.767,,fraction,measured,"D0c probe, 8 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c1,time_to_ready_s,,all,,195.7,,s,measured,"torch.compile compilation time from the serve log, not the whole time to ready"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c32,attempted_requests,,all,,64,,count,measured,prompts in the probe cell
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c32,reasoning_tokens,,all,,12994,,count,measured,"new drafts during the c32 probe cell; schema has no spec_drafts metric, nearest used"
+2026-09-28-qwen38-27b-speed-2,d0c-a4-mtp2-compile-c32,spec_acceptance,single,all,1,0.76,,fraction,measured,"D0c probe, 64 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c1,correctness_gate,,all,,,passed,text,measured,decision keep; weights 17.75 GiB against reference 17.17
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c1,kv_cache_pool_tokens,,all,,117156,,tokens,measured,
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c1,output_throughput,single,all,1,48.4,,tok/s,measured,"gating only: 8 prompts, not comparable with other cells"
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c1,spec_acceptance,single,all,1,0.771,,fraction,measured,"D0c probe, 8 prompts"
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c1,weights_gib_per_card,,all,,17.75,,GiB,measured,reference 17.17 GiB; +0.58 GiB from the 16-bit MTP linears
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c32,attempted_requests,,all,,64,,count,measured,prompts in the probe cell
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c32,reasoning_tokens,,all,,12901,,count,measured,"new drafts during the c32 probe cell; schema has no spec_drafts metric, nearest used"
+2026-09-28-qwen38-27b-speed-2,d0c-a5-mtp2-mtp16-c32,spec_acceptance,single,all,1,0.77,,fraction,measured,"D0c probe, 64 prompts"
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,clock_mean_mhz,mean,all,472,2391,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,power_limited_fraction,mean,all,472,0.028,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,power_mean_w_per_card,max,all,472,157.9,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,power_mean_w_per_card,mean,all,472,145,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,power_mean_w_per_card,p95,all,472,157,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c1,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,clock_mean_mhz,mean,all,325,2235,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,power_limited_fraction,mean,all,325,0.883,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,power_mean_w_per_card,max,all,325,201.9,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,power_mean_w_per_card,mean,all,325,189.9,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,power_mean_w_per_card,p95,all,325,201.9,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c16,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,clock_mean_mhz,mean,all,230,2384,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,power_limited_fraction,mean,all,230,0.061,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,power_mean_w_per_card,max,all,230,176.5,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,power_mean_w_per_card,mean,all,230,155.7,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,power_mean_w_per_card,p95,all,230,175.3,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c2,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,clock_mean_mhz,mean,all,495,2090,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,power_limited_fraction,mean,all,495,0.921,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,power_mean_w_per_card,max,all,495,200.8,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,power_mean_w_per_card,mean,all,495,193.2,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,power_mean_w_per_card,p95,all,495,200.5,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c32,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,clock_mean_mhz,mean,all,239,2359,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,power_limited_fraction,mean,all,239,0.113,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,power_mean_w_per_card,max,all,239,189.1,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,power_mean_w_per_card,mean,all,239,162.4,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,power_mean_w_per_card,p95,all,239,187.2,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c4,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,clock_mean_mhz,mean,all,263,2329,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,power_limited_fraction,mean,all,263,0.19,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,power_mean_w_per_card,max,all,263,201.5,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,power_mean_w_per_card,mean,all,263,173.7,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,power_mean_w_per_card,p95,all,263,199.9,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f0-control-final-c8,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 847 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,clock_mean_mhz,mean,all,186,2369,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,power_limited_fraction,mean,all,186,0.097,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,power_mean_w_per_card,max,all,186,182.9,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,power_mean_w_per_card,mean,all,186,171.6,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,power_mean_w_per_card,p95,all,186,182.7,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c1,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,clock_mean_mhz,mean,all,270,2188,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,power_limited_fraction,mean,all,270,0.87,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,power_mean_w_per_card,max,all,270,201.1,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,power_mean_w_per_card,mean,all,270,191.8,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,power_mean_w_per_card,p95,all,270,200.7,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c16,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,clock_mean_mhz,mean,all,118,2365,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,power_limited_fraction,mean,all,118,0.127,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,power_mean_w_per_card,max,all,118,190.6,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,power_mean_w_per_card,mean,all,118,170.2,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,power_mean_w_per_card,p95,all,118,190.1,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c2,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,clock_mean_mhz,mean,all,622,2258,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,power_limited_fraction,mean,all,622,0.945,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,power_mean_w_per_card,max,all,622,201.8,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,power_mean_w_per_card,mean,all,622,196.4,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,power_mean_w_per_card,p95,all,622,201.2,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c32,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,clock_mean_mhz,mean,all,148,2355,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,power_limited_fraction,mean,all,148,0.203,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,power_mean_w_per_card,max,all,148,198.7,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,power_mean_w_per_card,mean,all,148,179.5,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,power_mean_w_per_card,p95,all,148,196.5,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c4,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,clock_mean_mhz,mean,all,180,2300,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,power_limited_fraction,mean,all,180,0.533,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,power_mean_w_per_card,max,all,180,201.8,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,power_mean_w_per_card,mean,all,180,187.2,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,power_mean_w_per_card,p95,all,180,200.4,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-int-mtp2-xpugraph-c8,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 982 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,clock_mean_mhz,mean,all,308,2386,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,power_limited_fraction,mean,all,308,0.045,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,power_mean_w_per_card,max,all,308,158.5,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,power_mean_w_per_card,mean,all,308,147.6,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,power_mean_w_per_card,p95,all,308,158.3,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c1,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,clock_mean_mhz,mean,all,285,2115,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,power_limited_fraction,mean,all,285,0.881,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,power_mean_w_per_card,max,all,285,200.6,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,power_mean_w_per_card,mean,all,285,190.1,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,power_mean_w_per_card,p95,all,285,200.2,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c16,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,clock_mean_mhz,mean,all,176,2381,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,power_limited_fraction,mean,all,176,0.074,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,power_mean_w_per_card,max,all,176,170.8,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,power_mean_w_per_card,mean,all,176,149.5,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,power_mean_w_per_card,p95,all,176,170.4,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c2,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,clock_mean_mhz,mean,all,473,2129,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,power_limited_fraction,mean,all,473,0.934,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,power_mean_w_per_card,max,all,473,200.7,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,power_mean_w_per_card,mean,all,473,194.1,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,power_mean_w_per_card,p95,all,473,200.4,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c32,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,clock_mean_mhz,mean,all,186,2357,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,power_limited_fraction,mean,all,186,0.167,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,power_mean_w_per_card,max,all,186,190.8,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,power_mean_w_per_card,mean,all,186,159.5,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,power_mean_w_per_card,p95,all,186,183.9,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c4,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,clock_mean_mhz,mean,all,212,2320,,MHz,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,power_limited_fraction,mean,all,212,0.302,,fraction,measured,share of samples with a throttle reason set
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,power_mean_w_per_card,max,all,212,200.7,,W,measured,max of the window's samples; schema has no power_max_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,power_mean_w_per_card,mean,all,212,181,,W,measured,D0d: telemetry of the first campaign's confirmation session a session reduced here; stock cap 200 W; card 0
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,power_mean_w_per_card,p95,all,212,199,,W,measured,p95 of the window's samples; schema has no power_p95_w metric
+2026-09-28-qwen38-27b-speed-2,d0d-f1-load-mtp1-c8,throttle_reasons,,all,,,PowerBurst,text,measured,only reason observed in any window; 815 limited samples over this arm's six windows
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c1,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c1,output_throughput,mean,all,5,19.16,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c1,tpot_p95_ms,mean,all,5,52.6,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c1,ttft_p95_ms,mean,all,5,766,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c16,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c16,output_throughput,mean,all,5,230.05,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c16,tpot_p95_ms,mean,all,5,67.9,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c16,ttft_p95_ms,mean,all,5,11657,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c2,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c2,output_throughput,mean,all,5,43.13,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c32,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c32,output_throughput,mean,all,5,289.18,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c32,tpot_p95_ms,mean,all,5,99.2,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c32,ttft_p95_ms,mean,all,5,17927,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c4,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c4,output_throughput,mean,all,5,82.02,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c8,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c8,output_throughput,mean,all,5,147.7,,tok/s,measured,markdown only; context arm
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c8,tpot_p95_ms,mean,all,5,52.7,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-c8,ttft_p95_ms,mean,all,5,5874,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-server,fit_status,,all,,,gate passed,text,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-server,kv_cache_pool_tokens,,all,,150634,,tokens,measured,KV cache 9.63 GiB
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-server,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log by fit-from-serve-log.py
+2026-09-28-qwen38-27b-speed-2,f2-f0-eager-final-server,weights_gib_per_card,,all,,16.95,,GiB,measured,loader-reported GPU memory for weights
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,output_throughput,mean,all,5,49.8395,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,tpot_mean_ms,mean,all,5,18.5168,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,tpot_p95_ms,mean,all,5,20.2,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,ttft_mean_ms,mean,all,5,810.5733,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c1,ttft_p95_ms,mean,all,5,823,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,output_throughput,mean,all,5,268.6027,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,tpot_mean_ms,mean,all,5,53.8864,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,tpot_p95_ms,mean,all,5,65.2,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,ttft_mean_ms,mean,all,5,2259.8121,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c16,ttft_p95_ms,mean,all,5,11910,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c2,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c2,output_throughput,mean,all,5,87.483,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c2,output_throughput_cv,cv,all,5,2.65,,percent,derived,c2 fresh-server batch-2 penalty; every other rung at most 1.11%
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c2,tpot_mean_ms,mean,all,5,20.466,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c2,ttft_mean_ms,mean,all,5,1135.0384,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,output_throughput,mean,all,5,217.9934,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,tpot_mean_ms,mean,all,5,103.6866,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,tpot_p95_ms,mean,all,5,126,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,ttft_mean_ms,mean,all,5,20551.9279,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c32,ttft_p95_ms,mean,all,5,37262,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c4,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c4,output_throughput,mean,all,5,131.0091,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c4,tpot_mean_ms,mean,all,5,28.0519,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c4,ttft_mean_ms,mean,all,5,1155.2587,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,output_throughput,mean,all,5,207.8638,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,tpot_mean_ms,mean,all,5,34.5635,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,tpot_p95_ms,mean,all,5,40.6,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,ttft_mean_ms,mean,all,5,1591.6211,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-c8,ttft_p95_ms,mean,all,5,6009,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-server,fit_status,,all,,,gate passed,text,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-server,kv_cache_pool_tokens,,all,,130623,,tokens,measured,KV cache 9.68 GiB
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-server,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log by fit-from-serve-log.py
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-server,spec_acceptance,mean,all,,0.7499,,fraction,measured,"over the server's life, accepted / drafted 795,627 / 1,060,938"
+2026-09-28-qwen38-27b-speed-2,f2-f0-ref-final-server,weights_gib_per_card,,all,,17.17,,GiB,measured,loader-reported GPU memory for weights
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,output_throughput,mean,all,5,51.9409,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,speedup_ratio,,all,,1.04216,,ratio,derived,vs f0-ref-final 49.84 tok/s; delta +4.216%; Welch significant at 95%: True; handoff: +4.2% at c1
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,tpot_mean_ms,mean,all,5,17.7155,,ms,measured,"vs reference -4.328%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,tpot_p95_ms,mean,all,5,19.5,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,ttft_mean_ms,mean,all,5,804.4467,,ms,measured,"vs reference -0.756%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c1,ttft_p95_ms,mean,all,5,816,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,output_throughput,mean,all,5,272.2633,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,speedup_ratio,,all,,1.01363,,ratio,derived,vs f0-ref-final 268.60 tok/s; delta +1.363%; Welch significant at 95%: True
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,tpot_mean_ms,mean,all,5,53.1305,,ms,measured,"vs reference -1.403%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,tpot_p95_ms,mean,all,5,64.2,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,ttft_mean_ms,mean,all,5,2253.2047,,ms,measured,"vs reference -0.292%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c16,ttft_p95_ms,mean,all,5,11843,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,output_throughput,mean,all,5,90.8473,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,output_throughput_cv,cv,all,5,3.01,,percent,derived,c2 fresh-server batch-2 penalty; every other rung at most 1.11%
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,speedup_ratio,,all,,1.03846,,ratio,derived,vs f0-ref-final 87.48 tok/s; delta +3.846%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,tpot_mean_ms,mean,all,5,19.7872,,ms,measured,"vs reference -3.317%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c2,ttft_mean_ms,mean,all,5,1098.8629,,ms,measured,"vs reference -3.187%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,output_throughput,mean,all,5,201.7457,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,speedup_ratio,,all,,0.92547,,ratio,derived,vs f0-ref-final 217.99 tok/s; delta -7.453%; Welch significant at 95%: True; handoff: -7.5% at c32
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,tpot_mean_ms,mean,all,5,92.5848,,ms,measured,"vs reference -10.707%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,tpot_p95_ms,mean,all,5,109.6,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,ttft_mean_ms,mean,all,5,31998.8303,,ms,measured,"vs reference +55.697%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c32,ttft_p95_ms,mean,all,5,45803,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c4,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c4,output_throughput,mean,all,5,135.3942,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c4,speedup_ratio,,all,,1.03347,,ratio,derived,vs f0-ref-final 131.01 tok/s; delta +3.347%; Welch significant at 95%: True
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c4,tpot_mean_ms,mean,all,5,27.0998,,ms,measured,"vs reference -3.394%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c4,ttft_mean_ms,mean,all,5,1173.962,,ms,measured,"vs reference +1.619%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,output_throughput,mean,all,5,212.1905,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,speedup_ratio,,all,,1.02082,,ratio,derived,vs f0-ref-final 207.86 tok/s; delta +2.082%; Welch significant at 95%: True
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,tpot_mean_ms,mean,all,5,33.8326,,ms,measured,"vs reference -2.115%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,tpot_p95_ms,mean,all,5,39.9,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,ttft_mean_ms,mean,all,5,1582.9886,,ms,measured,"vs reference -0.542%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-c8,ttft_p95_ms,mean,all,5,5971,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,fit_status,,all,,,gate passed,text,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,kv_cache_pool_tokens,,all,,108179,,tokens,measured,KV cache 8.01 GiB
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log by fit-from-serve-log.py
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,quality_verdict,,all,,,"qualified: true, no promotion blockers",text,measured,"qualify.py compare against f0-ref-final; qualified means the comparison is valid, not that the candidate won"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,spec_acceptance,mean,all,,0.7496,,fraction,measured,"over the server's life, accepted / drafted 795,309 / 1,060,986"
+2026-09-28-qwen38-27b-speed-2,f2-f1-int-compile-server,weights_gib_per_card,,all,,17.17,,GiB,measured,loader-reported GPU memory for weights
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,output_throughput,mean,all,5,49.6882,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,speedup_ratio,,all,,0.99696,,ratio,derived,vs f0-ref-final 49.84 tok/s; delta -0.304%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,tpot_mean_ms,mean,all,5,18.5775,,ms,measured,"vs reference +0.328%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,tpot_p95_ms,mean,all,5,20.3,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,ttft_mean_ms,mean,all,5,810.9439,,ms,measured,"vs reference +0.046%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c1,ttft_p95_ms,mean,all,5,823,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,output_throughput,mean,all,5,266.8195,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,speedup_ratio,,all,,0.99336,,ratio,derived,vs f0-ref-final 268.60 tok/s; delta -0.664%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,tpot_mean_ms,mean,all,5,54.1816,,ms,measured,"vs reference +0.548%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,tpot_p95_ms,mean,all,5,65.9,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,ttft_mean_ms,mean,all,5,2309.2134,,ms,measured,"vs reference +2.186%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c16,ttft_p95_ms,mean,all,5,12136,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,output_throughput,mean,all,5,87.2818,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,output_throughput_cv,cv,all,5,2.77,,percent,derived,c2 fresh-server batch-2 penalty; every other rung at most 1.11%
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,speedup_ratio,,all,,0.9977,,ratio,derived,vs f0-ref-final 87.48 tok/s; delta -0.230%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,tpot_mean_ms,mean,all,5,20.5028,,ms,measured,"vs reference +0.180%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c2,ttft_mean_ms,mean,all,5,1172.405,,ms,measured,"vs reference +3.292%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,output_throughput,mean,all,5,232.0866,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,speedup_ratio,,all,,1.06465,,ratio,derived,vs f0-ref-final 217.99 tok/s; delta +6.465%; Welch significant at 95%: True
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,tpot_mean_ms,mean,all,5,112.7702,,ms,measured,"vs reference +8.761%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,tpot_p95_ms,mean,all,5,138.7,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,ttft_mean_ms,mean,all,5,11662.0641,,ms,measured,"vs reference -43.256%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c32,ttft_p95_ms,mean,all,5,27567,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c4,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c4,output_throughput,mean,all,5,131.1435,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c4,speedup_ratio,,all,,1.00103,,ratio,derived,vs f0-ref-final 131.01 tok/s; delta +0.103%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c4,tpot_mean_ms,mean,all,5,27.9855,,ms,measured,"vs reference -0.237%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c4,ttft_mean_ms,mean,all,5,1165.4162,,ms,measured,"vs reference +0.879%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,failed_requests,,all,,,,count,unavailable,"source reports no job failure, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,output_throughput,mean,all,5,207.4999,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,speedup_ratio,,all,,0.99825,,ratio,derived,vs f0-ref-final 207.86 tok/s; delta -0.175%; Welch significant at 95%: False
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,tpot_mean_ms,mean,all,5,34.5125,,ms,measured,"vs reference -0.148%, significant at 95%: False"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,tpot_p95_ms,mean,all,5,40.7,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,ttft_mean_ms,mean,all,5,1610.9951,,ms,measured,"vs reference +1.217%, significant at 95%: True"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-c8,ttft_p95_ms,mean,all,5,6063,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,fit_status,,all,,,gate passed,text,measured,
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,kv_cache_pool_tokens,,all,,152169,,tokens,measured,KV cache 11.27 GiB
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,offload_status,,all,,,proven-resident,text,measured,reconstructed from the serve log by fit-from-serve-log.py
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,quality_verdict,,all,,,"qualified: true, no promotion blockers",text,measured,"qualify.py compare against f0-ref-final; qualified means the comparison is valid, not that the candidate won"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,spec_acceptance,mean,all,,0.7495,,fraction,measured,"over the server's life, accepted / drafted 795,448 / 1,061,308"
+2026-09-28-qwen38-27b-speed-2,f2-f1-load-gpu95-server,weights_gib_per_card,,all,,17.17,,GiB,measured,loader-reported GPU memory for weights
+2026-09-28-qwen38-27b-speed-2,p3-compile-c1,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c1,output_throughput,mean,all,5,52,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c1,speedup_ratio,,all,,1.044,,ratio,derived,"compile / ref, full ladder; ref 49.8 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c1,ttft_p95_ms,mean,all,5,810,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-c16,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c16,output_throughput,mean,all,5,524.1,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c16,speedup_ratio,,all,,1.031,,ratio,derived,"compile / ref, full ladder; ref 508.3 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c16,ttft_p95_ms,mean,all,5,3014,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-c2,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c2,output_throughput,mean,all,5,103.1,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c2,speedup_ratio,,all,,1.043,,ratio,derived,"compile / ref, full ladder; ref 98.9 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c2,ttft_p95_ms,mean,all,5,810,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-c32,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c32,output_throughput,mean,all,5,843.2,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c32,speedup_ratio,,all,,1.024,,ratio,derived,"compile / ref, full ladder; ref 823.6 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c32,ttft_p95_ms,mean,all,5,5943,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-c4,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c4,output_throughput,mean,all,5,204.8,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c4,speedup_ratio,,all,,1.044,,ratio,derived,"compile / ref, full ladder; ref 196.2 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c4,ttft_p95_ms,mean,all,5,833,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,output_throughput,mean,all,5,354.6,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,output_throughput_cv,cv,all,5,2.5,,percent,derived,every other rung at most 1.1%
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,speedup_ratio,,all,,1.041,,ratio,derived,"compile / ref, full ladder; ref 340.7 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,ttft_p95_ms,,1,,7843,,ms,measured,"rep 1 fresh-server spike; reps 2-5 lie in 1,463-1,602 ms (both arms)"
+2026-09-28-qwen38-27b-speed-2,p3-compile-c8,ttft_p95_ms,mean,all,5,2807,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-direct-c1,output_throughput,max,all,3,52.13,,tok/s,measured,router-cost control; via router c1 is in the full ladder
+2026-09-28-qwen38-27b-speed-2,p3-compile-direct-c1,output_throughput,min,all,3,51.65,,tok/s,measured,router-cost control; via router c1 is in the full ladder
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,attempted_requests,,all,,64,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,completed_requests,,all,,64,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,goodput_req_per_s,single,all,1,0.241,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,output_throughput,single,all,1,123.3,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,request_rate_completed,single,all,1,0.241,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,spec_acceptance,single,all,1,0.759,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,tpot_p95_ms,single,all,1,21.2,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,ttft_p50_ms,single,all,1,804,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.25,ttft_p95_ms,single,all,1,864,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,attempted_requests,,all,,120,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,completed_requests,,all,,120,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,goodput_req_per_s,single,all,1,0.482,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,output_throughput,single,all,1,247,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,request_rate_completed,single,all,1,0.482,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,spec_acceptance,single,all,1,0.745,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,tpot_p95_ms,single,all,1,23.9,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,ttft_p50_ms,single,all,1,841,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.50,ttft_p95_ms,single,all,1,1177,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,attempted_requests,,all,,180,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,completed_requests,,all,,180,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,goodput_req_per_s,single,all,1,0.714,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,output_throughput,single,all,1,365.3,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,request_rate_completed,single,all,1,0.714,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,spec_acceptance,single,all,1,0.744,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,tpot_p95_ms,single,all,1,28.6,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,ttft_p50_ms,single,all,1,864,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r0.75,ttft_p95_ms,single,all,1,1387,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,attempted_requests,,all,,240,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,completed_requests,,all,,240,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,compliant_fraction,,all,,0.995789473684,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,goodput_req_per_s,single,all,1,0.946,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,output_throughput,single,all,1,486.6,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,request_rate_completed,single,all,1,0.95,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,spec_acceptance,single,all,1,0.749,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,tpot_p95_ms,single,all,1,31.1,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,ttft_p50_ms,single,all,1,893,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.00,ttft_p95_ms,single,all,1,1569,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,attempted_requests,,all,,300,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,completed_requests,,all,,300,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,compliant_fraction,,all,,0.989864864865,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,goodput_req_per_s,single,all,1,1.172,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,output_throughput,single,all,1,606.3,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,request_rate_completed,single,all,1,1.184,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,spec_acceptance,single,all,1,0.747,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,tpot_p95_ms,single,all,1,35.8,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,ttft_p50_ms,single,all,1,914,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.25,ttft_p95_ms,single,all,1,1621,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,attempted_requests,,all,,360,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,completed_requests,,all,,360,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,compliant_fraction,,all,,0.969481902058,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,goodput_req_per_s,single,all,1,1.366,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,output_throughput,single,all,1,721.6,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,request_rate_completed,single,all,1,1.409,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,spec_acceptance,single,all,1,0.75,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,tpot_p95_ms,single,all,1,41.4,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,ttft_p50_ms,single,all,1,930,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.50,ttft_p95_ms,single,all,1,1745,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,attempted_requests,,all,,420,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,completed_requests,,all,,420,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,compliant_fraction,,all,,0.959711365003,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,goodput_req_per_s,single,all,1,1.596,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,output_throughput,single,all,1,851.6,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,request_rate_completed,single,all,1,1.663,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,spec_acceptance,single,all,1,0.754,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,tpot_p95_ms,single,all,1,54.3,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,ttft_p50_ms,single,all,1,979,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-poisson-r1.75,ttft_p95_ms,single,all,1,1798,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,output_throughput,mean,all,5,524.4,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,speedup_ratio,,all,,1.028,,ratio,derived,"compile / ref, pre-warmed; ref 509.9 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,target_met,,all,,false,,bool,derived,every rep breaches p95 TTFT (3.01-3.04 s)
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,tpot_p95_ms,mean,all,5,31.5,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c16,ttft_p95_ms,mean,all,5,3010,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,output_throughput,mean,all,5,205.3,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,speedup_ratio,,all,,1.051,,ratio,derived,"compile / ref, pre-warmed; ref 195.4 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms in every rep"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,tpot_p95_ms,mean,all,5,19.7,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c4,ttft_p95_ms,mean,all,5,834,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,output_throughput,mean,all,5,358.9,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,speedup_ratio,,all,,1.04,,ratio,derived,"compile / ref, pre-warmed; ref 345.1 tok/s"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms in every rep"
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,tpot_p95_ms,mean,all,5,22.5,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,ttft_p95_ms,max,all,5,1577,,ms,measured,per-rep p95 range
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,ttft_p95_ms,mean,all,5,1512,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-compile-prewarmed-c8,ttft_p95_ms,min,all,5,1470,,ms,measured,per-rep p95 range
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c1,output_throughput,single,all,1,47.8,,tok/s,measured,"one card, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c1,spec_acceptance,single,all,1,0.599,,fraction,measured,source lists 'c1 / c8' as two figures; read in that order
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c1,speedup_ratio,,all,,1.046,,ratio,derived,"compile / ref, realistic prompts, one card"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c1,ttft_p95_ms,single,all,1,244,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c8,output_throughput,single,all,1,227.4,,tok/s,measured,"one card, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c8,spec_acceptance,single,all,1,0.596,,fraction,measured,source lists 'c1 / c8' as two figures; read in that order
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c8,speedup_ratio,,all,,1.025,,ratio,derived,"compile / ref, realistic prompts, one card"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-1card-c8,ttft_p95_ms,single,all,1,721,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c1,output_throughput,single,all,1,47.9,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c1,spec_acceptance,max,all,,0.608,,fraction,measured,range over the four rungs; spec-decode counters summed over replicas
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c1,spec_acceptance,min,all,,0.596,,fraction,measured,range over the four rungs; spec-decode counters summed over replicas
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c1,speedup_ratio,,all,,1.044,,ratio,derived,"compile / ref, realistic prompts, four replicas"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c1,ttft_p95_ms,single,all,1,230,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c16,output_throughput,single,all,1,488,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c16,speedup_ratio,,all,,1.047,,ratio,derived,"compile / ref, realistic prompts, four replicas"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c16,ttft_p95_ms,single,all,1,507,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c32,output_throughput,single,all,1,863.2,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c32,speedup_ratio,,all,,1.035,,ratio,derived,"compile / ref, realistic prompts, four replicas"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c32,ttft_p95_ms,single,all,1,848,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c8,output_throughput,single,all,1,304.2,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c8,speedup_ratio,,all,,1.035,,ratio,derived,"compile / ref, realistic prompts, four replicas"
+2026-09-28-qwen38-27b-speed-2,p3-compile-realprompt-c8,ttft_p95_ms,single,all,1,373,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,cache_hit_rate,mean,all,3,0.88,,fraction,measured,"warm pass, prefix cache"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,correctness_gate,,all,,,passed,text,measured,tool-call gate
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,spec_acceptance,mean,all,3,0.993,,fraction,measured,
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,speedup_ratio,,all,,1.02357774404,,ratio,derived,"cold time-to-answer, ref / compile"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,speedup_ratio,,all,,1.03277811225,,ratio,derived,"warm time-to-answer, ref / compile"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,time_to_answer_s,mean,all,3,22.394,,s,measured,cold pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,time_to_answer_s,mean,all,3,14.949,,s,measured,warm pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,ttft_p50_ms,mean,all,3,798,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-compile,ttft_p95_ms,mean,all,3,884,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,cache_hit_rate,mean,all,3,0.88,,fraction,measured,"warm pass, prefix cache"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,correctness_gate,,all,,,passed,text,measured,tool-call gate
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,spec_acceptance,mean,all,3,0.993,,fraction,measured,
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,time_to_answer_s,mean,all,3,22.922,,s,measured,cold pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,time_to_answer_s,mean,all,3,15.439,,s,measured,warm pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,ttft_p50_ms,mean,all,3,811,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-deep-ref,ttft_p95_ms,mean,all,3,901,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,cache_hit_rate,mean,all,3,0.75,,fraction,measured,"warm pass, prefix cache"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,correctness_gate,,all,,,passed,text,measured,tool-call gate
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,spec_acceptance,mean,all,3,0.989,,fraction,measured,
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,speedup_ratio,,all,,1.02750403154,,ratio,derived,"cold time-to-answer, ref / compile"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,speedup_ratio,,all,,1.03275416764,,ratio,derived,"warm time-to-answer, ref / compile"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,time_to_answer_s,mean,all,3,11.162,,s,measured,cold pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,time_to_answer_s,mean,all,3,8.518,,s,measured,"warm pass; compile produced 4,581 output tokens against the reference's 4,568 (L128)"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,ttft_p50_ms,mean,all,3,808,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-compile,ttft_p95_ms,mean,all,3,895,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,cache_hit_rate,mean,all,3,0.75,,fraction,measured,"warm pass, prefix cache"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,correctness_gate,,all,,,passed,text,measured,tool-call gate
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,spec_acceptance,mean,all,3,0.989,,fraction,measured,
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,time_to_answer_s,mean,all,3,11.469,,s,measured,cold pass
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,time_to_answer_s,mean,all,3,8.797,,s,measured,"warm pass; compile produced 4,581 output tokens against the reference's 4,568 (L128)"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,ttft_p50_ms,mean,all,3,821,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-multiturn-standard-ref,ttft_p95_ms,mean,all,3,909,,ms,measured,"per-turn TTFT, warm pass"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c1,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c1,output_throughput,mean,all,5,49.8,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c1,ttft_p95_ms,mean,all,5,816,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-c16,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c16,output_throughput,mean,all,5,508.3,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c16,ttft_p95_ms,mean,all,5,3031,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-c2,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c2,output_throughput,mean,all,5,98.9,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c2,ttft_p95_ms,mean,all,5,822,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-c32,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c32,output_throughput,mean,all,5,823.6,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c32,ttft_p95_ms,mean,all,5,5980,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-c4,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c4,output_throughput,mean,all,5,196.2,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c4,ttft_p95_ms,mean,all,5,837,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-c8,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c8,output_throughput,mean,all,5,340.7,,tok/s,measured,"full ladder, not pre-warmed; aggregate concurrency"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c8,output_throughput_cv,cv,all,5,2.8,,percent,derived,every other rung at most 1.1%
+2026-09-28-qwen38-27b-speed-2,p3-ref-c8,ttft_p95_ms,,1,,7870,,ms,measured,"rep 1 fresh-server spike; reps 2-5 lie in 1,463-1,602 ms (both arms)"
+2026-09-28-qwen38-27b-speed-2,p3-ref-c8,ttft_p95_ms,mean,all,5,2782,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-direct-c1,output_throughput,max,all,3,49.85,,tok/s,measured,router-cost control; via router c1 is in the full ladder
+2026-09-28-qwen38-27b-speed-2,p3-ref-direct-c1,output_throughput,min,all,3,49.72,,tok/s,measured,router-cost control; via router c1 is in the full ladder
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,attempted_requests,,all,,64,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,completed_requests,,all,,64,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,goodput_req_per_s,single,all,1,0.241,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,output_throughput,single,all,1,123.3,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,request_rate_completed,single,all,1,0.241,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,spec_acceptance,single,all,1,0.766,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,tpot_p95_ms,single,all,1,21.9,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,ttft_p50_ms,single,all,1,810,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.25,ttft_p95_ms,single,all,1,883,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,attempted_requests,,all,,120,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,completed_requests,,all,,120,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,goodput_req_per_s,single,all,1,0.481,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,output_throughput,single,all,1,246.5,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,request_rate_completed,single,all,1,0.481,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,spec_acceptance,single,all,1,0.748,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,tpot_p95_ms,single,all,1,25.1,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,ttft_p50_ms,single,all,1,851,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.50,ttft_p95_ms,single,all,1,1139,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,attempted_requests,,all,,180,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,completed_requests,,all,,180,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,compliant_fraction,,all,,1,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,goodput_req_per_s,single,all,1,0.713,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,output_throughput,single,all,1,364.8,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,request_rate_completed,single,all,1,0.713,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,spec_acceptance,single,all,1,0.743,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,tpot_p95_ms,single,all,1,28.9,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,ttft_p50_ms,single,all,1,877,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r0.75,ttft_p95_ms,single,all,1,1455,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,attempted_requests,,all,,240,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,completed_requests,,all,,240,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,compliant_fraction,,all,,0.996838777661,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,goodput_req_per_s,single,all,1,0.946,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,output_throughput,single,all,1,486.1,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,request_rate_completed,single,all,1,0.949,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,spec_acceptance,single,all,1,0.747,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,tpot_p95_ms,single,all,1,32.7,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,ttft_p50_ms,single,all,1,898,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.00,ttft_p95_ms,single,all,1,1482,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,attempted_requests,,all,,300,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,completed_requests,,all,,300,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,compliant_fraction,,all,,0.980557903635,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,goodput_req_per_s,single,all,1,1.16,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,output_throughput,single,all,1,605.9,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,request_rate_completed,single,all,1,1.183,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,spec_acceptance,single,all,1,0.749,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,tpot_p95_ms,single,all,1,36.6,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,ttft_p50_ms,single,all,1,920,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.25,ttft_p95_ms,single,all,1,1687,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,attempted_requests,,all,,360,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,completed_requests,,all,,360,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,compliant_fraction,,all,,0.994301994302,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,goodput_req_per_s,single,all,1,1.396,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,output_throughput,single,all,1,718.7,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,request_rate_completed,single,all,1,1.404,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,spec_acceptance,single,all,1,0.748,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,tpot_p95_ms,single,all,1,45.5,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,ttft_p50_ms,single,all,1,947,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.50,ttft_p95_ms,single,all,1,1654,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,attempted_requests,,all,,420,,count,derived,client cap 64; equals completed because no request failed
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,completed_requests,,all,,420,,count,measured,"client cap 64; max(64, 240 x rate) prompts"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,compliant_fraction,,all,,0.952323476162,,fraction,derived,client cap 64; goodput / completed rate
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,failed_requests,,all,,0,,count,measured,client cap 64; 'No request failed'
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,goodput_req_per_s,single,all,1,1.578,,req/s,measured,"client cap 64; vLLM goodput at TTFT 2,000 ms / TPOT 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,output_throughput,single,all,1,848.5,,tok/s,measured,"client cap 64; set by arrivals, not the server"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,request_rate_completed,single,all,1,1.657,,req/s,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,spec_acceptance,single,all,1,0.751,,fraction,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,target_met,,all,,true,,bool,derived,"client cap 64; p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms"
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,tpot_p95_ms,single,all,1,56.4,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,ttft_p50_ms,single,all,1,1001,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-poisson-r1.75,ttft_p95_ms,single,all,1,1948,,ms,measured,client cap 64
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c16,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c16,output_throughput,mean,all,5,509.9,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c16,target_met,,all,,false,,bool,derived,every rep breaches p95 TTFT (3.01-3.04 s)
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c16,tpot_p95_ms,mean,all,5,32.7,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c16,ttft_p95_ms,mean,all,5,3031,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c4,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c4,output_throughput,mean,all,5,195.4,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c4,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms in every rep"
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c4,tpot_p95_ms,mean,all,5,20.5,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c4,ttft_p95_ms,mean,all,5,838,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,failed_requests,,all,,,,count,unavailable,"source reports job completion, not a per-request failure count"
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,output_throughput,mean,all,5,345.1,,tok/s,measured,pre-warmed; throughput CV at most 0.7% (L44)
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,target_met,,all,,true,,bool,derived,"p95 TTFT <= 2,000 ms and p95 TPOT <= 100 ms in every rep"
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,tpot_p95_ms,mean,all,5,23.4,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,ttft_p95_ms,max,all,5,1580,,ms,measured,per-rep p95 range
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,ttft_p95_ms,mean,all,5,1560,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,p3-ref-prewarmed-c8,ttft_p95_ms,min,all,5,1491,,ms,measured,per-rep p95 range
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c1,output_throughput,single,all,1,45.7,,tok/s,measured,"one card, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c1,spec_acceptance,single,all,1,0.6,,fraction,measured,source lists 'c1 / c8' as two figures; read in that order
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c1,ttft_p95_ms,single,all,1,249,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c8,output_throughput,single,all,1,221.8,,tok/s,measured,"one card, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c8,spec_acceptance,single,all,1,0.598,,fraction,measured,source lists 'c1 / c8' as two figures; read in that order
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-1card-c8,ttft_p95_ms,single,all,1,797,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c1,output_throughput,single,all,1,45.9,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c1,spec_acceptance,max,all,,0.606,,fraction,measured,range over the four rungs; spec-decode counters summed over replicas
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c1,spec_acceptance,min,all,,0.598,,fraction,measured,range over the four rungs; spec-decode counters summed over replicas
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c1,ttft_p95_ms,single,all,1,234,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c16,output_throughput,single,all,1,466.3,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c16,ttft_p95_ms,single,all,1,513,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c32,output_throughput,single,all,1,834.2,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c32,ttft_p95_ms,single,all,1,864,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c8,output_throughput,single,all,1,293.9,,tok/s,measured,"four replicas, one cell per rung"
+2026-09-28-qwen38-27b-speed-2,p3-ref-realprompt-c8,ttft_p95_ms,single,all,1,352,,ms,measured,
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_correct,,all,150,126,,count,measured,ifeval prompt-level strict
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_correct,,all,1319,725,,count,derived,gsm8k; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_items,,all,,150,,count,measured,ifeval
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_items,,all,,1267,,count,measured,winogrande full
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_score,,all,150,0.84,,fraction,derived,ifeval prompt-level strict; pass / items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_score,,all,1319,0.549659,,fraction,measured,gsm8k exact_match flexible-extract
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_score,,all,,0.581058020478,,fraction,measured,arc_challenge full acc_norm (qwen-general-v3)
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-genquality,quality_score,,all,1267,0.768745067088,,fraction,measured,"winogrande full acc (1,267 items, L99 of phase-2-quality.md)"
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,quality_score,,all,160,0.70625,,fraction,measured,greedy checkable accuracy (160 items); reference_accuracy field
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,quality_score,,all,,0.08,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c1,spec_acceptance,,all,,0.798532440783,,fraction,derived,"over the greedy session (c1 and c8): accepted 18609 / drafted 23304 (L3, L5)"
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c8,quality_score,,all,160,0.7125,,fraction,measured,greedy checkable accuracy (160 items); reference_accuracy field
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c8,quality_score,,all,,0.1,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_items,,all,,150,,count,measured,arc_challenge
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_items,,all,,150,,count,measured,winogrande
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_items,,all,,150,,count,measured,hellaswag
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_items,,all,,150,,count,measured,kasa_mmlu
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_items,,all,,150,,count,measured,boolq
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.52,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.6,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.753333333333,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.686666666667,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.826666666667,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.786666666667,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_score,,all,150,0.84,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-lmeval,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f0-ref-final-sentinel,sentinel_nll,mean,all,17552,3.0937676133,,nats/token,measured,reference_nll field; the reference's own sentinel file is a status line and is not committed
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,paired_only_first,,all,150,3,,count,measured,"ifeval items only f0-ref-final got right (lost): 1566, 1645, 286"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,paired_only_first,,all,1319,3,,count,measured,"gsm8k items only f0-ref-final got right (lost): 412, 443, 798"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,paired_only_second,,all,150,1,,count,measured,ifeval items only f1-int-compile got right (gained): 1129
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,paired_only_second,,all,1319,2,,count,measured,"gsm8k items only f1-int-compile got right (gained): 320, 573"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_correct,,all,150,124,,count,measured,ifeval prompt-level strict
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_correct,,all,1319,724,,count,derived,gsm8k; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_items,,all,,150,,count,measured,ifeval
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_items,,all,,1267,,count,measured,winogrande full
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_score,,all,150,0.826666666667,,fraction,derived,ifeval prompt-level strict; pass / items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_score,,all,1319,0.548901,,fraction,measured,gsm8k exact_match flexible-extract
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_score,,all,,0.581058020478,,fraction,measured,arc_challenge full acc_norm (qwen-general-v3)
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_score,,all,1267,0.767166535122,,fraction,measured,"winogrande full acc (1,267 items, L99 of phase-2-quality.md)"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,quality_verdict,,all,,,no corruption detected,text,measured,"numerics differ measurably: sentinel 1.00016; 7 and 9 of 200 greedy prompts diverge (repeat 0); IFEval 4 and gsm8k 5 flips against a repeat floor of 1 and 2, not directional (p 0.62, 1.0)"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,sign_test_p,,all,,0.625,,p,derived,ifeval exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-genquality,sign_test_p,,all,,1,,p,derived,gsm8k exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,greedy_matching_prompts,,all,200,193,,count,measured,"divergent (id@first char): arith-032@2, arith-043@1, arith-047@1, open-004@223, open-007@658, open-016@867, open-018@656"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,quality_score,,all,160,0.7125,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,quality_score,,all,,0.1,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c1,spec_acceptance,,all,,0.798394022673,,fraction,derived,"over the greedy session (c1 and c8): accepted 18593 / drafted 23288 (L3, L5)"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,greedy_matching_prompts,,all,200,191,,count,measured,"divergent (id@first char): arith-043@1, open-000@627, open-004@223, open-007@658, open-015@813, open-018@656, open-021@408, open-033@673, open-035@437"
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,quality_score,,all,160,0.70625,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,quality_score,,all,,0.08,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_items,,all,,150,,count,measured,arc_challenge
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_items,,all,,150,,count,measured,winogrande
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_items,,all,,150,,count,measured,hellaswag
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_items,,all,,150,,count,measured,kasa_mmlu
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_items,,all,,150,,count,measured,boolq
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.52,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.6,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.753333333333,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.686666666667,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.826666666667,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.786666666667,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_score,,all,150,0.84,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-lmeval,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-sentinel,sentinel_nll,mean,all,17552,3.0939304603,,nats/token,measured,391 held-out prompts
+2026-09-28-qwen38-27b-speed-2,q2-f1-int-compile-sentinel,sentinel_perplexity_ratio,,all,17552,1.00016286025,,ratio,derived,vs f0-ref-final NLL 3.0937676; stop line 1.05; perplexity delta 0.003593
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,paired_only_first,,all,150,1,,count,measured,ifeval items only f0-ref-final got right (lost): 1645
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,paired_only_first,,all,1319,0,,count,measured,gsm8k items only f0-ref-final got right (lost): none
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,paired_only_second,,all,150,0,,count,measured,ifeval items only f1-load-gpu95 got right (gained): none
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,paired_only_second,,all,1319,0,,count,measured,gsm8k items only f1-load-gpu95 got right (gained): none
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_correct,,all,150,125,,count,measured,ifeval prompt-level strict
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_correct,,all,1319,725,,count,derived,gsm8k; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_items,,all,,150,,count,measured,ifeval
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_items,,all,,1267,,count,measured,winogrande full
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_score,,all,150,0.833333333333,,fraction,derived,ifeval prompt-level strict; pass / items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_score,,all,1319,0.549659,,fraction,measured,gsm8k exact_match flexible-extract
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_score,,all,,0.581058020478,,fraction,measured,arc_challenge full acc_norm (qwen-general-v3)
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_score,,all,1267,0.768745067088,,fraction,measured,"winogrande full acc (1,267 items, L99 of phase-2-quality.md)"
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,quality_verdict,,all,,,no corruption detected,text,measured,"indistinguishable from the reference: greedy bit-identical at c1 and c8, sentinel ratio 1.000, one IFEval flip that also flips elsewhere"
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,sign_test_p,,all,,1,,p,derived,ifeval exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-genquality,sign_test_p,,all,,1,,p,derived,gsm8k exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,greedy_matching_prompts,,all,200,200,,count,measured,divergent (id@first char): none
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,quality_score,,all,160,0.70625,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,quality_score,,all,,0.08,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c1,spec_acceptance,,all,,0.798755364807,,fraction,derived,"over the greedy session (c1 and c8): accepted 18611 / drafted 23300 (L3, L5)"
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,greedy_matching_prompts,,all,200,200,,count,measured,divergent (id@first char): none
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,quality_score,,all,160,0.7125,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,quality_score,,all,,0.1,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_items,,all,,150,,count,measured,arc_challenge
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_items,,all,,150,,count,measured,winogrande
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_items,,all,,150,,count,measured,hellaswag
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_items,,all,,150,,count,measured,kasa_mmlu
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_items,,all,,150,,count,measured,boolq
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.52,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.6,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.753333333333,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.686666666667,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.826666666667,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.786666666667,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_score,,all,150,0.84,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-lmeval,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-sentinel,sentinel_nll,mean,all,17552,3.0937676133,,nats/token,measured,391 held-out prompts
+2026-09-28-qwen38-27b-speed-2,q2-f1-load-gpu95-sentinel,sentinel_perplexity_ratio,,all,17552,1,,ratio,derived,vs f0-ref-final NLL 3.0937676; stop line 1.05; perplexity delta 0.000000
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,paired_only_first,,all,150,0,,count,measured,ifeval items only f0-ref-final got right (lost): none
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,paired_only_first,,all,1319,1,,count,measured,gsm8k items only f0-ref-final got right (lost): 443
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,paired_only_second,,all,150,1,,count,measured,ifeval items only q0-ref-repeat got right (gained): 1129
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,paired_only_second,,all,1319,1,,count,measured,gsm8k items only q0-ref-repeat got right (gained): 164
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_correct,,all,150,127,,count,measured,ifeval prompt-level strict
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_correct,,all,1319,725,,count,derived,gsm8k; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_items,,all,,150,,count,measured,ifeval
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_items,,all,,1319,,count,measured,gsm8k
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_items,,all,,1267,,count,measured,winogrande full
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_score,,all,150,0.846666666667,,fraction,derived,ifeval prompt-level strict; pass / items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_score,,all,1319,0.549659,,fraction,measured,gsm8k exact_match flexible-extract
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_score,,all,,0.581058020478,,fraction,measured,arc_challenge full acc_norm (qwen-general-v3)
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,quality_score,,all,1267,0.768745067088,,fraction,measured,"winogrande full acc (1,267 items, L99 of phase-2-quality.md)"
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,sign_test_p,,all,,1,,p,derived,ifeval exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-genquality,sign_test_p,,all,,1,,p,derived,gsm8k exact two-sided sign test on flips vs f0-ref-final
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,greedy_matching_prompts,,all,200,200,,count,measured,divergent (id@first char): none
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,quality_score,,all,160,0.70625,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,quality_score,,all,,0.08,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c1,spec_acceptance,,all,,0.798532440783,,fraction,derived,"over the greedy session (c1 and c8): accepted 18609 / drafted 23304 (L3, L5)"
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,greedy_matching_prompts,,all,200,200,,count,measured,divergent (id@first char): none
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,greedy_prompts,,all,,200,,count,measured,
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,quality_score,,all,160,0.7125,,fraction,measured,greedy checkable accuracy (160 items)
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,quality_score,,all,,0.1,,fraction,measured,greedy arith accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy reverse accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,quality_score,,all,,1,,fraction,measured,greedy sequence accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sort accuracy
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,78,,count,derived,arc_challenge acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,90,,count,derived,arc_challenge acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,113,,count,derived,winogrande acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,103,,count,derived,hellaswag acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,124,,count,derived,hellaswag acc_norm; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,118,,count,derived,kasa_mmlu acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_correct,,all,150,126,,count,derived,boolq acc; score x items
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_items,,all,,150,,count,measured,arc_challenge
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_items,,all,,150,,count,measured,winogrande
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_items,,all,,150,,count,measured,hellaswag
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_items,,all,,150,,count,measured,kasa_mmlu
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_items,,all,,150,,count,measured,boolq
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.52,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.6,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.753333333333,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.686666666667,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.826666666667,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.786666666667,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_score,,all,150,0.84,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0409288136309,,fraction,measured,arc_challenge acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0401340037254,,fraction,measured,arc_challenge acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0353147137636,,fraction,measured,winogrande acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.037999960752,,fraction,measured,hellaswag acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0310108109411,,fraction,measured,hellaswag acc_norm
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0335607455083,,fraction,measured,kasa_mmlu acc
+2026-09-28-qwen38-27b-speed-2,q2-q0-ref-repeat-lmeval,quality_stderr,,all,150,0.0300335383,,fraction,measured,boolq acc
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,output_throughput,mean,all,3,49.9024230042,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,output_throughput_cv,cv,all,3,0.353063073475,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,spec_acceptance,mean,all,,0.606,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,speedup_ratio,,all,,1.00426863281,,ratio,derived,vs reference median 49.69 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,speedup_ratio,geomean,all,,0.980621024395,,ratio,derived,interactive track geomean over c1 and c8; advances: False; min endpoint 0.9575
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,tpot_p95_ms,mean,all,3,21.0574822872,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c1,ttft_p95_ms,mean,all,3,833.596670108,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,output_throughput,mean,all,3,253.828025847,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,output_throughput_cv,cv,all,3,0.201211602819,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,speedup_ratio,,all,,0.945876369075,,ratio,derived,vs reference median 268.35 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,speedup_ratio,geomean,all,,0.957465578877,,ratio,derived,loaded track geomean over c16 and c32; advances: False; min endpoint 0.9459
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,tpot_p95_ms,mean,all,3,70.009240418,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c16,ttft_p95_ms,mean,all,3,11926.720283,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,output_throughput,mean,all,3,211.947651325,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,output_throughput_cv,cv,all,3,0.126411468371,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,speedup_ratio,,all,,0.969196783753,,ratio,derived,vs reference median 218.68 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,speedup_ratio,,all,,0.732789345773,,ratio,derived,rescue track: vs eager median 289.23 tok/s (e0/e1); advances: False
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,tpot_p95_ms,mean,all,3,100.933799872,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c32,ttft_p95_ms,mean,all,3,42299.5164574,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c8,output_throughput,mean,all,3,197.598320079,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c8,output_throughput_cv,cv,all,3,1.0181616006,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c8,speedup_ratio,,all,,0.957530248451,,ratio,derived,vs reference median 206.36 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c8,tpot_p95_ms,mean,all,3,42.3774391119,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a1-mtp3-xpugraph-c8,ttft_p95_ms,mean,all,3,6718.44380733,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,output_throughput,mean,all,3,52.1340072312,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,output_throughput_cv,cv,all,3,0.502311484379,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,spec_acceptance,mean,all,,0.75,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,speedup_ratio,,all,,1.04917847697,,ratio,derived,vs reference median 49.69 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,speedup_ratio,geomean,all,,1.03647887635,,ratio,derived,interactive track geomean over c1 and c8; advances: True; min endpoint 1.0239
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,tpot_p95_ms,mean,all,3,19.3162177614,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c1,ttft_p95_ms,mean,all,3,816.352353587,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,output_throughput,mean,all,3,272.514027168,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,output_throughput_cv,cv,all,3,0.150817065995,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,speedup_ratio,,all,,1.01550873935,,ratio,derived,vs reference median 268.35 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,speedup_ratio,geomean,all,,0.968149242629,,ratio,derived,loaded track geomean over c16 and c32; advances: False; min endpoint 0.9230
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,tpot_p95_ms,mean,all,3,64.059328035,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c16,ttft_p95_ms,mean,all,3,11836.1806474,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,output_throughput,mean,all,3,201.844815563,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,output_throughput_cv,cv,all,3,0.647321617401,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,speedup_ratio,,all,,0.922998414175,,ratio,derived,vs reference median 218.68 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,speedup_ratio,,all,,0.69785972819,,ratio,derived,rescue track: vs eager median 289.23 tok/s (e0/e1); advances: False
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,tpot_p95_ms,mean,all,3,110.136805436,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c32,ttft_p95_ms,mean,all,3,45887.511529,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c8,output_throughput,mean,all,3,211.301355946,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c8,output_throughput_cv,cv,all,3,1.0610513837,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c8,speedup_ratio,,all,,1.02393299587,,ratio,derived,vs reference median 206.36 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c8,tpot_p95_ms,mean,all,3,39.4873781765,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a4-mtp2-compile-c8,ttft_p95_ms,mean,all,3,6677.32190595,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,output_throughput,mean,all,3,47.933275883,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,output_throughput_cv,cv,all,3,0.180894063554,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,spec_acceptance,mean,all,,0.761,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,speedup_ratio,,all,,0.96464024268,,ratio,derived,vs reference median 49.69 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,speedup_ratio,geomean,all,,0.975597356656,,ratio,derived,interactive track geomean over c1 and c8; advances: False; min endpoint 0.9646
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,tpot_p95_ms,mean,all,3,21.3091431925,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c1,ttft_p95_ms,mean,all,3,828.00394514,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,output_throughput,mean,all,3,266.102229529,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,output_throughput_cv,cv,all,3,0.0463427344661,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,speedup_ratio,,all,,0.991615523265,,ratio,derived,vs reference median 268.35 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,speedup_ratio,geomean,all,,0.957645968002,,ratio,derived,loaded track geomean over c16 and c32; advances: False; min endpoint 0.9248
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,tpot_p95_ms,mean,all,3,65.1390317074,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c16,ttft_p95_ms,mean,all,3,11915.4774429,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,output_throughput,mean,all,3,202.247562521,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,output_throughput_cv,cv,all,3,0.0275207293467,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,speedup_ratio,,all,,0.924840100335,,ratio,derived,vs reference median 218.68 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,speedup_ratio,,all,,0.69925218844,,ratio,derived,rescue track: vs eager median 289.23 tok/s (e0/e1); advances: False
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,tpot_p95_ms,mean,all,3,117.058118318,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c32,ttft_p95_ms,mean,all,3,43285.1925282,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c8,output_throughput,mean,all,3,203.613514357,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c8,output_throughput_cv,cv,all,3,0.893240377548,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c8,speedup_ratio,,all,,0.986678929825,,ratio,derived,vs reference median 206.36 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c8,tpot_p95_ms,mean,all,3,41.6443940935,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a5-mtp2-mtp16-c8,ttft_p95_ms,mean,all,3,6721.21891197,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,output_throughput,mean,all,3,49.8316809187,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,output_throughput_cv,cv,all,3,0.165310550099,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,spec_acceptance,mean,all,,0.75,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,speedup_ratio,,all,,1.00284497333,,ratio,derived,vs reference median 49.69 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,speedup_ratio,geomean,all,,1.00122324179,,ratio,derived,interactive track geomean over c1 and c8; advances: False; min endpoint 0.9996
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,tpot_p95_ms,mean,all,3,20.0663709019,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c1,ttft_p95_ms,mean,all,3,823.203940362,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,output_throughput,mean,all,3,268.047625401,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,output_throughput_cv,cv,all,3,0.123671688617,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,speedup_ratio,,all,,0.998864935451,,ratio,derived,vs reference median 268.35 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,speedup_ratio,geomean,all,,1.03255558123,,ratio,derived,loaded track geomean over c16 and c32; advances: True; min endpoint 0.9989
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,tpot_p95_ms,mean,all,3,66.1017923256,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c16,ttft_p95_ms,mean,all,3,12130.2973806,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,output_throughput,mean,all,3,233.419295172,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,output_throughput_cv,cv,all,3,0.874507150872,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,speedup_ratio,,all,,1.06738257646,,ratio,derived,vs reference median 218.68 tok/s (r0/r1/r2); loaded track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,speedup_ratio,,all,,0.807025562822,,ratio,derived,rescue track: vs eager median 289.23 tok/s (e0/e1); advances: False
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,tpot_p95_ms,mean,all,3,136.050904819,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c32,ttft_p95_ms,mean,all,3,27334.8356397,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c8,output_throughput,mean,all,3,206.280791342,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c8,output_throughput_cv,cv,all,3,0.576943920898,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c8,speedup_ratio,,all,,0.999604132797,,ratio,derived,vs reference median 206.36 tok/s (r0/r1/r2); interactive track endpoint
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c8,tpot_p95_ms,mean,all,3,40.7201165874,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-a6-mtp2-gpu95-c8,ttft_p95_ms,mean,all,3,6810.2173057,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-e0-eager-open-c1,output_throughput,mean,all,3,19.35,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e0-eager-open-c16,output_throughput,mean,all,3,230.06,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e0-eager-open-c32,output_throughput,mean,all,3,289.29,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e0-eager-open-c8,output_throughput,mean,all,3,148.29,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e1-eager-close-c1,output_throughput,mean,all,3,19.32,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e1-eager-close-c16,output_throughput,mean,all,3,229.84,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e1-eager-close-c32,output_throughput,mean,all,3,289.18,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-e1-eager-close-c8,output_throughput,mean,all,3,148,,tok/s,measured,eager control; markdown only
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1,output_throughput,mean,all,3,49.9055209154,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1,output_throughput_cv,cv,all,3,0.176043835417,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1,spec_acceptance,mean,all,,0.749,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1,tpot_p95_ms,mean,all,3,20.0792785008,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c1,ttft_p95_ms,mean,all,3,822.434862096,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c16,output_throughput,mean,all,3,268.229449953,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c16,output_throughput_cv,cv,all,3,0.0814732085473,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c16,tpot_p95_ms,mean,all,3,65.7159442429,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c16,ttft_p95_ms,mean,all,3,11919.6024863,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c32,output_throughput,mean,all,3,218.45278037,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c32,output_throughput_cv,cv,all,3,0.681163769163,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c32,tpot_p95_ms,mean,all,3,125.741858857,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c32,ttft_p95_ms,mean,all,3,36976.9343329,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c8,output_throughput,mean,all,3,205.473753798,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c8,output_throughput_cv,cv,all,3,1.24346714886,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c8,tpot_p95_ms,mean,all,3,40.5518030487,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r0-ref-open-c8,ttft_p95_ms,mean,all,3,6728.73344525,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c1,output_throughput,mean,all,3,49.6527255503,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c1,output_throughput_cv,cv,all,3,0.13121512754,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c1,spec_acceptance,mean,all,,0.751,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c1,tpot_p95_ms,mean,all,3,20.3344498919,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c1,ttft_p95_ms,mean,all,3,823.127910582,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c16,output_throughput,mean,all,3,268.352222495,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c16,output_throughput_cv,cv,all,3,0.0293273123545,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c16,tpot_p95_ms,mean,all,3,65.6329409363,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c16,ttft_p95_ms,mean,all,3,11907.6928183,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c32,output_throughput,mean,all,3,220.117017278,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c32,output_throughput_cv,cv,all,3,0.747482085848,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c32,tpot_p95_ms,mean,all,3,125.179002724,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c32,ttft_p95_ms,mean,all,3,37282.6411747,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c8,output_throughput,mean,all,3,206.362483481,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c8,output_throughput_cv,cv,all,3,1.36251836434,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c8,tpot_p95_ms,mean,all,3,40.7555165244,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r1-ref-mid-c8,ttft_p95_ms,mean,all,3,6705.22087391,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c1,output_throughput,mean,all,3,49.6903133026,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c1,output_throughput_cv,cv,all,3,0.212367408336,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c1,spec_acceptance,mean,all,,0.751,,fraction,measured,"over the server's life (warm-up and all 12 cells), from the serve log's SpecDecoding lines; per arm, not per cell"
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c1,tpot_p95_ms,mean,all,3,20.3467677591,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c1,ttft_p95_ms,mean,all,3,822.810720652,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c16,output_throughput,mean,all,3,268.726556492,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c16,output_throughput_cv,cv,all,3,0.0815623270095,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c16,tpot_p95_ms,mean,all,3,65.2145744586,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c16,ttft_p95_ms,mean,all,3,11891.4447431,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c32,output_throughput,mean,all,3,218.683816205,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c32,output_throughput_cv,cv,all,3,0.688725814578,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c32,tpot_p95_ms,mean,all,3,125.188025419,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c32,ttft_p95_ms,mean,all,3,37570.0389288,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c8,output_throughput,mean,all,3,206.552832289,,tok/s,measured,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c8,output_throughput_cv,cv,all,3,0.577976967449,,percent,derived,
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c8,tpot_p95_ms,mean,all,3,40.5224264218,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,s1-r2-ref-close-c8,ttft_p95_ms,mean,all,3,6716.98085758,,ms,measured,mean of per-rep p95
+2026-09-28-qwen38-27b-speed-2,stock-b2-compile-start,correctness_gate,,all,,,fails to start on stock 0.26.0-b2 without the sym_int4 fix699 overlay,text,measured,Dynamo refuses logger.info_once in sym_int4 (llm-scaler#699 / PR 700); hit in the first campaign's s5-graph arm; this campaign ran compile only with the overlay

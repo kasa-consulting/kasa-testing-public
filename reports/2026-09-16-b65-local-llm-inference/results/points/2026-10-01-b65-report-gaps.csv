@@ -1,0 +1,211 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-10-01-b65-report-gaps,energy-4replica-c1,duration_s,sum,all,5,164.5,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c1,energy_j,sum,all,5,65617,,J,measured,"over 8,192 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c1,energy_window_s,sum,all,5,187.7,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c1,joules_per_output_token,pooled,all,5,8.010,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (14.1% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time"
+2026-10-01-b65-report-gaps,energy-4replica-c1,speedup_ratio,ratio_of_pooled,all,,2.0,,ratio,derived,energy ratio (schema lacks an energy-ratio metric): four replicas' J/token over the one-card headline's 4.00 J at aggregate c1 (fill-in M3 m3-headline-energy.md)
+2026-10-01-b65-report-gaps,energy-4replica-c16,duration_s,sum,all,5,128.9,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c16,energy_j,sum,all,5,105268,,J,measured,"over 65,536 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c16,energy_window_s,sum,all,5,152.9,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c16,joules_per_output_token,pooled,all,5,1.606,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (18.6% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time"
+2026-10-01-b65-report-gaps,energy-4replica-c16,speedup_ratio,ratio_of_pooled,all,,2.03,,ratio,derived,energy ratio (schema lacks an energy-ratio metric): four replicas' J/token over the one-card headline's 0.79 J at aggregate c16 (fill-in M3 m3-headline-energy.md)
+2026-10-01-b65-report-gaps,energy-4replica-c2,duration_s,sum,all,5,82.8,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c2,energy_j,sum,all,5,47301,,J,measured,"over 8,192 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c2,energy_window_s,sum,all,5,106.0,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c2,joules_per_output_token,pooled,all,5,5.774,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (28.0% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time"
+2026-10-01-b65-report-gaps,energy-4replica-c32,duration_s,sum,all,4,159.0,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c32,energy_j,sum,all,4,132967,,J,measured,"over 131,072 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c32,energy_window_s,sum,all,4,183.6,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c32,joules_per_output_token,pooled,all,4,1.015,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (15.5% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time; 4 reps: the tool refused rep 5's card-0 reading (no counter sample after the window closed), so that rep is left out"
+2026-10-01-b65-report-gaps,energy-4replica-c32,speedup_ratio,ratio_of_pooled,all,,1.08,,ratio,derived,energy ratio (schema lacks an energy-ratio metric): four replicas' J/token over the one-card headline's 0.94 J at aggregate c32 (fill-in M3 m3-headline-energy.md)
+2026-10-01-b65-report-gaps,energy-4replica-c32,speedup_ratio,ratio_of_pooled,all,,0.97,,ratio,derived,"energy ratio at the same load per card (schema lacks an energy-ratio metric): four replicas at aggregate c32 (8 per card) over the one-card headline at c8, 1.05 J (fill-in M3)"
+2026-10-01-b65-report-gaps,energy-4replica-c4,duration_s,sum,all,5,83.5,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c4,energy_j,sum,all,5,67375,,J,measured,"over 16,384 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c4,energy_window_s,sum,all,5,106.7,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c4,joules_per_output_token,pooled,all,5,4.112,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (27.8% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time"
+2026-10-01-b65-report-gaps,energy-4replica-c8,duration_s,sum,all,5,96.3,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-c8,energy_j,sum,all,5,77282,,J,measured,"over 32,768 output tokens"
+2026-10-01-b65-report-gaps,energy-4replica-c8,energy_window_s,sum,all,5,119.8,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-c8,joules_per_output_token,pooled,all,5,2.359,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (24.4% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time"
+2026-10-01-b65-report-gaps,energy-4replica-c8,speedup_ratio,ratio_of_pooled,all,,2.25,,ratio,derived,energy ratio (schema lacks an energy-ratio metric): four replicas' J/token over the one-card headline's 1.05 J at aggregate c8 (fill-in M3 m3-headline-energy.md)
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c16,duration_s,sum,all,4,128.5,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c16,energy_j,sum,all,4,104783,,J,measured,"over 65,536 output tokens; pre-warmed servers"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c16,energy_window_s,sum,all,4,152.4,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c16,joules_per_output_token,pooled,all,4,1.599,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (18.6% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time; pre-warmed servers; 4 reps: the tool refused rep 5's card-0 reading (no counter sample after the window closed), so that rep is left out"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c4,duration_s,sum,all,5,83.9,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c4,energy_j,sum,all,5,67411,,J,measured,"over 16,384 output tokens; pre-warmed servers"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c4,energy_window_s,sum,all,5,107.1,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c4,joules_per_output_token,pooled,all,5,4.115,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (27.7% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time; pre-warmed servers"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c8,duration_s,sum,all,5,95.0,,s,measured,cell s (client time inside the window)
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c8,energy_j,sum,all,5,77336,,J,measured,"over 32,768 output tokens; pre-warmed servers"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c8,energy_window_s,sum,all,5,118.4,,s,measured,"energy window, spans the client invocation"
+2026-10-01-b65-report-gaps,energy-4replica-prewarmed-c8,joules_per_output_token,pooled,all,5,2.360,,J/token,measured,"upper bound: counter samples bracket each window and the window spans the client invocation (24.7% over the cell); measured in speed-2's a session, arm p3-ref-4replica, reduced 2026-10-01 with no new host time; pre-warmed servers"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,,1,,1,,count,measured,"12:49:18 UTC, c3:00.0, bcs (copy); dockerd: container 147763be removal already in progress; next container lsv-c2-27b-int4-4card-replay-deep at 12:49:29"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,,2,,1,,count,measured,"13:37:10 UTC, 83:00.0, ccs (compute); containerd: shim 96783c42 disconnected, removal in progress"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,,3,,1,,count,measured,"13:37:10 UTC, 83:00.0, bcs (copy); same teardown"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,,4,,1,,count,measured,"15:06:01 UTC, 83:00.0, bcs (copy); dockerd: container ba7df6c3 removal already in progress; next container lsv-s-27b-int4-tp2 at 15:06:16 (the TP-versus-PP screen)"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,,5,,1,,count,measured,"15:06:01 UTC, 87:00.0, bcs (copy); same teardown"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-24,engine_resets,sum,all,5,5,,count,measured,within a second of container force-remove; none in a timed cell; all state=0x289; the runs that day were the 2026-09-16 campaign's C2 replay follow-ups and the TP-versus-PP screen
+2026-10-01-b65-report-gaps,engine-resets-2026-09-30-to-2026-10-01,duration_s,sum,all,,70920,,s,measured,"19.7 host-hours, as stated; converted to seconds"
+2026-10-01-b65-report-gaps,engine-resets-2026-09-30-to-2026-10-01,engine_resets,sum,all,,0,,count,measured,the window of 2026-09-30 to 2026-10-01 recorded none in 19.7 host-hours
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,attempted_requests,single,all,1,480,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,completed_requests,single,all,1,480,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,failed_requests,single,all,1,0,,count,measured,client cap 64; 'No request failed at any rate'
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,goodput_req_per_s,single,all,1,1.824,,req/s,measured,"client cap 64; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,output_throughput,single,all,1,970.4,,tok/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,request_rate_completed,single,all,1,1.895,,req/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,tpot_p95_ms,single,all,1,61.0,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,ttft_p50_ms,single,all,1,1024,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.0,ttft_p95_ms,single,all,1,1840,,ms,measured,"client cap 64; TTFT clock starts when the client sends, so the wait in the client's 64-request queue is not included"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,attempted_requests,single,all,1,540,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,completed_requests,single,all,1,540,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,failed_requests,single,all,1,0,,count,measured,client cap 64; 'No request failed at any rate'
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,goodput_req_per_s,single,all,1,2.009,,req/s,measured,"client cap 64; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,output_throughput,single,all,1,1048.2,,tok/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,request_rate_completed,single,all,1,2.047,,req/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,tpot_p95_ms,single,all,1,63.0,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,ttft_p50_ms,single,all,1,1024,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.25,ttft_p95_ms,single,all,1,1790,,ms,measured,"client cap 64; TTFT clock starts when the client sends, so the wait in the client's 64-request queue is not included"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,attempted_requests,single,all,1,600,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,completed_requests,single,all,1,600,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,failed_requests,single,all,1,0,,count,measured,client cap 64; 'No request failed at any rate'
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,goodput_req_per_s,single,all,1,2.011,,req/s,measured,"client cap 64; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,output_throughput,single,all,1,1056.1,,tok/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,request_rate_completed,single,all,1,2.063,,req/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,tpot_p95_ms,single,all,1,62.8,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,ttft_p50_ms,single,all,1,1025,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r2.5,ttft_p95_ms,single,all,1,1805,,ms,measured,"client cap 64; TTFT clock starts when the client sends, so the wait in the client's 64-request queue is not included"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,attempted_requests,single,all,1,720,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,completed_requests,single,all,1,720,,count,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,duration_s,single,all,1,346.6,,s,measured,client cap 64; 720 prompts offered over 240 s took 346.6 s to complete (duration in rate3.0.json)
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,failed_requests,single,all,1,0,,count,measured,client cap 64; 'No request failed at any rate'
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,goodput_req_per_s,single,all,1,2.042,,req/s,measured,"client cap 64; goodput at TTFT 2,000 ms and TPOT 100 ms"
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,output_throughput,single,all,1,1063.5,,tok/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,request_rate_completed,single,all,1,2.077,,req/s,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,tpot_p95_ms,single,all,1,63.6,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,ttft_p50_ms,single,all,1,1025,,ms,measured,client cap 64
+2026-10-01-b65-report-gaps,g1-poisson-cap64-r3.0,ttft_p95_ms,single,all,1,1797,,ms,measured,"client cap 64; TTFT clock starts when the client sends, so the wait in the client's 64-request queue is not included"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp2,correctness_gate,,all,,,FAIL: serves garbage,text,measured,"degenerate text on every gate prompt, no error in the server log, not timed; gate replies: arithmetic 'We need answer user User user user  user  user User user ...' to the 256-token ceiling (PP=4: 'We need answer user   The The user The user ...'); long-prompt recall 'We The' then whitespace and '!'; digit reversal 'We' then whitespace and runs of '!'"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp2,duration_s,,all,,210,,s,measured,"'about 3.5 minutes from serve to teardown', as stated"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp2,fit_status,,all,,,loads; fails correctness gate; not timed,text,measured,
+2026-10-01-b65-report-gaps,g2-int4-eager-pp2,kv_cache_pool_tokens,,all,,507659,,tokens,measured,"server started, loaded and reported a KV pool; 18.73 GiB KV memory"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp2,weights_gib_per_card,,all,,8.54,,GiB,measured,stage 0 only; other stages not stated
+2026-10-01-b65-report-gaps,g2-int4-eager-pp4,correctness_gate,,all,,,FAIL: serves garbage,text,measured,"degenerate text on every gate prompt, no error in the server log, not timed; gate replies: arithmetic 'We need answer user User user user  user  user User user ...' to the 256-token ceiling (PP=4: 'We need answer user   The The user The user ...'); long-prompt recall 'We The' then whitespace and '!'; digit reversal 'We' then whitespace and runs of '!'"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp4,duration_s,,all,,210,,s,measured,"'about 3.5 minutes from serve to teardown', as stated"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp4,fit_status,,all,,,loads; fails correctness gate; not timed,text,measured,
+2026-10-01-b65-report-gaps,g2-int4-eager-pp4,kv_cache_pool_tokens,,all,,1205079,,tokens,measured,"server started, loaded and reported a KV pool"
+2026-10-01-b65-report-gaps,g2-int4-eager-pp4,weights_gib_per_card,,all,,5.52,,GiB,measured,stage 0 only; other stages not stated
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_correct,,all,,669,,count,derived,"gsm8k 0-shot flexible extract 256-token cap; score x items, rounded"
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_correct,,all,,122,,count,measured,IFEval prompt-level strict
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_correct,,all,,689,,count,derived,"ARC-Challenge full acc_norm; score x items, rounded"
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_correct,,all,,957,,count,derived,"WinoGrande full acc; score x items, rounded"
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,1319,,count,measured,gsm8k 0-shot flexible extract 256-token cap
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,IFEval prompt-level strict
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,1172,,count,measured,ARC-Challenge full acc_norm
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,1267,,count,measured,WinoGrande full acc
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,b65-screen-v1 ARC-Challenge 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,b65-screen-v1 BoolQ 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,b65-screen-v1 HellaSwag 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,b65-screen-v1 MMLU subset 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_items,,all,,150,,count,measured,b65-screen-v1 WinoGrande 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.5072,,fraction,measured,gsm8k 0-shot flexible extract 256-token cap
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.813,,fraction,measured,IFEval prompt-level strict
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.5879,,fraction,measured,ARC-Challenge full acc_norm
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.7553,,fraction,measured,WinoGrande full acc
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.6067,,fraction,measured,b65-screen-v1 ARC-Challenge 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.8600,,fraction,measured,b65-screen-v1 BoolQ 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.8400,,fraction,measured,b65-screen-v1 HellaSwag 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.7933,,fraction,measured,b65-screen-v1 MMLU subset 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,quality_score,,all,,0.7333,,fraction,measured,b65-screen-v1 WinoGrande 150 items
+2026-10-01-b65-report-gaps,g3-bf16-tp4,sentinel_nll,,all,,3.0378203,,nats/token,measured,"17,552 token positions over 391 held-out prompts; reference arm"
+2026-10-01-b65-report-gaps,g3-bf16-tp4,sentinel_perplexity_ratio,,all,,1,,ratio,derived,reference arm; ratio 1 by definition
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,greedy_prompts,,all,,200,,count,measured,
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_correct,,all,,14,,count,measured,"greedy synthetic arithmetic, 50 items; 'BF16 gets 14 of 50'"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_score,,all,,0.775,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_score,,all,,0.28,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy sorting
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,greedy_prompts,,all,,200,,count,measured,
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_correct,,all,,14,,count,measured,"greedy synthetic arithmetic, 50 items; 'BF16 gets 14 of 50'"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_score,,all,,0.775,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_score,,all,,0.28,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-bf16-tp4-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy sorting
+2026-10-01-b65-report-gaps,g3-int4-eager-1card,sentinel_nll,,all,,3.0937656,,nats/token,measured,"17,552 token positions over 391 held-out prompts"
+2026-10-01-b65-report-gaps,g3-int4-eager-1card,sentinel_perplexity_ratio,,all,,1.0575,,ratio,measured,"crosses the 1.05 stop line; sentinel-check.py stopped ('STOP: perplexity regression beyond frozen sentinel limit') and printed no ratio; ratio from its own sentinel_metrics run read-only on the selected attempts; the line was set to catch corruption and this is the quantization's prefill cost, reported not waived"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,greedy_matching_prompts,,all,,116,,count,measured,identical to BF16 TP=4 of 200; divergent outputs' median first differing character 2.5; INT4 outputs are speed campaign 1 f0-control-final
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,greedy_prompts,,all,,200,,count,measured,"INT4 outputs are speed campaign 1 f0-control-final, compared with BF16 TP=4"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_correct,,all,,4,,count,measured,"greedy synthetic arithmetic, 50 items; 'INT4 gets 4 or 5' (0.08 x 50 = 4, 0.10 x 50 = 5)"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_score,,all,,0.706,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_score,,all,,0.08,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sorting
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,greedy_matching_prompts,,all,,115,,count,measured,identical to BF16 TP=4 of 200; divergent outputs' median first differing character 3; INT4 outputs are speed campaign 1 f0-control-final
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,greedy_prompts,,all,,200,,count,measured,"INT4 outputs are speed campaign 1 f0-control-final, compared with BF16 TP=4"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_correct,,all,,4,,count,measured,"greedy synthetic arithmetic, 50 items; 'INT4 gets 4 or 5' (0.08 x 50 = 4, 0.10 x 50 = 5)"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_score,,all,,0.706,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_score,,all,,0.08,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-int4-eager-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sorting
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_first,,all,,186,,count,measured,"gsm8k INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 130 / 186"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_first,,all,,11,,count,measured,"IFEval INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 7 / 11"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_first,,all,,41,,count,measured,"ARC-Challenge INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 49 / 41"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_first,,all,,60,,count,measured,"WinoGrande INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 43 / 60"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_second,,all,,130,,count,measured,"gsm8k INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 130 / 186"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_second,,all,,7,,count,measured,"IFEval INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 7 / 11"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_second,,all,,49,,count,measured,"ARC-Challenge INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 49 / 41"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,paired_only_second,,all,,43,,count,measured,"WinoGrande INT4-fp16-headline vs BF16-TP4; first = INT4 float16 headline, second = BF16 TP=4; file column 'BF16 gains / losses' = 43 / 60"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_correct,,all,,725,,count,derived,"gsm8k 0-shot flexible extract 256-token cap; score x items, rounded; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_correct,,all,,126,,count,measured,"IFEval prompt-level strict; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_correct,,all,,681,,count,derived,"ARC-Challenge full acc_norm; score x items, rounded; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_correct,,all,,974,,count,derived,"WinoGrande full acc; score x items, rounded; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,1319,,count,measured,"gsm8k 0-shot flexible extract 256-token cap; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,"IFEval prompt-level strict; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,1172,,count,measured,"ARC-Challenge full acc_norm; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,1267,,count,measured,"WinoGrande full acc; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,b65-screen-v1 ARC-Challenge 150 items; restated in g3
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,b65-screen-v1 BoolQ 150 items; restated in g3
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,b65-screen-v1 HellaSwag 150 items; restated in g3
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,b65-screen-v1 MMLU subset 150 items; restated in g3
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_items,,all,,150,,count,measured,b65-screen-v1 WinoGrande 150 items; restated in g3
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.5497,,fraction,measured,"gsm8k 0-shot flexible extract 256-token cap; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.84,,fraction,measured,"IFEval prompt-level strict; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.5811,,fraction,measured,"ARC-Challenge full acc_norm; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.7687,,fraction,measured,"WinoGrande full acc; INT4 figures are speed-2 f0-ref-final from a session, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.6000,,fraction,measured,"b65-screen-v1 ARC-Challenge 150 items; same value for every speed-2 INT4 arm, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.8400,,fraction,measured,"b65-screen-v1 BoolQ 150 items; same value for every speed-2 INT4 arm, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.8267,,fraction,measured,"b65-screen-v1 HellaSwag 150 items; same value for every speed-2 INT4 arm, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.7867,,fraction,measured,"b65-screen-v1 MMLU subset 150 items; same value for every speed-2 INT4 arm, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,quality_score,,all,,0.7533,,fraction,measured,"b65-screen-v1 WinoGrande 150 items; same value for every speed-2 INT4 arm, restated in g3"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sentinel_nll,,all,,3.0937676,,nats/token,measured,"17,552 token positions over 391 held-out prompts; matches speed-2's reference to seven digits"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sentinel_perplexity_ratio,,all,,1.0575,,ratio,measured,"crosses the 1.05 stop line; sentinel-check.py stopped ('STOP: perplexity regression beyond frozen sentinel limit') and printed no ratio; ratio from its own sentinel_metrics run read-only on the selected attempts; the line was set to catch corruption and this is the quantization's prefill cost, reported not waived"
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sign_test_p,,all,,0.002,,p,measured,gsm8k INT4-fp16-headline vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sign_test_p,,all,,0.48,,p,measured,IFEval INT4-fp16-headline vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sign_test_p,,all,,0.46,,p,measured,ARC-Challenge INT4-fp16-headline vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-report-gaps,g3-int4-headline-1card,sign_test_p,,all,,0.11,,p,measured,WinoGrande INT4-fp16-headline vs BF16-TP4; exact two-sided sign test on paired per-item outcomes
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,greedy_matching_prompts,,all,,115,,count,measured,identical to BF16 TP=4 of 200; divergent outputs' median first differing character 2; INT4 outputs are speed-2 f0-ref-final
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,greedy_prompts,,all,,200,,count,measured,"INT4 outputs are speed-2 f0-ref-final, compared with BF16 TP=4"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_correct,,all,,4,,count,measured,"greedy synthetic arithmetic, 50 items; 'INT4 gets 4 or 5' (0.08 x 50 = 4, 0.10 x 50 = 5)"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_score,,all,,0.706,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_score,,all,,0.08,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c1,quality_score,,all,,0.975,,fraction,measured,greedy sorting
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,greedy_matching_prompts,,all,,115,,count,measured,identical to BF16 TP=4 of 200; divergent outputs' median first differing character 3; INT4 outputs are speed-2 f0-ref-final
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,greedy_prompts,,all,,200,,count,measured,"INT4 outputs are speed-2 f0-ref-final, compared with BF16 TP=4"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_correct,,all,,5,,count,measured,"greedy synthetic arithmetic, 50 items; 'INT4 gets 4 or 5' (0.08 x 50 = 4, 0.10 x 50 = 5)"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_items,,all,,50,,count,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_score,,all,,0.713,,fraction,measured,greedy checkable accuracy
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_score,,all,,0.10,,fraction,measured,"greedy synthetic arithmetic, 50 items"
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy reversal
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_score,,all,,1.00,,fraction,measured,greedy sequences
+2026-10-01-b65-report-gaps,g3-int4-headline-greedy-c8,quality_score,,all,,0.975,,fraction,measured,greedy sorting

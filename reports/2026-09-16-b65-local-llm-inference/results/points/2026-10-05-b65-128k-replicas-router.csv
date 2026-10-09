@@ -1,0 +1,145 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,completed_requests,,1,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,completed_requests,,2,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,completed_requests,,3,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,completed_requests,sum,all,3,6,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,e2el_mean_ms,mean,all,3,186770.565403,,ms,derived,e2el_mean_s x 1000
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,failed_requests,,1,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,failed_requests,,2,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,failed_requests,,3,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,joules_per_output_token,,all,,,,J/token,not_collected,"reduced 2026-10-05, before the 2026-10-06 warm-up correction; rerun owed"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,joules_per_output_token,superseded_mean,all,3,204.980087916,,J/token,derived,"superseded 2026-10-06 rule: measured tokens only, warm-up's joules in the window"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput,,1,,2.74265208048,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput,,2,,2.7443008264,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput,,3,,2.73702643035,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput,mean,all,3,2.74132644574,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput_cv,cv,all,3,0.13913256798,,percent,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,output_throughput_sd,sd,all,3,0.00381407788068,,tok/s,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,target_met,,all,,0,none,bool,derived,in_target over reps: all/none/some reps with p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,tpot_mean_ms,mean,all,3,34.5735847091,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,tpot_p95_ms,,1,,36.0523514317,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,tpot_p95_ms,,2,,36.0989985593,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,tpot_p95_ms,,3,,36.1386068345,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,tpot_p95_ms,p95_mean,all,3,36.0966522752,,ms,measured,mean over reps of the per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_mean_ms,mean,all,3,169103.463617,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_p95_ms,,1,,169743.631134,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_p95_ms,,2,,169570.028591,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_p95_ms,,3,,169607.351946,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_p95_ms,p95_mean,all,3,169640.337224,,ms,measured,mean over reps of the per-rep p95 across 2-16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c1,ttft_p95_ms,p95_worst,all,3,169743.631134,,ms,measured,worst per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,completed_requests,,1,,4,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,completed_requests,,2,,4,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,completed_requests,,3,,4,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,completed_requests,sum,all,3,12,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,e2el_mean_ms,mean,all,3,186562.196086,,ms,derived,e2el_mean_s x 1000
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,failed_requests,,1,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,failed_requests,,2,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,failed_requests,,3,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,failed_requests,sum,all,3,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,joules_per_output_token,,all,,,,J/token,not_collected,"reduced 2026-10-05, before the 2026-10-06 warm-up correction; rerun owed"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,joules_per_output_token,superseded_mean,all,3,128.334921698,,J/token,derived,"superseded 2026-10-06 rule: measured tokens only, warm-up's joules in the window"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput,,1,,5.45991555052,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput,,2,,5.46275586914,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput,,3,,5.49759300888,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput,mean,all,3,5.47342147618,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput_cv,cv,all,3,0.383330240086,,percent,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,output_throughput_sd,sd,all,3,0.0209812796855,,tok/s,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,target_met,,all,,0,none,bool,derived,in_target over reps: all/none/some reps with p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,tpot_mean_ms,mean,all,3,34.72456621,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,tpot_p95_ms,,1,,36.6830300623,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,tpot_p95_ms,,2,,38.7364969593,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,tpot_p95_ms,,3,,35.0603480553,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,tpot_p95_ms,p95_mean,all,3,36.8266250256,,ms,measured,mean over reps of the per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_mean_ms,mean,all,3,168817.942752,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_p95_ms,,1,,169488.198718,,ms,measured,p95 across 4 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_p95_ms,,2,,169555.680473,,ms,measured,p95 across 4 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_p95_ms,,3,,169886.231308,,ms,measured,p95 across 4 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_p95_ms,p95_mean,all,3,169643.370166,,ms,measured,mean over reps of the per-rep p95 across 2-16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c2,ttft_p95_ms,p95_worst,all,3,169886.231308,,ms,measured,worst per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,completed_requests,,1,,8,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,completed_requests,,2,,8,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,completed_requests,,3,,8,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,completed_requests,sum,all,3,24,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,e2el_mean_ms,mean,all,3,186930.701013,,ms,derived,e2el_mean_s x 1000
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,failed_requests,,1,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,failed_requests,,2,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,failed_requests,,3,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,failed_requests,sum,all,3,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,joules_per_output_token,,all,,,,J/token,not_collected,"reduced 2026-10-05, before the 2026-10-06 warm-up correction; rerun owed"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,joules_per_output_token,superseded_mean,all,3,90.4301311771,,J/token,derived,"superseded 2026-10-06 rule: measured tokens only, warm-up's joules in the window"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput,,1,,10.8949611111,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput,,2,,10.9022503716,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput,,3,,10.8788601543,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput,mean,all,3,10.892023879,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput_cv,cv,all,3,0.1098835716,,percent,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,output_throughput_sd,sd,all,3,0.0119685448578,,tok/s,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,target_met,,all,,0,none,bool,derived,in_target over reps: all/none/some reps with p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,tpot_mean_ms,mean,all,3,35.0534879609,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,tpot_p95_ms,,1,,37.7902674095,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,tpot_p95_ms,,2,,36.6292043625,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,tpot_p95_ms,,3,,38.4445820142,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,tpot_p95_ms,p95_mean,all,3,37.6213512621,,ms,measured,mean over reps of the per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_mean_ms,mean,all,3,169018.368665,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_p95_ms,,1,,170053.876535,,ms,measured,p95 across 8 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_p95_ms,,2,,170047.72087,,ms,measured,p95 across 8 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_p95_ms,,3,,170196.130791,,ms,measured,p95 across 8 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_p95_ms,p95_mean,all,3,170099.242732,,ms,measured,mean over reps of the per-rep p95 across 2-16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c4,ttft_p95_ms,p95_worst,all,3,170196.130791,,ms,measured,worst per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,completed_requests,,1,,16,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,completed_requests,,2,,16,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,completed_requests,,3,,16,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,completed_requests,sum,all,3,48,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,e2el_mean_ms,mean,all,3,325387.01353,,ms,derived,e2el_mean_s x 1000
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,failed_requests,,1,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,failed_requests,,2,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,failed_requests,,3,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,failed_requests,sum,all,3,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,joules_per_output_token,,all,,,,J/token,not_collected,"reduced 2026-10-05, before the 2026-10-06 warm-up correction; rerun owed"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,joules_per_output_token,superseded_mean,all,3,81.3605565913,,J/token,derived,"superseded 2026-10-06 rule: measured tokens only, warm-up's joules in the window"
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput,,1,,10.9468423557,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput,,2,,10.9533343218,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput,,3,,10.9362030735,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput,mean,all,3,10.945459917,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput_cv,cv,all,3,0.0790180443609,,percent,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,output_throughput_sd,sd,all,3,0.0086488883727,,tok/s,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,target_met,,all,,0,none,bool,derived,in_target over reps: all/none/some reps with p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,tpot_mean_ms,mean,all,3,33.3493433976,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,tpot_p95_ms,,1,,36.2470633016,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,tpot_p95_ms,,2,,36.2110381484,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,tpot_p95_ms,,3,,36.8913330356,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,tpot_p95_ms,p95_mean,all,3,36.4498114952,,ms,measured,mean over reps of the per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_mean_ms,mean,all,3,308345.499054,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_p95_ms,,1,,357075.549306,,ms,measured,p95 across 16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_p95_ms,,2,,357204.638222,,ms,measured,p95 across 16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_p95_ms,,3,,357167.407205,,ms,measured,p95 across 16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_p95_ms,p95_mean,all,3,357149.198244,,ms,measured,mean over reps of the per-rep p95 across 2-16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-4replica-c8,ttft_p95_ms,p95_worst,all,3,357204.638222,,ms,measured,worst per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,completed_requests,,1,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,completed_requests,,2,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,completed_requests,,3,,2,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,completed_requests,sum,all,3,6,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,e2el_mean_ms,mean,all,3,187055.767114,,ms,derived,e2el_mean_s x 1000
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,failed_requests,,1,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,failed_requests,,2,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,failed_requests,,3,,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,failed_requests,sum,all,3,0,,count,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,joules_per_output_token,,all,,,,J/token,not_collected,"reduced 2026-10-05, before the 2026-10-06 warm-up correction; rerun owed"
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput,,1,,2.73681195791,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput,,2,,2.73665515181,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput,,3,,2.73796694258,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput,mean,all,3,2.7371446841,,tok/s,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput_cv,cv,all,3,0.0261732560607,,percent,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,output_throughput_sd,sd,all,3,0.000716399886921,,tok/s,derived,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,target_met,,all,,0,none,bool,derived,in_target over reps: all/none/some reps with p95 TTFT <= 2000 ms and p95 TPOT <= 100 ms
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,tpot_mean_ms,mean,all,3,33.2684171927,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,tpot_p95_ms,,1,,34.3338598857,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,tpot_p95_ms,,2,,34.3218722013,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,tpot_p95_ms,,3,,33.8714019249,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,tpot_p95_ms,p95_mean,all,3,34.1757113373,,ms,measured,mean over reps of the per-rep p95
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_mean_ms,mean,all,3,170055.605929,,ms,measured,
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_p95_ms,,1,,170084.625332,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_p95_ms,,2,,170055.183241,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_p95_ms,,3,,170110.15383,,ms,measured,p95 across 2 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_p95_ms,p95_mean,all,3,170083.320801,,ms,measured,mean over reps of the per-rep p95 across 2-16 requests
+2026-10-05-b65-128k-replicas-router,rr128-rep-control-direct-c1,ttft_p95_ms,p95_worst,all,3,170110.15383,,ms,measured,worst per-rep p95

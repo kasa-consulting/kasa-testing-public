@@ -1,0 +1,66 @@
+campaign_id,cell_id,metric,aggregation,rep,n,value,value_text,unit,status,notes
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,attempted_requests,sum,all,57,3648,,count,derived,"completed + failed; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,completed_requests,sum,all,57,3648,,count,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,correctness_gate,,all,,,57 of 57 in rotation and 4 of 4 at the end,text,measured,"correctness-gate.sh on one replica in rotation after every rep, all four replicas at the end"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,duration_s,,all,,7200,,s,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm; timed 20:39-22:40 UTC"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,engine_resets,,all,,0,,count,measured,kernel log checked after every rep
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,failed_requests,sum,all,57,0,,count,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,fan_max_rpm,max,all,,2900,,rpm,measured,highest card (card 3) over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,fan_max_rpm,max_card0,all,,2494,,rpm,measured,card 0; whole window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,fan_max_rpm,max_card1,all,,2407,,rpm,measured,card 1; whole window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,fan_max_rpm,max_card2,all,,2806,,rpm,measured,card 2; whole window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,fan_max_rpm,max_card3,all,,2900,,rpm,measured,card 3; whole window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,joules_per_output_token,,all,,,,J/token,not_collected,reducer found no windows: energy-per-cell.py records telemetry under the arm name and cells under the soak label
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,output_throughput,max,all,57,349.8,,tok/s,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,output_throughput,mean,all,57,344.8,,tok/s,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,output_throughput,min,all,57,338.9,,tok/s,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,output_throughput_cv,cv,all,57,0.77,,percent,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,output_throughput_sd,sd,all,57,2.64,,tok/s,measured,"64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_card0,all,,183,,W,measured,card 0; median of 5 s samples over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_card1,all,,179.6,,W,measured,card 1; median of 5 s samples over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_card2,all,,178,,W,measured,card 2; median of 5 s samples over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_card3,all,,177,,W,measured,card 3; median of 5 s samples over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_max,all,,183,,W,measured,highest per-card median (card 0)
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,power_mean_w_per_card,median_min,all,,177,,W,measured,lowest per-card median (card 3)
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,target_met,,all,57,true,,bool,derived,"every rep's p95 TTFT inside 2,000 ms and p95 TPOT at most 23.9 ms against 100 ms"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_mem_max_c,max,all,,86,,C,measured,hottest card (card 2) over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_mem_max_c,max_card0,all,,82,,C,measured,"card 0; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_mem_max_c,max_card1,all,,84,,C,measured,"card 1; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_mem_max_c,max_card2,all,,86,,C,measured,"card 2; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_mem_max_c,max_card3,all,,84,,C,measured,"card 3; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,max,all,,74,,C,measured,hottest card (card 3) over the window
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,max_card0,all,,72,,C,measured,"card 0; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,max_card1,all,,71,,C,measured,"card 1; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,max_card2,all,,73,,C,measured,"card 2; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,max_card3,all,,74,,C,measured,"card 3; whole window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,median_card0,all,,68,,C,measured,"card 0; package median over the window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,median_card1,all,,68,,C,measured,"card 1; package median over the window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,median_card2,all,,69,,C,measured,"card 2; package median over the window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,temp_pkg_max_c,median_card3,all,,69,,C,measured,"card 3; package median over the window, 5 s samples"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,throttle_reasons,,all,,,,text,not_collected,telemetry has them; not reduced
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,throughput_drift_first_to_last,first3_to_last3,all,57,-0.3,,percent,derived,"first three reps 344.8, last three 343.8; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,tpot_p95_ms,max,all,57,23.9,,ms,measured,"highest rep p95; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,tpot_p95_ms,mean,all,57,23.3,,ms,measured,"mean over reps of each rep's p95; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,ttft_p95_ms,max,all,57,1609,,ms,measured,"highest rep p95; no rep over 2,000 ms; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,ttft_p95_ms,mean,all,57,1549,,ms,measured,"mean over reps of each rep's p95; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-ref-4replica-soak,ttft_p95_ms,min,all,57,1471,,ms,measured,"lowest rep p95; no rep over 2,000 ms; 64-prompt reps back to back at 8 in flight until 7,200 s had passed; one discarded c8 pre-warm"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,correctness_gate,,all,,,server-ready.sh (correctness) and tool-call-gate.sh (a parsed call) passed,text,measured,
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,failed_requests,sum,all,3,0,,count,measured,no request errored
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,quality_items,,all,,24,,count,measured,"tool-score corpus: 24 cases, 4 per kind, seed 42"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,quality_verdict,,all,,,"69 of 72 scored tool-use replies right; the one failure (metric-03) looks like a parser defect, raw model text not captured to settle it",text,measured,
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,time_to_answer_s,max,all,72,1.39,,s,measured,"slowest reply; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,time_to_answer_s,median,all,72,1.2,,s,measured,"median reply time over the 72 scored replies; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,12,,count,measured,"kind state; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,9,,count,measured,"kind metric; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml; metric-03 failed on all three reps: function name returned as '""read_metric_window""' with literal quote characters and minutes as the string ""120""; fails the name and schema checks; the other three metric cases were clean; parser or model not established"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,12,,count,measured,"kind changes; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,12,,count,measured,"kind parallel; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,12,,count,measured,"kind answer; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,12,,count,measured,"kind none; 4 cases x 3 reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_passed,sum,all,3,69,,count,measured,"total; 24 cases x 3 reps, 23 of 24 cases right on every rep, no case changed verdict between reps; temperature 0; raw model text not captured; chat endpoint, thinking off, 512-token budget, tool_choice auto, enable_auto_tool_choice, tool_call_parser qwen3_xml"
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind state; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind metric; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind changes; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind parallel; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind answer; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,12,,count,measured,kind none; 4 cases x 3 reps
+2026-10-02-b65-soak-and-tools,k-tool-headline-1card,tool_cases_total,sum,all,3,72,,count,measured,total; 24 cases x 3 reps
